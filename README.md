@@ -9,8 +9,9 @@ At stage 2 I'll plan to do some UWP porting. Ideally to downgrade min os build t
 
 At stage 3..... Maybenever :)   (c) Eleven Ships - Maybenever  
 
-##Screenshots
+## Screenshots
 ![Snapshot 1](snapshots/snapshot.png)
+
 ## About the original
 
 **Welcome to the DOSBox-X project website located on GitHub.**
