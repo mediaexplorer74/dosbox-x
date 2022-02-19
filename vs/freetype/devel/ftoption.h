@@ -20,7 +20,8 @@
 #define FTOPTION_H_
 
 
-#include <ft2build.h>
+#include "vs/freetype/devel/ft2build.h" //<ft2build.h>
+
 
 
 FT_BEGIN_HEADER

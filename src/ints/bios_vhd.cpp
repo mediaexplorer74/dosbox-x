@@ -22,7 +22,7 @@
 #include "include/dosbox.h"
 #include "include/callback.h"
 #include "include/bios.h"
-#include "bios_disk.h"
+#include "include/bios_disk.h"
 #include "include/regs.h"
 #include "include/mem.h"
 #include "include/dos_inc.h" /* for Drives[] */

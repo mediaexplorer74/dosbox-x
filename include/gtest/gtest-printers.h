@@ -110,8 +110,8 @@
 #include <utility>
 #include <vector>
 
-#include "gtest/internal/gtest-internal.h"
-#include "gtest/internal/gtest-port.h"
+#include "include/gtest/internal/gtest-internal.h"
+#include "include/gtest/internal/gtest-port.h"
 
 namespace testing {
 

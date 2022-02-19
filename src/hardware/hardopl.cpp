@@ -1,4 +1,4 @@
-#include "config.h"
+#include "vs/config.h"
 //#include "../libs/porttalk/porttalk.h"
 #include "include/inout.h"
 #include "include/logging.h"

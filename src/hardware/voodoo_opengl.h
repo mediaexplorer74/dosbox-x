@@ -25,7 +25,7 @@
 #include <map>
 
 #include "include/dosbox.h"
-#include "cross.h"
+#include "include/cross.h"
 
 
 #if C_OPENGL

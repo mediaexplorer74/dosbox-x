@@ -23,7 +23,7 @@
 #include "include/logging.h"
 #include "include/mem.h"
 #include "include/regs.h"
-#include "bios_disk.h"
+#include "include/bios_disk.h"
 #include "include/dos_inc.h"
 #include "drives.h"
 

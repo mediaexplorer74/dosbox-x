@@ -15,7 +15,7 @@
 
  ********************************************************************/
 #if !defined(_opusfile_h)
-# define _opusfile_h (1)
+#define _opusfile_h (1)
 
 /**\mainpage
    \section Introduction
@@ -100,30 +100,30 @@
    This makes application support for chained files with <tt>libopusfile</tt>
     very easy.*/
 
-# if defined(__cplusplus)
+#if defined(__cplusplus)
 extern "C" {
-# endif
+#endif
 
-# include <stdarg.h>
-# include <stdio.h>
-# include <ogg/ogg.h>
-# include <opus_multistream.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include "include/ogg/ogg.h"//<ogg/ogg.h>
+#include "include/opus_multistream.h"//<opus_multistream.h>
 
 /**@cond PRIVATE*/
 
 /*Enable special features for gcc and gcc-compatible compilers.*/
-# if !defined(OP_GNUC_PREREQ)
+#if !defined(OP_GNUC_PREREQ)
 #  if defined(__GNUC__)&&defined(__GNUC_MINOR__)
 #   define OP_GNUC_PREREQ(_maj,_min) \
  ((__GNUC__<<16)+__GNUC_MINOR__>=((_maj)<<16)+(_min))
 #  else
 #   define OP_GNUC_PREREQ(_maj,_min) 0
 #  endif
-# endif
+#endif
 
-# if OP_GNUC_PREREQ(4,0)
+#if OP_GNUC_PREREQ(4,0)
 #  pragma GCC visibility push(default)
-# endif
+#endif
 
 typedef struct OpusHead          OpusHead;
 typedef struct OpusTags          OpusTags;
@@ -133,16 +133,16 @@ typedef struct OpusFileCallbacks OpusFileCallbacks;
 typedef struct OggOpusFile       OggOpusFile;
 
 /*Warning attributes for libopusfile functions.*/
-# if OP_GNUC_PREREQ(3,4)
+#if OP_GNUC_PREREQ(3,4)
 #  define OP_WARN_UNUSED_RESULT __attribute__((__warn_unused_result__))
-# else
+#else
 #  define OP_WARN_UNUSED_RESULT
-# endif
-# if OP_GNUC_PREREQ(3,4)
+#endif
+#if OP_GNUC_PREREQ(3,4)
 #  define OP_ARG_NONNULL(_x) __attribute__((__nonnull__(_x)))
-# else
+#else
 #  define OP_ARG_NONNULL(_x)
-# endif
+#endif
 
 /**@endcond*/
 

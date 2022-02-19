@@ -26,7 +26,7 @@
 
 #include "SDL_mouse.h"
 #define SDL_PROTOTYPES_ONLY
-#include "SDL_syswm.h"
+#include "../../sdl/include/SDL_syswm.h"//"SDL_syswm.h"
 #undef SDL_PROTOTYPES_ONLY
 
 /* This file prototypes the video driver implementation.

@@ -26,18 +26,18 @@
 #include "include/menu.h"
 #include "../libs/gui_tk/gui_tk.h"
 
-#include "build_timestamp.h"
+#include "include/build_timestamp.h"
 #include "include/keyboard.h"
 #include "include/video.h"
-#include "render.h"
+#include "include/render.h"
 #include "include/mapper.h"
 #include "include/setup.h"
 #include "include/control.h"
 #include "include/shell.h"
 #include "include/cpu.h"
 #include "include/pic.h"
-#include "midi.h"
-#include "bios_disk.h"
+#include "include/midi.h"
+#include "include/bios_disk.h"
 #include "../dos/drives.h"
 
 #if defined(WIN32)
@@ -53,8 +53,8 @@
 #include <assert.h>
 #include <sys/stat.h>
 
-#include "SDL_syswm.h"
-#include "sdlmain.h"
+#include "vs/sdl/include/SDL_syswm.h"
+#include "include/sdlmain.h"
 
 #if !defined(HX_DOS)
 #include "../libs/tinyfiledialogs/tinyfiledialogs.h"

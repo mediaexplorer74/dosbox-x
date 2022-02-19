@@ -21,7 +21,7 @@
 
 #include <stdlib.h>
 #include <assert.h>
-#include <unistd.h>
+#include "vs/unistd.h"//<unistd.h>
 #include <fcntl.h>
 #ifdef _MSC_VER
 # include <io.h>
@@ -40,7 +40,7 @@
 #endif
 
 #include "riff_wav_writer.h"
-#include "rawint.h"
+#include "include/rawint.h"
 
 riff_wav_writer *riff_wav_writer_create() {
 	riff_wav_writer *w = (riff_wav_writer*)malloc(sizeof(riff_wav_writer));

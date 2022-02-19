@@ -47,7 +47,7 @@
 extern "C" {
 #endif
 
-#include "zlib.h"
+#include "vs/zlib/zlib.h"
 #include "ioapi.h"
 
 #ifdef HAVE_BZIP2

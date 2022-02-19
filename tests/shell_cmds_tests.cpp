@@ -18,12 +18,12 @@
  *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  */
 
-#include "shell.h"
+#include "include/shell.h"
 
 #include <string>
 
-#include <gmock/gmock.h>
-#include <gtest/gtest.h>
+#include "include/gmock/gmock.h"
+#include "include/gtest/gtest.h"
 
 #include "dosbox_test_fixture.h"
 

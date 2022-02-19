@@ -20,7 +20,7 @@
 #include "include/mem.h"
 #include "include/inout.h"
 #include "int10.h"
-#include "render.h"
+#include "include/render.h"
 #include <map>
 
 #define ACTL_MAX_REG   0x14

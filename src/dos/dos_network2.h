@@ -23,7 +23,7 @@ August 8 2005		cyberwalker
 #include <errno.h>
 //#include <dirent.h>
 
-#include "config.h"
+#include "vs/config.h"
 #include "include/dosbox.h"
 #include "include/dos_inc.h"
 

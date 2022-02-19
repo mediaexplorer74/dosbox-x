@@ -1,4 +1,4 @@
-#include "config.h"
+#include "vs/config.h"
 #include "include/logging.h"
 
 #if defined(_MSC_VER)

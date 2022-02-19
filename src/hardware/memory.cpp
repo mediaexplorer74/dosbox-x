@@ -27,8 +27,8 @@
 #include "include/inout.h"
 #include "include/setup.h"
 #include "include/paging.h"
-#include "programs.h"
-#include "zipfile.h"
+#include "include/programs.h"
+#include "include/zipfile.h"
 #include "include/regs.h"
 #ifndef WIN32
 # include <stdlib.h>
@@ -36,8 +36,8 @@
 # include <stdio.h>
 #endif
 
-#include "voodoo.h"
-#include "glidedef.h"
+#include "include/voodoo.h"
+#include "include/glidedef.h"
 
 #include <string.h>
 

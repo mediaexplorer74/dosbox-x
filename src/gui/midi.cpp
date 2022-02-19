@@ -25,10 +25,10 @@
 #include "vs/sdl/include/SDL.h"
 
 #include "include/dosbox.h"
-#include "midi.h"
+#include "include/midi.h"
 #include "include/control.h"
-#include "cross.h"
-#include "support.h"
+#include "include/cross.h"
+#include "include/support.h"
 #include "include/setup.h"
 #include "include/mapper.h"
 #include "include/pic.h"

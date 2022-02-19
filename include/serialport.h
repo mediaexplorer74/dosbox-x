@@ -21,7 +21,7 @@
 #define DOSBOX_SERIALPORT_H
 
 #include "include/inout.h"
-#include "programs.h"
+#include "include/programs.h"
 
 // set this to 1 for serial debugging in release mode
 #define SERIAL_DBG_FORCED 1

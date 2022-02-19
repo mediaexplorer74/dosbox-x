@@ -2,7 +2,7 @@
 #include <stdio.h> /* NULL */
 #include <assert.h>
 
-#include "ptrop.h"
+#include "include/ptrop.h"
 
 namespace ptrop {
 

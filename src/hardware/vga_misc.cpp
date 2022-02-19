@@ -20,7 +20,7 @@
 #include "include/dosbox.h"
 #include "include/inout.h"
 #include "include/pic.h"
-#include "vga.h"
+#include "include/vga.h"
 #include "include/control.h"
 #include <math.h>
 

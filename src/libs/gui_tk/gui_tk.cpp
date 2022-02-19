@@ -29,10 +29,10 @@
  *  gui_tk. It is enabled by defining the preprocessor macro TESTING.
  */
 
-#include "config.h"
+#include "vs/config.h"
 #include "include/dosbox.h"
 #include "include/setup.h"
-#include "jfont.h"
+#include "include/jfont.h"
 
 #include "vs/sdl/include/SDL.h"
 #include "gui_tk.h"

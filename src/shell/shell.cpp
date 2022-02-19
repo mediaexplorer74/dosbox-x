@@ -48,7 +48,7 @@
 #else
 #include <dirent.h>
 #endif
-#include "build_timestamp.h"
+#include "include/build_timestamp.h"
 
 extern bool startcmd, startwait, startquiet, winautorun;
 extern bool halfwidthkana, force_conversion, showdbcs;

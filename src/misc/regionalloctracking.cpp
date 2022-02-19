@@ -11,16 +11,16 @@
 #include "include/inout.h"
 #include "include/pic.h"
 #include "include/hardware.h"
-#include "pci_bus.h"
-#include "joystick.h"
-#include "mouse.h"
+#include "include/pci_bus.h"
+#include "include/joystick.h"
+#include "include/mouse.h"
 #include "include/callback.h"
 #include "include/setup.h"
 #include "include/serialport.h"
 #include "include/mapper.h"
-#include "vga.h"
-#include "regionalloctracking.h"
-#include "parport.h"
+#include "include/vga.h"
+#include "include/regionalloctracking.h"
+#include "include/parport.h"
 #include <time.h>
 #if !defined(ANDROID) && !defined(__ANDROID__)
 /* Newer NDKs doesn't have this header.

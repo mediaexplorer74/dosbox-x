@@ -56,13 +56,13 @@
 #include "include/inout.h"
 #include "include/logging.h"
 #include "include/mixer.h"
-#include "dma.h"
+#include "include/dma.h"
 #include "include/pic.h"
 #include "include/bios.h"
 #include "include/hardware.h"
 #include "include/control.h"
 #include "include/setup.h"
-#include "support.h"
+#include "include/support.h"
 #include "include/shell.h"
 using namespace std;
 

@@ -24,9 +24,9 @@
 #include "include/dos_inc.h"
 #include "drives.h"
 #include "include/logging.h"
-#include "support.h"
+#include "include/support.h"
 #include "include/control.h"
-#include "cross.h"
+#include "include/cross.h"
 #include "include/regs.h"
 
 extern bool gbk, isDBCSCP(), isKanji1(uint8_t chr), shiftjis_lead_byte(int c);

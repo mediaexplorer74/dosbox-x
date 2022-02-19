@@ -24,7 +24,7 @@
 #include "include/dosbox.h"
 
 #include "include/logging.h"
-#include "support.h"
+#include "include/support.h"
 #include "include/inout.h"
 #include "include/pic.h"
 #include "include/setup.h"
@@ -32,7 +32,7 @@
 #include "include/bios.h"					// SetLPTPort(..)
 #include "include/hardware.h"				// OpenCaptureFile
 
-#include "parport.h"
+#include "include/parport.h"
 #include "directlpt_win32.h"
 #include "directlpt_linux.h"
 #include "printer_redir.h"

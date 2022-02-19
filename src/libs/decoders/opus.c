@@ -43,8 +43,8 @@
 #define __SDL_SOUND_INTERNAL__
 #include "SDL_sound_internal.h"
 
-#include "opusfile.h"
-#include "speex/speex_resampler.h"
+#include "include/opusfile.h"
+#include "include/speex/speex_resampler.h"
 
 // The minimum buffer samples per channel: 120 ms @ 48 samples/ms, defined by opus
 #define OPUS_MIN_BUFFER_SAMPLES_PER_CHANNEL 5760

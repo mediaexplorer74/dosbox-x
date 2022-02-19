@@ -22,7 +22,7 @@
 
 #include "include/logging.h"
 #include "include/shell.h"
-#include "support.h"
+#include "include/support.h"
 
 BatchFile::BatchFile(DOS_Shell * host,char const * const resolved_name,char const * const entered_name, char const * const cmd_line) {
 	location = 0;

@@ -1,7 +1,7 @@
 
 #include "include/dos_inc.h"
 #include "include/setup.h"
-#include "8255.h"
+#include "include/8255.h"
 
 Intel8255::Intel8255() {
     ppiName = NULL;

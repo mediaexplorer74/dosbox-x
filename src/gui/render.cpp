@@ -26,14 +26,14 @@
 #include "include/dosbox.h"
 #include "include/logging.h"
 #include "include/video.h"
-#include "render.h"
+#include "include/render.h"
 #include "include/setup.h"
 #include "include/control.h"
 #include "include/mapper.h"
-#include "cross.h"
+#include "include/cross.h"
 #include "include/hardware.h"
-#include "support.h"
-#include "sdlmain.h"
+#include "include/support.h"
+#include "include/sdlmain.h"
 #include "include/shell.h"
 
 #include "render_scalers.h"
@@ -916,7 +916,7 @@ static void ChangeScaler(bool pressed) {
     RENDER_CallBack( GFX_CallBackReset );
 } */
 
-#include "vga.h"
+#include "include/vga.h"
 
 void RENDER_UpdateFromScalerSetting(void);
 

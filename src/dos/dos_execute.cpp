@@ -26,7 +26,7 @@
 #include "include/dos_inc.h"
 #include "include/regs.h"
 #include "include/callback.h"
-#include "debug.h"
+#include "include/debug.h"
 #include "include/cpu.h"
 #include "include/menu.h"
 

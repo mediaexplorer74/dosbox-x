@@ -21,13 +21,13 @@
 #include <stdlib.h>
 #include <string.h>
 #include "include/dosbox.h"
-#include "cross.h"
+#include "include/cross.h"
 #include "include/logging.h"
-#include "support.h"
+#include "include/support.h"
 #include "include/setup.h"
 #include "include/control.h"
 #include "include/menu.h"
-#include "jfont.h"
+#include "include/jfont.h"
 #include <map>
 #include <list>
 #include <string>

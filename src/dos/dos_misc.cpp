@@ -24,7 +24,7 @@
 #include "include/regs.h"
 #include "include/dos_inc.h"
 #include "include/control.h"
-#include "support.h"
+#include "include/support.h"
 #include <list>
 #include "vs/sdl/include/SDL.h"
 

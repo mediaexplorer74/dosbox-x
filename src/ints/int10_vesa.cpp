@@ -27,7 +27,7 @@
 #include "include/mem.h"
 #include "include/inout.h"
 #include "int10.h"
-#include "render.h"
+#include "include/render.h"
 #include "include/dos_inc.h"
 
 int hack_lfb_yadjust = 0;

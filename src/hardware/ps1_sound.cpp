@@ -25,7 +25,7 @@
 #include "include/mem.h"
 #include "include/setup.h"
 #include "include/pic.h"
-#include "dma.h"
+#include "include/dma.h"
 #include "mame/emu.h"
 #include "mame/sn76496.h"
 #include "include/control.h"

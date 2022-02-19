@@ -31,7 +31,7 @@
 #include "../joystick/SDL_joystick_c.h"
 #endif
 #include "../video/SDL_sysvideo.h"
-#include "SDL_syswm.h"
+#include "vs/sdl/include/SDL_syswm.h"
 
 /*#define SDL_DEBUG_EVENTS 1*/
 

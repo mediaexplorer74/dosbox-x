@@ -20,11 +20,11 @@
 #include "include/dosbox.h"
 #include "include/logging.h"
 #include "include/mem.h"
-#include "jfont.h"
+#include "include/jfont.h"
 #include "include/dos_inc.h"
 #include "include/callback.h"
 #include "include/control.h"
-#include "render.h"
+#include "include/render.h"
 #include <assert.h>
 
 extern bool gbk;

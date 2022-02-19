@@ -32,7 +32,7 @@
 
 #include "voodoo_emu.h"
 #include "voodoo_opengl.h"
-#include "sdlmain.h"
+#include "include/sdlmain.h"
 
 #if C_OPENGL
 

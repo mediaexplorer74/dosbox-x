@@ -21,10 +21,10 @@
 #include "include/dosbox.h"
 #include "include/keyboard.h"
 #include "include/logging.h"
-#include "support.h"
+#include "include/support.h"
 #include "include/setup.h"
 #include "include/inout.h"
-#include "mouse.h"
+#include "include/mouse.h"
 #include "include/menu.h"
 #include "include/pic.h"
 #include "include/mem.h"
@@ -32,9 +32,9 @@
 #include "include/mixer.h"
 #include "include/timer.h"
 #include <math.h>
-#include "8255.h"
-#include "jfont.h"
-#include "keymap.h"
+#include "include/8255.h"
+#include "include/jfont.h"
+#include "include/keymap.h"
 
 #if defined(_MSC_VER)
 # pragma warning(disable:4244) /* const fmath::local::uint64_t to double possible loss of data */

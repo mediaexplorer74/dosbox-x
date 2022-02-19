@@ -19,11 +19,11 @@
 /* Shut up! */
 #define _CRT_NONSTDC_NO_DEPRECATE
 
-#include "bitmapinfoheader.h"
-#include "rawint.h"
+#include "include/bitmapinfoheader.h"
+#include "include/rawint.h"
 #include "avi_writer.h"
 #include "avi_rw_iobuf.h"
-#include <unistd.h>
+#include "vs/unistd.h"//<unistd.h>
 #include <stdlib.h>
 #include <assert.h>
 #include <fcntl.h>

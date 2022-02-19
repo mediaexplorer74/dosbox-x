@@ -24,7 +24,7 @@
 #include "include/pic.h"
 #include "include/setup.h"
 #include "include/cpu.h"
-#include "support.h"
+#include "include/support.h"
 #include "include/control.h"
 #include "include/setup.h"
 

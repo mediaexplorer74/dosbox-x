@@ -20,7 +20,7 @@
 #include "include/dosbox.h"
 #include "include/inout.h"
 #include "include/logging.h"
-#include "vga.h"
+#include "include/vga.h"
 
 #define attr(blah) vga.attr.blah
 

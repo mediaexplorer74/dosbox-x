@@ -7,7 +7,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
-#include <unistd.h>
+#include "vs/unistd.h"//<unistd.h>
 #include <assert.h>
 #include <stdarg.h>
 #include <fcntl.h>
@@ -24,21 +24,21 @@
 #include "include/timer.h"
 #include "include/setup.h"
 #include "include/bios.h"
-#include "support.h"
-#include "debug.h"
-#include "ide.h"
-#include "bitop.h"
-#include "ptrop.h"
+#include "include/support.h"
+#include "include/debug.h"
+#include "include/ide.h"
+#include "include/bitop.h"
+#include "include/ptrop.h"
 #include "include/mapper.h"
-#include "zipfile.h"
+#include "include/zipfile.h"
 
 #include "include/mapper.h"
-#include "vga.h"
+#include "include/vga.h"
 #include "include/keyboard.h"
 #include "include/cpu.h"
-#include "fpu.h"
-#include "cross.h"
-#include "keymap.h"
+#include "include/fpu.h"
+#include "include/cross.h"
+#include "include/keymap.h"
 
 static std::string          zip_nv_pair_empty;
 

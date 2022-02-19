@@ -23,13 +23,13 @@
 #include "include/logging.h"
 #include "include/paging.h"
 #include "include/mem.h"
-#include "pci_bus.h"
+#include "include/pci_bus.h"
 #include "include/setup.h"
-#include "debug.h"
+#include "include/debug.h"
 #include "include/callback.h"
 #include "include/regs.h"
 #include "../ints/int10.h"
-#include "voodoo.h"
+#include "include/voodoo.h"
 #include "include/control.h"
 
 bool pcibus_enable = false;

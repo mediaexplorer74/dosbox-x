@@ -22,30 +22,30 @@
 #include <stdio.h>
 #include <limits.h>
 
-#include "bitmapinfoheader.h"
+#include "include/bitmapinfoheader.h"
 #include "include/dosbox.h"
 #include "include/control.h"
 #include "include/hardware.h"
 #include "include/logging.h"
 #include "include/setup.h"
-#include "support.h"
+#include "include/support.h"
 #include "include/mem.h"
 #include "include/mapper.h"
 #include "include/pic.h"
 #include "include/mixer.h"
-#include "render.h"
-#include "cross.h"
-#include "wave_mmreg.h"
+#include "include/render.h"
+#include "include/cross.h"
+#include "include/wave_mmreg.h"
 
 #if (C_SSHOT) || (C_AVCODEC)
-#include <zlib.h>
-#include <png.h>
+#include "vs/zlib/zlib.h"//<zlib.h>
+#include "vs/libpng/png.h"//<png.h>
 #include "../libs/zmbv/zmbv.h"
 #endif
 
-#include "riff_wav_writer.h"
-#include "avi_writer.h"
-#include "rawint.h"
+#include "src/aviwriter/riff_wav_writer.h"
+#include "src/aviwriter/avi_writer.h"
+#include "include/rawint.h"
 
 #include <map>
 

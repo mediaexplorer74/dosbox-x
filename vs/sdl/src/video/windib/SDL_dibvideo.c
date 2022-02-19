@@ -35,7 +35,7 @@ extern HWND	ParentWindowHWND;
 #define CDS_FULLSCREEN	4
 #endif
 
-#include "SDL_syswm.h"
+#include "../include/SDL_syswm.h"
 #include "../SDL_sysvideo.h"
 #include "../SDL_pixels_c.h"
 #include "../../events/SDL_sysevents.h"

@@ -20,7 +20,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 
 #include <string>
 #include <d3d9.h>
-#include <d3dx9.h>
+#include "vs/d3dx9.h"//<d3dx9.h>
 
 #define SAFE_RELEASE(p)		{ if(p) { (p)->Release(); (p)=NULL; } }
 

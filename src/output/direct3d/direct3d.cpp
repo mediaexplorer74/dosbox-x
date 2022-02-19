@@ -29,7 +29,7 @@ int FileDirExistCP(const char *name);
 extern Bitu currentWindowWidth, currentWindowHeight;
 
 #include "direct3d.h"
-#include "render.h" // IMPLEMENTED
+#include "include/render.h" // IMPLEMENTED
 #include <sstream>
 
 #if LOG_D3D && D3D_THREAD

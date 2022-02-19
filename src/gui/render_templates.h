@@ -16,8 +16,8 @@
  *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  */
 
-#include "config.h"
-#include "SDL_endian.h"
+#include "vs/config.h"
+#include "vs/sdl/include/SDL_endian.h"
 
 #if DBPP == 8
 #define PSIZE 1

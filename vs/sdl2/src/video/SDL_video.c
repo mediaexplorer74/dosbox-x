@@ -31,7 +31,7 @@
 #include "../events/SDL_events_c.h"
 #include "../timer/SDL_timer_c.h"
 
-#include "SDL_syswm.h"
+#include "vs/sdl/include/SDL_syswm.h"
 
 #if SDL_VIDEO_OPENGL
 #include "SDL_opengl.h"

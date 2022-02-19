@@ -25,12 +25,12 @@
 #include "include/callback.h"
 #include "int10.h"
 #include "vs/sdl/include/SDL.h"
-#include "render.h"
-#include "support.h"
+#include "include/render.h"
+#include "include/support.h"
 #include "include/control.h"
 #include "include/dos_inc.h"
 #define INCJFONT 1
-#include "jfont.h"
+#include "include/jfont.h"
 #if defined(LINUX)
 #include <limits.h>
 #if C_X11

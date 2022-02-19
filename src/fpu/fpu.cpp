@@ -23,10 +23,10 @@
 #include <math.h>
 #include <float.h>
 #include "include/paging.h"
-#include "cross.h"
+#include "include/cross.h"
 #include "include/mem.h"
 #include "include/cpu.h"
-#include "fpu.h"
+#include "include/fpu.h"
 #include "../cpu/lazyflags.h"
 
 FPU_rec fpu;

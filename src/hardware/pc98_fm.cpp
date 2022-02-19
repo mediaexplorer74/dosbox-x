@@ -1,23 +1,24 @@
+//
 
 #include "include/dosbox.h"
 #include "include/logging.h"
 #include "include/setup.h"
 #include "include/video.h"
 #include "include/pic.h"
-#include "vga.h"
+#include "include/vga.h"
 #include "include/inout.h"
-#include "programs.h"
-#include "support.h"
+#include "include/programs.h"
+#include "include/support.h"
 #include "include/setup.h"
 #include "include/timer.h"
 #include "include/mem.h"
-#include "util_units.h"
+#include "include/util_units.h"
 #include "include/control.h"
-#include "pc98_cg.h"
-#include "pc98_dac.h"
-#include "pc98_gdc.h"
-#include "pc98_gdc_const.h"
-#include "joystick.h"
+#include "include/pc98_cg.h"
+#include "include/pc98_dac.h"
+#include "include/pc98_gdc.h"
+#include "include/pc98_gdc_const.h"
+#include "include/joystick.h"
 #include "include/regs.h"
 #include "include/mixer.h"
 #include "include/callback.h"
@@ -36,7 +37,7 @@ using namespace std;
 
 #include <map>
 
-#include "np2glue.h"
+#include "include/np2glue.h"
 
 MixerChannel *pc98_mixer = NULL;
 
@@ -160,8 +161,8 @@ void pic_resetirq(REG8 irq) {
     PIC_DeActivateIRQ(irq);
 }
 
-#include "sound.h"
-#include "fmboard.h"
+#include "snd_pc98/sound/sound.h" // "sound.h"
+#include "snd_pc98/sound/fmboard.h"//"fmboard.h"
 
 // wrapper for fmtimer events
 void fmport_a(NEVENTITEM item);

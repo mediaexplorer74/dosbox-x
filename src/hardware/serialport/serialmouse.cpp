@@ -21,7 +21,7 @@
 
 #include "include/dosbox.h"
 
-#include "mouse.h"
+#include "include/mouse.h"
 #include "include/setup.h"
 #include "serialdummy.h"
 #include "serialmouse.h"

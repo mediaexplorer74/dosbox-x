@@ -25,16 +25,16 @@
 #include "include/mem.h"
 #include "include/inout.h"
 #include "int10.h"
-#include "vga.h"
+#include "include/vga.h"
 #include "include/bios.h"
-#include "programs.h"
-#include "render.h"
+#include "include/programs.h"
+#include "include/render.h"
 #include "include/menu.h"
 #include "include/regs.h"
-#include "jfont.h"
+#include "include/jfont.h"
 #include "include/callback.h"
 #include "include/control.h"
-#include "sdlmain.h"
+#include "include/sdlmain.h"
 
 #define SEQ_REGS 0x05
 #define GFX_REGS 0x09

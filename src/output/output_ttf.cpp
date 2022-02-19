@@ -18,19 +18,19 @@
 
 #include <sys/types.h>
 #include <sys/stat.h>
-#include <unistd.h>
+#include "vs/unistd.h"//<unistd.h>
 #include <assert.h>
 #include <math.h>
 
 #include "include/dosbox.h"
 #include "include/logging.h"
-#include "sdlmain.h"
-#include "render.h"
-#include "jfont.h"
+#include "include/sdlmain.h"
+#include "include/render.h"
+#include "include/jfont.h"
 #include "include/inout.h"
 #include "include/bios.h"
 #include "include/control.h"
-#include "menudef.h"
+#include "include/menudef.h"
 #include "../ints/int10.h"
 
 using namespace std;
@@ -50,8 +50,8 @@ uint16_t cpMap_AX[32] = {
 };
 
 #if defined(USE_TTF)
-#include "cp437_uni.h"
-#include "DOSBoxTTF.h"
+#include "include/cp437_uni.h"
+#include "include/DOSBoxTTF.h"
 #include "../gui/sdl_ttf.c"
 
 #define MIN_PTSIZE 9

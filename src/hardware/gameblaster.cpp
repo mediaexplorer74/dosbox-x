@@ -22,7 +22,7 @@
 #include "include/mem.h"
 #include "include/hardware.h"
 #include "include/setup.h"
-#include "support.h"
+#include "include/support.h"
 #include "include/pic.h"
 #include <cstring>
 #include <math.h>

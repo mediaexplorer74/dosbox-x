@@ -16,14 +16,14 @@
  *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  */
 
-#include "config.h"
+#include "vs/config.h"
 
 #if C_PCAP
 
 #include "ethernet_pcap.h"
 #include "include/dosbox.h"
 #include "include/logging.h"
-#include "support.h" /* strcasecmp */
+#include "include/support.h" /* strcasecmp */
 #include <cstring>
 
 extern std::string niclist;

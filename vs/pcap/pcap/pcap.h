@@ -38,7 +38,7 @@
 #define lib_pcap_pcap_h
 
 #if defined(WIN32)
-  #include <pcap-stdinc.h>
+  #include "../pcap-stdinc.h"//<pcap-stdinc.h>
 #elif defined(MSDOS)
   #include <sys/types.h>
   #include <sys/socket.h>  /* u_int, u_char etc. */
@@ -48,7 +48,7 @@
 #endif /* WIN32/MSDOS/UN*X */
 
 #ifndef PCAP_DONT_INCLUDE_PCAP_BPF_H
-#include <pcap/bpf.h>
+#include "bpf.h"//"../pcap-bpf.h"//<pcap/bpf.h>
 #endif
 
 #include <stdio.h>
@@ -397,7 +397,7 @@ int	pcap_get_selectable_fd(pcap_t *);
 
 #ifdef HAVE_REMOTE
 /* Includes most of the public stuff that is needed for the remote capture */
-#include <remote-ext.h>
+#include "../remote-ext.h"//<remote-ext.h>
 #endif	 /* HAVE_REMOTE */
 
 #ifdef __cplusplus

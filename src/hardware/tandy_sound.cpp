@@ -27,7 +27,7 @@
 #include "include/mem.h"
 #include "include/setup.h"
 #include "include/pic.h"
-#include "dma.h"
+#include "include/dma.h"
 #include "include/control.h"
 #include "include/hardware.h"
 #include <cstring>

@@ -21,8 +21,8 @@
 #include <cstring>
 #include "cdrom.h"
 #include "include/dosbox.h"
-#include "dos_system.h"
-#include "support.h"
+#include "include/dos_system.h"
+#include "include/support.h"
 #include "drives.h"
 
 #define FLAGS1	((iso) ? de.fileFlags : de.timeZone)

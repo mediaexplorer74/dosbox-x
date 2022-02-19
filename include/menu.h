@@ -22,7 +22,7 @@ void SetVal(const std::string& secname, const std::string& preval, const std::st
 #include "vs/sdl/include/SDL_video.h"//<SDL_video.h>
 
 #ifdef __WIN32__
-#include "programs.h"
+#include "include/programs.h"
 
 void ToggleMenu(bool pressed);
 void mem_conf(std::string memtype, int option);

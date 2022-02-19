@@ -22,7 +22,7 @@
 #include "include/logging.h"
 #include "include/mem.h"
 #include "include/inout.h"
-#include "dma.h"
+#include "include/dma.h"
 #include "include/pic.h"
 #include "include/paging.h"
 #include "include/setup.h"

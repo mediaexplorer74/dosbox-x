@@ -1,10 +1,10 @@
-#include "config.h"
+#include "vs/config.h"
 
 #include "include/dosbox.h"
 #include <string.h>
 #include <stdio.h>
 #include "include/logging.h"
-#include "support.h"
+#include "include/support.h"
 #include "include/inout.h"
 #include "include/setup.h"
 #include "include/callback.h"
@@ -46,9 +46,9 @@
 // Peter Grehan (grehan@iprg.nokia.com) coded all of this
 // NE2000/ether stuff.
 
-#include "ne2000.h"
+#include "include/ne2000.h"
 
-#include "ethernet.h"
+#include "include/ethernet.h"
 EthernetConnection* ethernet = nullptr;
 
 static void NE2000_TX_Event(Bitu val);

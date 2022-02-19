@@ -1,7 +1,7 @@
 #include <assert.h>
 #include <stdint.h>
 
-#include "bitop.h"
+#include "include/bitop.h"
 
 namespace bitop {
 

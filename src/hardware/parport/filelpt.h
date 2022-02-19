@@ -21,7 +21,7 @@
 #define DOSBOX_FILELPT_H
 
 #include "include/dosbox.h"
-#include "parport.h"
+#include "include/parport.h"
 
 typedef enum { FILE_DEV, FILE_CAPTURE, FILE_APPEND } DFTYPE;
 

@@ -5,7 +5,7 @@
 #define DOSBOX_OUTPUT_TOOLS_XBRZ_H
 
 #if C_XBRZ || C_SURFACE_POSTRENDER_ASPECT
-#include <libs/xBRZ/xbrz_tools.h>
+#include "src/libs/xBRZ/xbrz_tools.h"//<libs/xBRZ/xbrz_tools.h>
 #include <cmath>
 
 #if defined(WIN32) && !defined(__MINGW32__) && !defined(HX_DOS)
@@ -16,7 +16,7 @@
 #endif /*C_XBRZ || C_SURFACE_POSTRENDER_ASPECT*/
 
 #if C_XBRZ
-#include <libs/xBRZ/xbrz.h>
+#include "src/libs/xBRZ/xbrz.h"//<libs/xBRZ/xbrz.h>
 
 struct SDL_xBRZ {
     // configuration

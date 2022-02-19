@@ -5,7 +5,7 @@
 
 // in case you want to #include "whereami.c" in a larger compilation unit
 #if !defined(WHEREAMI_H)
-#include <whereami.h>
+#include "include/whereami.h"//<whereami.h>
 #endif
 
 #ifdef __cplusplus

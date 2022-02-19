@@ -19,7 +19,7 @@
 #if C_FLUIDSYNTH
 #include <fluidsynth.h>
 #else
-#include "fluidsynth.h"
+#include "include/fluidsynth.h"
 #endif
 #include <math.h>
 #include <string.h>

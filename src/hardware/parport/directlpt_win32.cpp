@@ -29,7 +29,7 @@
 #if defined (WIN32)
 
 #include "include/logging.h"
-#include "parport.h"
+#include "include/parport.h"
 //#include "../../libs/porttalk/porttalk.h"
 #include "directlpt_win32.h"
 #include "include/callback.h"

@@ -24,7 +24,7 @@
 #include "include/inout.h"
 #include "include/logging.h"
 #include "include/mixer.h"
-#include "dma.h"
+#include "include/dma.h"
 #include "include/pic.h"
 #include "include/control.h"
 #include "include/setup.h"

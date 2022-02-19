@@ -5,8 +5,8 @@
 #include "include/control.h"
 #include "include/dosbox.h"
 #include "include/logging.h"
-#include "render.h"
-#include "sdlmain.h"
+#include "include/render.h"
+#include "include/sdlmain.h"
 
 using namespace std;
 

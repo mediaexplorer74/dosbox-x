@@ -12,10 +12,10 @@ extern "C" {
 #endif
 
 #ifndef _ZLIB_H
-#include "zlib.h"
+#include "vs/zlib/zlib.h"
 #endif
 
-#include "unzip.h"
+#include "include/unzip.h"
 
 /* Repair a ZIP file (missing central directory)
    file: file to recover

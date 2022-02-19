@@ -4,7 +4,7 @@
 #define DOSBOX_OUTPUT_OPENGL_H
 
 #if C_OPENGL
-#include "SDL_opengl.h"
+#include "vs/sdl/include/SDL_opengl.h"//"SDL_opengl.h"
 
 #ifndef APIENTRY
 #define APIENTRY

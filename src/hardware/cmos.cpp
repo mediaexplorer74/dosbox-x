@@ -26,9 +26,9 @@
 #include "include/pic.h"
 #include "include/inout.h"
 #include "include/mem.h"
-#include "bios_disk.h"
+#include "include/bios_disk.h"
 #include "include/setup.h"
-#include "cross.h" //fmod on certain platforms
+#include "include/cross.h" //fmod on certain platforms
 #include "include/control.h"
 bool date_host_forced=false;
 #if defined (WIN32) && !defined (__MINGW32__)

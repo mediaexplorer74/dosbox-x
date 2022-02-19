@@ -17,7 +17,7 @@
  */
 
 #include "include/cpu.h"
-#include "fpu.h"
+#include "include/fpu.h"
 #include "include/mem.h"
 #include "include/regs.h"
 

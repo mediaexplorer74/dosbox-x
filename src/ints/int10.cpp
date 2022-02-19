@@ -27,10 +27,10 @@
 #include "include/regs.h"
 #include "include/inout.h"
 #include "int10.h"
-#include "mouse.h"
+#include "include/mouse.h"
 #include "include/setup.h"
-#include "render.h"
-#include "jfont.h"
+#include "include/render.h"
+#include "include/jfont.h"
 
 Int10Data int10;
 bool blinking=true;

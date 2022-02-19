@@ -22,9 +22,9 @@
 #include "include/inout.h"
 #include "include/logging.h"
 #include "include/setup.h"
-#include "joystick.h"
+#include "include/joystick.h"
 #include "include/pic.h"
-#include "support.h"
+#include "include/support.h"
 #include "include/control.h"
 
 #define RANGE 64

@@ -22,12 +22,12 @@
 #include "include/logging.h"
 #include "include/mem.h"
 #include "include/paging.h"
-#include "glide.h"
+#include "include/glide.h"
 #include "include/setup.h"
-#include "vga.h"
+#include "include/vga.h"
 #include "include/dos_inc.h"		/* for Drives[] */
 #include "include/control.h"
-#include "sdlmain.h"
+#include "include/sdlmain.h"
 #include "../dos/drives.h"
 
 #include <iomanip>
@@ -35,7 +35,7 @@
 using namespace std;
 
 #include "vs/sdl/include/SDL.h"
-#include "SDL_syswm.h"
+#include "vs/sdl/include/SDL_syswm.h"
 
 #if defined (WIN32)
 #include <windows.h>

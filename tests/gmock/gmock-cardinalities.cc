@@ -32,14 +32,14 @@
 //
 // This file implements cardinalities.
 
-#include "gmock/gmock-cardinalities.h"
+#include "include/gmock/gmock-cardinalities.h"
 
 #include <limits.h>
 #include <ostream>  // NOLINT
 #include <sstream>
 #include <string>
-#include "gmock/internal/gmock-internal-utils.h"
-#include "gtest/gtest.h"
+#include "include/gmock/internal/gmock-internal-utils.h"
+#include "include/gtest/gtest.h"
 
 namespace testing {
 

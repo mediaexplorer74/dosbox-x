@@ -21,7 +21,7 @@
 #include "include/dosbox.h"
 #include "include/inout.h"
 #include "include/logging.h"
-#include "vga.h"
+#include "include/vga.h"
 #include <math.h>
 #include <stdio.h>
 #include "include/callback.h"

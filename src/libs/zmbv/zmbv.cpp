@@ -16,17 +16,17 @@
  *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  */
 
-#include "config.h"
+#include "vs/config.h"
 
 #if (C_SSHOT)
 
-#include <zlib.h>
+#include "vs/zlib/zlib.h"//<zlib.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
 #include <string.h>
 #include <math.h>
-#include <png.h>
+#include "vs/libpng/png.h"//<png.h>
 
 #include "zmbv.h"
 

@@ -24,7 +24,7 @@
 
 #include "include/inout.h"
 
-#include "programs.h"
+#include "include/programs.h"
 
 class device_LPT : public DOS_Device {
 public:

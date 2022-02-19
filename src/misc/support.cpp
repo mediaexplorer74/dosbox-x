@@ -29,10 +29,10 @@
 #include <string>
   
 #include "include/dosbox.h"
-#include "debug.h"
+#include "include/debug.h"
 #include "include/logging.h"
 #include "include/dos_inc.h"
-#include "support.h"
+#include "include/support.h"
 #include "include/video.h"
 #include "include/menu.h"
 #include "vs/sdl/include/SDL.h"
@@ -462,7 +462,7 @@ int utf16le_decode(const char **ptr,const char *fence) {
 }
 
 #if C_DEBUG
-#include <curses.h>
+#include "vs/libpdcurses/curses.h"//<curses.h>
 #endif
 #if defined(WIN32)
 void DOSBox_ConsolePauseWait();

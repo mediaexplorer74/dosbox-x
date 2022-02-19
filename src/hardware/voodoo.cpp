@@ -21,17 +21,17 @@
 #include <string.h>
 
 #include "include/dosbox.h"
-#include "config.h"
+#include "vs/config.h"
 #include "include/logging.h"
 #include "include/setup.h"
-#include "cross.h"
+#include "include/cross.h"
 #include "include/control.h"
 
 #include "include/paging.h"
 #include "include/mem.h"
 
-#include "voodoo.h"
-#include "pci_bus.h"
+#include "include/voodoo.h"
+#include "include/pci_bus.h"
 #include "voodoo_interface.h"
 
 class VOODOO;

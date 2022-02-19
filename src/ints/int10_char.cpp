@@ -25,10 +25,10 @@
 #include "include/mem.h"
 #include "include/inout.h"
 #include "int10.h"
-#include "shiftjis.h"
+#include "include/shiftjis.h"
 #include "include/callback.h"
 #include "include/dos_inc.h"
-#include "jfont.h"
+#include "include/jfont.h"
 #include "include/regs.h"
 #include <string.h>
 

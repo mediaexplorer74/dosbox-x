@@ -53,13 +53,13 @@
 #include "include/mixer.h"
 #include "include/timer.h"
 #include "include/setup.h"
-#include "cross.h"
-#include "support.h"
+#include "include/cross.h"
+#include "include/support.h"
 #include "include/control.h"
 #include "include/mapper.h"
 #include "include/hardware.h"
-#include "programs.h"
-#include "midi.h"
+#include "include/programs.h"
+#include "include/midi.h"
 
 #define MIXER_SSIZE 4
 #define MIXER_VOLSHIFT 13

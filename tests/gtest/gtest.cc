@@ -30,9 +30,9 @@
 //
 // The Google C++ Testing and Mocking Framework (Google Test)
 
-#include "gtest/gtest.h"
-#include "gtest/internal/custom/gtest.h"
-#include "gtest/gtest-spi.h"
+#include "include/gtest/gtest.h"
+#include "include/gtest/internal/custom/gtest.h"
+#include "include/gtest/gtest-spi.h"
 
 #include <ctype.h>
 #include <stdarg.h>
@@ -115,7 +115,7 @@
 # include <sys/types.h>  // NOLINT
 #endif
 
-#include "gtest/gtest-internal-inl.h"
+#include "include/gtest/gtest-internal-inl.h"
 
 #if GTEST_OS_WINDOWS
 # define vsnprintf _vsnprintf

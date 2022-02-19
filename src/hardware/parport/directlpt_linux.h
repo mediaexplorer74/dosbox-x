@@ -20,7 +20,7 @@
 #ifndef DOSBOX_DIRECTLPT_LINUX_H
 #define DOSBOX_DIRECTLPT_LINUX_H
 
-#include "config.h"
+#include "vs/config.h"
 
 #if C_DIRECTLPT
 #ifdef LINUX

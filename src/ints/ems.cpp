@@ -30,9 +30,9 @@
 #include "include/inout.h"
 #include "include/dos_inc.h"
 #include "include/setup.h"
-#include "support.h"
+#include "include/support.h"
 #include "include/cpu.h"
-#include "dma.h"
+#include "include/dma.h"
 #include "include/control.h"
 
 /* TODO: Make EMS page frame address (and size) user configurable.

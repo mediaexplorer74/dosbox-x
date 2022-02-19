@@ -20,7 +20,7 @@
 #ifndef DOSBOX_SHELL_H
 #define DOSBOX_SHELL_H
 
-#include "programs.h"
+#include "include/programs.h"
 
 #include "vs/sdl/include/SDL.h"//"vs/sdl/include/SDL.h"
 #if SDL_VERSION_ATLEAST(2, 0, 0)

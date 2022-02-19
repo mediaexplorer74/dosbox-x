@@ -20,7 +20,7 @@
 #include "include/dosbox.h"
 #include "include/logging.h"
 #include "include/setup.h"
-#include "vga.h"
+#include "include/vga.h"
 #include "include/inout.h"
 #include "include/mem.h"
 

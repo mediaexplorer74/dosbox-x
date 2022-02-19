@@ -19,7 +19,7 @@
 #ifndef _RENDER_SCALERS_H
 #define _RENDER_SCALERS_H
 
-//#include "render.h"
+//#include "include/render.h"
 #include "include/video.h"
 #if RENDER_USE_ADVANCED_SCALERS>0
 #define SCALER_MAXWIDTH		1920

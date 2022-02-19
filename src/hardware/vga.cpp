@@ -123,26 +123,26 @@
 #include "include/setup.h"
 #include "include/video.h"
 #include "include/pic.h"
-#include "vga.h"
+#include "include/vga.h"
 #include "include/inout.h"
-#include "programs.h"
-#include "support.h"
+#include "include/programs.h"
+#include "include/support.h"
 #include "include/setup.h"
 #include "include/timer.h"
 #include "include/mem.h"
-#include "util_units.h"
+#include "include/util_units.h"
 #include "include/control.h"
-#include "pc98_cg.h"
-#include "pc98_dac.h"
-#include "pc98_gdc.h"
-#include "pc98_gdc_const.h"
+#include "include/pc98_cg.h"
+#include "include/pc98_dac.h"
+#include "include/pc98_gdc.h"
+#include "include/pc98_gdc_const.h"
 #include "include/mixer.h"
 #include "include/menu.h"
 #include "include/mem.h"
-#include "render.h"
-#include "jfont.h"
-#include "bitop.h"
-#include "sdlmain.h"
+#include "include/render.h"
+#include "include/jfont.h"
+#include "include/bitop.h"
+#include "include/sdlmain.h"
 
 #include <string.h>
 #include <stdlib.h>
@@ -153,7 +153,7 @@
 # pragma warning(disable:4244) /* const fmath::local::uint64_t to double possible loss of data */
 #endif
 
-#include "zipfile.h"
+#include "include/zipfile.h"
 
 using namespace std;
 

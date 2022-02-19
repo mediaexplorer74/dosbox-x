@@ -22,12 +22,12 @@
 #if C_IPX
 
 #include "include/dosbox.h"
-#include "ipxserver.h"
+#include "include/ipxserver.h"
 #include "include/logging.h"
 #include "include/timer.h"
 #include <stdlib.h>
 #include <string.h>
-#include "ipx.h"
+#include "include/ipx.h"
 
 IPaddress ipxServerIp;  // IPAddress for server's listening port
 UDPsocket ipxServerSocket;  // Listening server socket

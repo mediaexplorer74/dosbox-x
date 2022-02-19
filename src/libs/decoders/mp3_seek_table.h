@@ -28,7 +28,7 @@
  */
 
 #include <vector>    // provides: vector
-#include <SDL.h>     // provides: SDL_RWops
+#include "vs/sdl/include/SDL.h"//<SDL.h>     // provides: SDL_RWops
 #include "archive.h" // provides: archive
 
 // Ensure we only get the API

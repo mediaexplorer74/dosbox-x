@@ -17,15 +17,15 @@
  */
 
 
-#include <curses.h>
+#include "vs/libpdcurses/curses.h"//<curses.h>
 #include <string.h>
 #ifdef WIN32
 #include <windows.h>
 #endif
-#include "dosbox.h"
-#include "paging.h"
-#include "inout.h"
-#include "pic.h"
+#include "include/dosbox.h"
+#include "include/paging.h"
+#include "include/inout.h"
+#include "include/pic.h"
 
 #define REFRESH_DELAY 1000.0/50.0
 

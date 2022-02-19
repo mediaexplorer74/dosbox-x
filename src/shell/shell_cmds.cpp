@@ -36,21 +36,21 @@
 #include <assert.h>
 #include "include/bios.h"
 #include "../dos/drives.h"
-#include "support.h"
+#include "include/support.h"
 #include "include/control.h"
 #include "include/paging.h"
 #include "include/menu.h"
-#include "jfont.h"
-#include "render.h"
+#include "include/jfont.h"
+#include "include/render.h"
 #include <algorithm>
 #include <cstring>
 #include <cctype>
 #include <cstdlib>
 #include <vector>
 #include <string>
-#include "sdlmain.h"
-#include "menudef.h"
-#include "build_timestamp.h"
+#include "include/sdlmain.h"
+#include "include/menudef.h"
+#include "include/build_timestamp.h"
 
 #if defined(_MSC_VER)
 # pragma warning(disable:4244) /* const fmath::local::uint64_t to double possible loss of data */

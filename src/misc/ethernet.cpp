@@ -18,7 +18,7 @@
 
 #include <assert.h>
 
-#include "ethernet.h"
+#include "include/ethernet.h"
 #include "ethernet_pcap.h"
 #include "ethernet_slirp.h"
 #include "include/logging.h"

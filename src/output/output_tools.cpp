@@ -19,16 +19,16 @@
 #include "include/dosbox.h"
 #include "include/video.h"
 #include "include/setup.h"
-#include "jfont.h"
+#include "include/jfont.h"
 #include "include/cpu.h"
-#include "sdlmain.h"
+#include "include/sdlmain.h"
 #include "include/control.h"
-#include "render.h"
+#include "include/render.h"
 #include "include/logging.h"
 #include "../ints/int10.h"
 
 #if defined(WIN32)
-#include "resource.h"
+#include "include/resource.h"
 #endif
 
 #if C_DIRECT3D

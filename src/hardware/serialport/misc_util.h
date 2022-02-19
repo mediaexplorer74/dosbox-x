@@ -28,7 +28,7 @@
 
 #include <vector>
 #ifndef DOSBOX_SUPPORT_H
-#include "support.h"
+#include "include/support.h"
 #endif
 
 // Netwrapper Capabilities

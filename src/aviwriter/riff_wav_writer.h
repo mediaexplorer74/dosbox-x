@@ -20,7 +20,7 @@
 #define __ISP_UTILS_V4_AVI_RIFF_WAV_WRITER_H
 
 #include "riff.h"
-#include "waveformatex.h"
+#include "include/waveformatex.h"
 
 typedef struct riff_wav_writer {
 	riff_stack*		riff;

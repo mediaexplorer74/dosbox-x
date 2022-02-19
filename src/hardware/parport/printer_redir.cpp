@@ -19,7 +19,7 @@
 
 #if C_PRINTER
 
-#include "parport.h"
+#include "include/parport.h"
 //#include "include/callback.h"
 #include "printer_redir.h"
 

@@ -18,8 +18,8 @@
 
 
 #include "include/dosbox.h"
-#include "cross.h"
-#include "support.h"
+#include "include/cross.h"
+#include "include/support.h"
 #include "include/dos_inc.h"
 #include <string>
 #include <limits.h>

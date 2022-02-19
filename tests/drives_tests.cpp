@@ -20,7 +20,7 @@
 
 #include "../src/dos/drives.h"
 
-#include <gtest/gtest.h>
+#include "include/gtest/gtest.h"//<gtest/gtest.h>
 
 #include <string>
 

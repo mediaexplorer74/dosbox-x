@@ -27,17 +27,17 @@
 #include "include/setup.h"
 #include "include/mapper.h"
 #include "printer_if.h"
-#include "support.h"
-#include "cross.h"
+#include "include/support.h"
+#include "include/cross.h"
 #include "printer_charmaps.h"
 #include "include/control.h"
 #include "include/pic.h" // for timeout
-#include "jfont.h"
+#include "include/jfont.h"
 #include "include/timer.h"
-#include "render.h"
+#include "include/render.h"
 #include "include/dos_inc.h"
 #include "../../ints/int10.h"
-#include "sdlmain.h"
+#include "include/sdlmain.h"
 
 #if defined(USE_TTF)
 extern unsigned char DOSBoxTTFbi[48868];

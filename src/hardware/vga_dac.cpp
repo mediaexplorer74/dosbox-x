@@ -19,8 +19,8 @@
 #include "include/dosbox.h"
 #include "include/inout.h"
 #include "include/logging.h"
-#include "render.h"
-#include "vga.h"
+#include "include/render.h"
+#include "include/vga.h"
 
 extern bool vga_enable_3C6_ramdac;
 extern bool vga_8bit_dac;

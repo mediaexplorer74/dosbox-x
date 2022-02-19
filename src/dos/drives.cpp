@@ -18,14 +18,14 @@
 
 
 #include "include/dosbox.h"
-#include "dos_system.h"
-#include "bios_disk.h"
+#include "include/dos_system.h"
+#include "include/bios_disk.h"
 #include "drives.h"
 #include "include/setup.h"
 #include "include/mapper.h"
-#include "support.h"
+#include "include/support.h"
 #include "include/control.h"
-#include "ide.h"
+#include "include/ide.h"
 
 bool wild_match(const char *haystack, char *needle) {
 	size_t max, i;

@@ -20,7 +20,7 @@
 #define __DIRECT3D_H_
 
 #include <d3d9.h>
-#include <d3dx9math.h>
+#include "vs/d3dx9math.h"//<d3dx9math.h>
 #include "include/dosbox.h"
 #include "hq2x_d3d.h"
 
@@ -34,7 +34,7 @@
 #endif
 
 #if D3D_THREAD
-#include "SDL_thread.h"
+#include "vs/sdl/include/SDL_thread.h"//"SDL_thread.h"
 #endif
 
 #define SAFE_RELEASE(p)		{ if(p) { (p)->Release(); (p)=NULL; } }

@@ -2,7 +2,7 @@
 #ifndef __ISP_UTILS_V4_BITMAPINFOHEADER
 #define __ISP_UTILS_V4_BITMAPINFOHEADER
 
-#include "guid.h"
+#include "src/aviwriter/guid.h"
 
 /* [doc] windows_BITMAPFILEHEADER
  *

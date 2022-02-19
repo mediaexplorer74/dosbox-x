@@ -84,7 +84,7 @@
 #include <map>
 
 // Local headers
-#include "support.h"
+#include "include/support.h"
 
 #define XXH_INLINE_ALL
 #include "xxhash.h"

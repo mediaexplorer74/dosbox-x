@@ -22,10 +22,10 @@
 #include "include/dosbox.h"
 #include "include/inout.h"
 #include "include/logging.h"
-#include "vga.h"
+#include "include/vga.h"
 #include "include/mem.h"
 #include "include/pic.h"
-#include "render.h"
+#include "include/render.h"
 #include "include/mapper.h"
 #include "include/control.h"
 

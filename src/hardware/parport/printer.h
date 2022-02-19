@@ -17,7 +17,7 @@
  */
 
 //#include <dosbox.h>
-#include "config.h"
+#include "vs/config.h"
 
 #if C_PRINTER
 
@@ -25,13 +25,22 @@
 #define __PRINTER_H
 
 #ifdef C_LIBPNG
-#include <png.h>
+#include "vs/libpng/png.h"//<png.h>
 #endif
 
 #include "vs/sdl/include/SDL.h"
 
-#include <ft2build.h>
-#include FT_FREETYPE_H
+#include "../vs/freetype/devel/ft2build.h"//<ft2build.h>
+#include "../vs/freetype/include/ft2build.h"//<ft2build.h>
+//#include FT_FREETYPE_H
+#include "../vs/freetype/include/ft2build.h"//<ft2build.h>
+#include "../vs/freetype/include/freetype/config/ftheader.h"//<ft2build.h>
+#include "../vs/freetype/include/freetype/freetype.h" //#include FT_FREETYPE_H
+#include "../vs/freetype/include/freetype/ftbitmap.h" // !
+#include "../vs/freetype/include/freetype/ftoutln.h"//#include FT_OUTLINE_H
+#include "../vs/freetype/include/freetype/ftstroke.h"//#include FT_STROKER_H
+#include "../vs/freetype/include/freetype/ftglyph.h"//#include FT_GLYPH_H
+#include "../vs/freetype/include/freetype/fttrigon.h"//#include FT_TRUETYPE_IDS_H
 
 #if defined (WIN32)
 #include <windows.h>

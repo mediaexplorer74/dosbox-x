@@ -22,7 +22,7 @@
 //just handle it all in one go, but this seems to work well enough for now
 
 #include "include/dosbox.h"
-#include "render.h"
+#include "include/render.h"
 #include <string.h>
 
 uint8_t Scaler_Aspect[SCALER_MAXHEIGHT];

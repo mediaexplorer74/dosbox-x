@@ -32,25 +32,25 @@
 
 #include "include/dosbox.h"
 #include "include/logging.h"
-#include "menudef.h"
+#include "include/menudef.h"
 #include "include/video.h"
 #include "include/keyboard.h"
-#include "mouse.h"
+#include "include/mouse.h"
 #include "include/pic.h"
 #include "include/control.h"
-#include "joystick.h"
-#include "util_math.h"
-#include "keymap.h"
-#include "support.h"
+#include "include/joystick.h"
+#include "include/util_math.h"
+#include "include/keymap.h"
+#include "include/support.h"
 #include "include/mapper.h"
-#include "render.h"
+#include "include/render.h"
 #include "include/setup.h"
 #include "include/menu.h"
 
-#include "SDL_syswm.h"
-#include "sdlmain.h"
+#include "vs/sdl/include/SDL_syswm.h"
+#include "include/sdlmain.h"
 #include "include/shell.h"
-#include "jfont.h"
+#include "include/jfont.h"
 
 #if C_EMSCRIPTEN
 # include <emscripten.h>
@@ -5298,7 +5298,7 @@ void ReloadMapper(Section_prop *section, bool init) {
 
 //Somehow including them at the top conflicts with something in setup.h
 #ifdef C_X11_XKB
-#include "SDL_syswm.h"
+#include "vs/sdl/include/SDL_syswm.h"
 #include <X11/XKBlib.h>
 #endif
 

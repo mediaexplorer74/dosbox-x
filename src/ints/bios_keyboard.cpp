@@ -28,8 +28,8 @@
 #include "include/dos_inc.h"
 #include "vs/sdl/include/SDL.h"
 #include "int10.h"
-#include "jfont.h"
-#include "render.h"
+#include "include/jfont.h"
+#include "include/render.h"
 
 #if defined(_MSC_VER)
 # pragma warning(disable:4244) /* const fmath::local::uint64_t to double possible loss of data */

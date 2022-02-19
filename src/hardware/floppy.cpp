@@ -20,14 +20,14 @@
 #include "include/pic.h"
 #include "include/mem.h"
 #include "include/cpu.h"
-#include "dma.h"
-#include "ide.h"
+#include "include/dma.h"
+#include "include/ide.h"
 #include "include/mixer.h"
 #include "include/timer.h"
 #include "include/setup.h"
 #include "include/control.h"
 #include "include/callback.h"
-#include "bios_disk.h"
+#include "include/bios_disk.h"
 #include "include/bios.h"
 
 #ifdef _MSC_VER

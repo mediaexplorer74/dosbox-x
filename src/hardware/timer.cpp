@@ -762,7 +762,7 @@ bool TIMER_GetOutput2() {
 	return counter_output(speaker_pit);
 }
 
-#include "programs.h"
+#include "include/programs.h"
 
 static IO_ReadHandleObject ReadHandler[4];
 static IO_WriteHandleObject WriteHandler[4];

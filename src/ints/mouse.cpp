@@ -29,14 +29,14 @@
 #include "include/mem.h"
 #include "include/regs.h"
 #include "include/cpu.h"
-#include "mouse.h"
+#include "include/mouse.h"
 #include "include/pic.h"
 #include "include/inout.h"
 #include "int10.h"
 #include "include/bios.h"
-#include "jfont.h"
+#include "include/jfont.h"
 #include "include/dos_inc.h"
-#include "support.h"
+#include "include/support.h"
 #include "include/setup.h"
 #include "include/control.h"
 #include "vs/sdl/include/SDL.h"
@@ -602,7 +602,7 @@ static inline bool GFX_IsFullscreen(void) {
     return false;
 }
 #endif
-#include "render.h"
+#include "include/render.h"
 
 void KEYBOARD_AUX_LowerIRQ() {
     if (MOUSE_IRQ != 0)
