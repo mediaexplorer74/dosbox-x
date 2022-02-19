@@ -20,16 +20,16 @@
 #include <time.h>
 #include <math.h>
 
-#include "dosbox.h"
-#include "timer.h"
-#include "cpu.h"
-#include "pic.h"
-#include "inout.h"
-#include "mem.h"
+#include "include/dosbox.h"
+#include "include/timer.h"
+#include "include/cpu.h"
+#include "include/pic.h"
+#include "include/inout.h"
+#include "include/mem.h"
 #include "bios_disk.h"
-#include "setup.h"
+#include "include/setup.h"
 #include "cross.h" //fmod on certain platforms
-#include "control.h"
+#include "include/control.h"
 bool date_host_forced=false;
 #if defined (WIN32) && !defined (__MINGW32__)
 #include "sys/timeb.h"

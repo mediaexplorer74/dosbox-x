@@ -28,14 +28,14 @@
 #include <cctype>
 #include <string>
   
-#include "dosbox.h"
+#include "include/dosbox.h"
 #include "debug.h"
-#include "logging.h"
-#include "dos_inc.h"
+#include "include/logging.h"
+#include "include/dos_inc.h"
 #include "support.h"
-#include "video.h"
-#include "menu.h"
-#include "SDL.h"
+#include "include/video.h"
+#include "include/menu.h"
+#include "vs/sdl/include/SDL.h"
 
 extern bool gbk, isDBCSCP(), isKanji1(uint8_t chr), shiftjis_lead_byte(int c);
 

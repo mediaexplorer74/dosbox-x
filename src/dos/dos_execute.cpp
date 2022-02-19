@@ -20,15 +20,15 @@
 #include <string.h>
 #include <ctype.h>
 
-#include "dosbox.h"
-#include "logging.h"
-#include "mem.h"
-#include "dos_inc.h"
-#include "regs.h"
-#include "callback.h"
+#include "include/dosbox.h"
+#include "include/logging.h"
+#include "include/mem.h"
+#include "include/dos_inc.h"
+#include "include/regs.h"
+#include "include/callback.h"
 #include "debug.h"
-#include "cpu.h"
-#include "menu.h"
+#include "include/cpu.h"
+#include "include/menu.h"
 
 const char * RunningProgram="DOSBOX-X";
 

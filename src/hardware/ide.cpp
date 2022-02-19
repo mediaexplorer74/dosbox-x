@@ -9,20 +9,20 @@
 
 #include <math.h>
 #include <assert.h>
-#include "dosbox.h"
-#include "inout.h"
-#include "pic.h"
-#include "mem.h"
-#include "cpu.h"
+#include "include/dosbox.h"
+#include "include/inout.h"
+#include "include/pic.h"
+#include "include/mem.h"
+#include "include/cpu.h"
 #include "ide.h"
-#include "mixer.h"
-#include "timer.h"
-#include "setup.h"
-#include "control.h"
-#include "callback.h"
+#include "include/mixer.h"
+#include "include/timer.h"
+#include "include/setup.h"
+#include "include/control.h"
+#include "include/callback.h"
 #include "bios_disk.h"
 #include "../src/dos/cdrom.h"
-#include "bios.h"
+#include "include/bios.h"
 
 #if defined(_MSC_VER)
 # pragma warning(disable:4244) /* const fmath::local::uint64_t to double possible loss of data */

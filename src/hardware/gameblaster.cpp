@@ -16,14 +16,14 @@
  *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  */
 
-#include "dosbox.h"
-#include "inout.h"
-#include "mixer.h"
-#include "mem.h"
-#include "hardware.h"
-#include "setup.h"
+#include "include/dosbox.h"
+#include "include/inout.h"
+#include "include/mixer.h"
+#include "include/mem.h"
+#include "include/hardware.h"
+#include "include/setup.h"
 #include "support.h"
-#include "pic.h"
+#include "include/pic.h"
 #include <cstring>
 #include <math.h>
 

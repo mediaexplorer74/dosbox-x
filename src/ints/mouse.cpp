@@ -23,23 +23,23 @@
 #include <string.h>
 #include <math.h>
 
-#include "dosbox.h"
-#include "callback.h"
-#include "logging.h"
-#include "mem.h"
-#include "regs.h"
-#include "cpu.h"
+#include "include/dosbox.h"
+#include "include/callback.h"
+#include "include/logging.h"
+#include "include/mem.h"
+#include "include/regs.h"
+#include "include/cpu.h"
 #include "mouse.h"
-#include "pic.h"
-#include "inout.h"
+#include "include/pic.h"
+#include "include/inout.h"
 #include "int10.h"
-#include "bios.h"
+#include "include/bios.h"
 #include "jfont.h"
-#include "dos_inc.h"
+#include "include/dos_inc.h"
 #include "support.h"
-#include "setup.h"
-#include "control.h"
-#include "SDL.h"
+#include "include/setup.h"
+#include "include/control.h"
+#include "vs/sdl/include/SDL.h"
 
 #if defined(_MSC_VER)
 # pragma warning(disable:4244) /* const fmath::local::uint64_t to double possible loss of data */

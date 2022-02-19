@@ -20,25 +20,25 @@
 #include <string.h>
 #include <math.h>
 #include <stdio.h>
-#include "dosbox.h"
+#include "include/dosbox.h"
 #if defined (WIN32)
 #include <d3d9.h>
 #endif
-#include "logging.h"
+#include "include/logging.h"
 #include "time.h"
-#include "timer.h"
-#include "setup.h"
+#include "include/timer.h"
+#include "include/setup.h"
 #include "support.h"
-#include "video.h"
+#include "include/video.h"
 #include "render.h"
 #include "../gui/render_scalers.h"
 #include "vga.h"
-#include "pic.h"
+#include "include/pic.h"
 #include "jfont.h"
-#include "menu.h"
-#include "timer.h"
+#include "include/menu.h"
+#include "include/timer.h"
 #include "config.h"
-#include "control.h"
+#include "include/control.h"
 #include "shiftjis.h"
 #include "../ints/int10.h"
 #include "pc98_cg.h"

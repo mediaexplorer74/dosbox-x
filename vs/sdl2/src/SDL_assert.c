@@ -24,7 +24,7 @@
 #include "core/windows/SDL_windows.h"
 #endif
 
-#include "SDL.h"
+#include "vs/sdl/include/SDL.h"
 #include "SDL_atomic.h"
 #include "SDL_messagebox.h"
 #include "SDL_video.h"

@@ -18,19 +18,19 @@
 
 #include <assert.h>
 #include <string.h>
-#include "dosbox.h"
-#include "inout.h"
-#include "logging.h"
-#include "paging.h"
-#include "mem.h"
+#include "include/dosbox.h"
+#include "include/inout.h"
+#include "include/logging.h"
+#include "include/paging.h"
+#include "include/mem.h"
 #include "pci_bus.h"
-#include "setup.h"
+#include "include/setup.h"
 #include "debug.h"
-#include "callback.h"
-#include "regs.h"
+#include "include/callback.h"
+#include "include/regs.h"
 #include "../ints/int10.h"
 #include "voodoo.h"
-#include "control.h"
+#include "include/control.h"
 
 bool pcibus_enable = false;
 bool log_pci = false;

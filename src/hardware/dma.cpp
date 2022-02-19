@@ -18,15 +18,15 @@
 
 #include <assert.h>
 #include <string.h>
-#include "dosbox.h"
-#include "logging.h"
-#include "mem.h"
-#include "inout.h"
+#include "include/dosbox.h"
+#include "include/logging.h"
+#include "include/mem.h"
+#include "include/inout.h"
 #include "dma.h"
-#include "pic.h"
-#include "paging.h"
-#include "setup.h"
-#include "control.h"
+#include "include/pic.h"
+#include "include/paging.h"
+#include "include/setup.h"
+#include "include/control.h"
 
 #ifdef _MSC_VER
 # define MIN(a,b) ((a) < (b) ? (a) : (b))

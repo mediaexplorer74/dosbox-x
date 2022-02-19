@@ -23,18 +23,18 @@
 #include <fstream>
 #include <sstream>
 
-#include "dosbox.h"
-#include "logging.h"
-#include "video.h"
+#include "include/dosbox.h"
+#include "include/logging.h"
+#include "include/video.h"
 #include "render.h"
-#include "setup.h"
-#include "control.h"
-#include "mapper.h"
+#include "include/setup.h"
+#include "include/control.h"
+#include "include/mapper.h"
 #include "cross.h"
-#include "hardware.h"
+#include "include/hardware.h"
 #include "support.h"
 #include "sdlmain.h"
-#include "shell.h"
+#include "include/shell.h"
 
 #include "render_scalers.h"
 #include "render_glsl.h"

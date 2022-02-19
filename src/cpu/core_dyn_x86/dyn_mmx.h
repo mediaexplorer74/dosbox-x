@@ -1,5 +1,5 @@
 
-#include "mmx.h"
+#include "include/mmx.h"
 
 static MMX_reg mmxtmp;
 

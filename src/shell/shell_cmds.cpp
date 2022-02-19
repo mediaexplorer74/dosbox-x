@@ -22,24 +22,24 @@
  */
 
 
-#include "dosbox.h"
-#include "logging.h"
-#include "shell.h"
-#include "callback.h"
-#include "dos_inc.h"
-#include "regs.h"
-#include "pic.h"
-#include "keyboard.h"
-#include "timer.h"
+#include "include/dosbox.h"
+#include "include/logging.h"
+#include "include/shell.h"
+#include "include/callback.h"
+#include "include/dos_inc.h"
+#include "include/regs.h"
+#include "include/pic.h"
+#include "include/keyboard.h"
+#include "include/timer.h"
 #include "../ints/int10.h"
 #include <time.h>
 #include <assert.h>
-#include "bios.h"
+#include "include/bios.h"
 #include "../dos/drives.h"
 #include "support.h"
-#include "control.h"
-#include "paging.h"
-#include "menu.h"
+#include "include/control.h"
+#include "include/paging.h"
+#include "include/menu.h"
 #include "jfont.h"
 #include "render.h"
 #include <algorithm>

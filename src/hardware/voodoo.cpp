@@ -20,15 +20,15 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "dosbox.h"
+#include "include/dosbox.h"
 #include "config.h"
-#include "logging.h"
-#include "setup.h"
+#include "include/logging.h"
+#include "include/setup.h"
 #include "cross.h"
-#include "control.h"
+#include "include/control.h"
 
-#include "paging.h"
-#include "mem.h"
+#include "include/paging.h"
+#include "include/mem.h"
 
 #include "voodoo.h"
 #include "pci_bus.h"

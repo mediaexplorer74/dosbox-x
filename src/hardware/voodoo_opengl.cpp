@@ -25,10 +25,10 @@
 #include <math.h>
 #include <map>
 
-#include "dosbox.h"
-#include "control.h"
-#include "logging.h"
-#include "video.h"
+#include "include/dosbox.h"
+#include "include/control.h"
+#include "include/logging.h"
+#include "include/video.h"
 
 #include "voodoo_emu.h"
 #include "voodoo_opengl.h"

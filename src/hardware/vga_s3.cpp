@@ -17,11 +17,11 @@
  */
 
 
-#include "dosbox.h"
-#include "inout.h"
-#include "logging.h"
+#include "include/dosbox.h"
+#include "include/inout.h"
+#include "include/logging.h"
 #include "vga.h"
-#include "mem.h"
+#include "include/mem.h"
 #include "pci_bus.h"
 
 void SD3_Reset(bool enable);

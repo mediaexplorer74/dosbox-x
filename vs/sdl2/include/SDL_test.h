@@ -30,7 +30,7 @@
 #ifndef SDL_test_h_
 #define SDL_test_h_
 
-#include "SDL.h"
+#include "vs/sdl/include/SDL.h"
 #include "SDL_test_assert.h"
 #include "SDL_test_common.h"
 #include "SDL_test_compare.h"

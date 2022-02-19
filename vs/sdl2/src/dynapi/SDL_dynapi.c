@@ -31,7 +31,7 @@
 #include <dos.h>
 #endif
 
-#include "SDL.h"
+#include "vs/sdl/include/SDL.h"
 
 /* These headers have system specific definitions, so aren't included above */
 #include "SDL_syswm.h"

@@ -18,14 +18,14 @@
 
 #include <assert.h>
 #include <string.h>
-#include "control.h"
-#include "dosbox.h"
-#include "inout.h"
-#include "logging.h"
-#include "setup.h"
-#include "cpu.h"
+#include "include/control.h"
+#include "include/dosbox.h"
+#include "include/inout.h"
+#include "include/logging.h"
+#include "include/setup.h"
+#include "include/cpu.h"
 #include "../src/cpu/lazyflags.h"
-#include "callback.h"
+#include "include/callback.h"
 
 //#define ENABLE_PORTLOG
 

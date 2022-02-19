@@ -17,16 +17,16 @@
  */
 
 
-#include "dosbox.h"
-#include "callback.h"
-#include "logging.h"
-#include "mem.h"
-#include "regs.h"
-#include "dos_inc.h"
-#include "control.h"
+#include "include/dosbox.h"
+#include "include/callback.h"
+#include "include/logging.h"
+#include "include/mem.h"
+#include "include/regs.h"
+#include "include/dos_inc.h"
+#include "include/control.h"
 #include "support.h"
 #include <list>
-#include <SDL.h>
+#include "vs/sdl/include/SDL.h"
 
 uint32_t DOS_HMA_LIMIT();
 uint32_t DOS_HMA_FREE_START();

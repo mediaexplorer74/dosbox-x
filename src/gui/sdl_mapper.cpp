@@ -28,28 +28,28 @@
 #include <assert.h>
 #include <limits.h>
 
-#include "SDL.h"
+#include "vs/sdl/include/SDL.h"
 
-#include "dosbox.h"
-#include "logging.h"
+#include "include/dosbox.h"
+#include "include/logging.h"
 #include "menudef.h"
-#include "video.h"
-#include "keyboard.h"
+#include "include/video.h"
+#include "include/keyboard.h"
 #include "mouse.h"
-#include "pic.h"
-#include "control.h"
+#include "include/pic.h"
+#include "include/control.h"
 #include "joystick.h"
 #include "util_math.h"
 #include "keymap.h"
 #include "support.h"
-#include "mapper.h"
+#include "include/mapper.h"
 #include "render.h"
-#include "setup.h"
-#include "menu.h"
+#include "include/setup.h"
+#include "include/menu.h"
 
 #include "SDL_syswm.h"
 #include "sdlmain.h"
-#include "shell.h"
+#include "include/shell.h"
 #include "jfont.h"
 
 #if C_EMSCRIPTEN

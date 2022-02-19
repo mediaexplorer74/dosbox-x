@@ -18,11 +18,11 @@
 
 #include <algorithm>
 
-#include "dosbox.h"
-#include "logging.h"
-#include "mem.h"
-#include "bios.h"
-#include "dos_inc.h"
+#include "include/dosbox.h"
+#include "include/logging.h"
+#include "include/mem.h"
+#include "include/bios.h"
+#include "include/dos_inc.h"
 
 // uncomment for alloc/free debug messages
 #define DEBUG_ALLOC

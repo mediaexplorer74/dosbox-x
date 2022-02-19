@@ -21,7 +21,7 @@
 
 #include <d3d9.h>
 #include <d3dx9math.h>
-#include "dosbox.h"
+#include "include/dosbox.h"
 #include "hq2x_d3d.h"
 
 #define LOG_D3D 0		// Set this to 1 to enable D3D debug messages

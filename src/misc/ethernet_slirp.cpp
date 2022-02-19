@@ -21,12 +21,12 @@
 #if C_SLIRP
 
 #include "ethernet_slirp.h"
-#include "logging.h"
+#include "include/logging.h"
 #include <time.h>
 #include <algorithm>
 #include <cassert>
 #include <map>
-#include "dosbox.h"
+#include "include/dosbox.h"
 
 extern std::string niclist;
 

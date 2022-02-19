@@ -20,7 +20,7 @@
 */
 
 #include "./SDL_internal.h"
-#include "SDL.h"
+#include "vs/sdl/include/SDL.h"
 #include "./SDL_dataqueue.h"
 #include "SDL_assert.h"
 

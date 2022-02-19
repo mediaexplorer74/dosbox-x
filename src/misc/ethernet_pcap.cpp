@@ -21,8 +21,8 @@
 #if C_PCAP
 
 #include "ethernet_pcap.h"
-#include "dosbox.h"
-#include "logging.h"
+#include "include/dosbox.h"
+#include "include/logging.h"
 #include "support.h" /* strcasecmp */
 #include <cstring>
 

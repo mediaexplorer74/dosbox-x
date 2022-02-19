@@ -59,16 +59,16 @@
 #include <type_traits>
 #include <vector>
 
-#include "gtest/internal/gtest-internal.h"
-#include "gtest/internal/gtest-string.h"
-#include "gtest/gtest-death-test.h"
-#include "gtest/gtest-matchers.h"
-#include "gtest/gtest-message.h"
-#include "gtest/gtest-param-test.h"
-#include "gtest/gtest-printers.h"
-#include "gtest/gtest_prod.h"
-#include "gtest/gtest-test-part.h"
-#include "gtest/gtest-typed-test.h"
+#include "include/gtest/internal/gtest-internal.h"
+#include "include/gtest/internal/gtest-string.h"
+#include "include/gtest/gtest-death-test.h"
+#include "include/gtest/gtest-matchers.h"
+#include "include/gtest/gtest-message.h"
+#include "include/gtest/gtest-param-test.h"
+#include "include/gtest/gtest-printers.h"
+#include "include/gtest/gtest_prod.h"
+#include "include/gtest/gtest-test-part.h"
+#include "include/gtest/gtest-typed-test.h"
 
 GTEST_DISABLE_MSC_WARNINGS_PUSH_(4251 \
 /* class A needs to have dll-interface to be used by clients of class B */)

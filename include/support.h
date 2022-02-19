@@ -20,7 +20,7 @@
 #ifndef DOSBOX_SUPPORT_H
 #define DOSBOX_SUPPORT_H
 
-#include "dosbox.h"
+#include "include/dosbox.h"
 
 #if defined (_MSC_VER)						/* MS Visual C++ */
 #define	strcasecmp(a,b) stricmp(a,b)

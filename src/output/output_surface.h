@@ -1,4 +1,4 @@
-#include "dosbox.h"
+#include "include/dosbox.h"
 
 #ifndef DOSBOX_OUTPUT_SURFACE_H
 #define DOSBOX_OUTPUT_SURFACE_H

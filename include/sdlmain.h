@@ -1,12 +1,12 @@
 
-#include "menu.h"
+#include "include/menu.h"
 #include "mouse.h"
-#include "video.h"
+#include "include/video.h"
 
-#include "SDL.h"
+#include "vs/sdl/include/SDL.h"
 
 #ifdef __WIN32__
-#include "SDL_syswm.h"
+#include "vs/sdl/include/SDL_syswm.h"
 #endif
 
 #ifndef DOSBOX_SDLMAIN_H

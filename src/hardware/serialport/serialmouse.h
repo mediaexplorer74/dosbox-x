@@ -21,7 +21,7 @@
 #ifndef INCLUDEGUARD_SERIALMOUSE_H
 #define INCLUDEGUARD_SERIALMOUSE_H
 
-#include "serialport.h"
+#include "include/serialport.h"
 
 //#define CHECKIT_TESTPLUG
 

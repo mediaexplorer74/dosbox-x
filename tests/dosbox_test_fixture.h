@@ -4,7 +4,7 @@
 #include <iterator>
 #include <string>
 
-#include <gtest/gtest.h>
+#include "include/gtest/gtest.h"//<gtest/gtest.h>
 
 #define SDL_MAIN_HANDLED
 

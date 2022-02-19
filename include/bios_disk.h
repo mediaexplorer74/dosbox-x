@@ -19,8 +19,8 @@
 #ifndef DOSBOX_BIOS_DISK_H
 #define DOSBOX_BIOS_DISK_H
 
-#include "dos_inc.h"
-#include "logging.h"
+#include "include/dos_inc.h"
+#include "include/logging.h"
 #include "../src/dos/cdrom.h"
 
 /* The Section handling Bios Disk Access */

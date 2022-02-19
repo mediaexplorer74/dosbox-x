@@ -17,8 +17,8 @@
 #ifdef C_SDL_NET
 //#ifdef C_TIMIDITY
 
-#include "logging.h"
-#include "SDL.h"
+#include "include/logging.h"
+#include "vs/sdl/include/SDL.h"
 #include "SDL_net.h"
 
 #define SEQ_MIDIPUTC 5

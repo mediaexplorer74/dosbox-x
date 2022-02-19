@@ -28,7 +28,7 @@
 
 #if defined(C_SDL2)
 
-#include "SDL.h"
+#include "vs/sdl/include/SDL.h"
 
 typedef struct
 {

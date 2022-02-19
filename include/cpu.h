@@ -20,7 +20,7 @@
 #ifndef DOSBOX_CPU_H
 #define DOSBOX_CPU_H
 
-#include "regs.h"
+#include "include/regs.h"
 
 #define CPU_AUTODETERMINE_NONE		0x00
 #define CPU_AUTODETERMINE_CORE		0x01

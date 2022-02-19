@@ -17,7 +17,7 @@
  */
 
 
-#include "dosbox.h"
+#include "include/dosbox.h"
 
 #if C_DIRECTLPT
 
@@ -28,13 +28,13 @@
 /* Windows version */
 #if defined (WIN32)
 
-#include "logging.h"
+#include "include/logging.h"
 #include "parport.h"
 //#include "../../libs/porttalk/porttalk.h"
 #include "directlpt_win32.h"
-#include "callback.h"
-#include <SDL.h> 
-#include "setup.h"
+#include "include/callback.h"
+#include "vs/sdl/include/SDL.h" 
+#include "include/setup.h"
 
 //********************************************************
 //new funct prototypes for parallel port

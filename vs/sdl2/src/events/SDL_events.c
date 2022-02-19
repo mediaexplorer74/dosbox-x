@@ -22,7 +22,7 @@
 
 /* General event handling code for SDL */
 
-#include "SDL.h"
+#include "vs/sdl/include/SDL.h"
 #include "SDL_events.h"
 #include "SDL_thread.h"
 #include "SDL_events_c.h"

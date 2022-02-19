@@ -24,7 +24,7 @@
 #ifndef _SDL_NET_H
 #define _SDL_NET_H
 
-#include "../sdl/include/SDL.h" //"SDL.h"
+#include "../sdl/include/SDL.h" //"vs/sdl/include/SDL.h"
 #include "../sdl/include/SDL_endian.h"//"SDL_endian.h"
 #include "../sdl/include/SDL_version.h"//"SDL_version.h"
 #include "../sdl/include/begin_code.h"//"begin_code.h"

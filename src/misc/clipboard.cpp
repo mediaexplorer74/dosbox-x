@@ -16,13 +16,13 @@
  *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  */
 
-#include "dosbox.h"
-#include "dos_inc.h"
+#include "include/dosbox.h"
+#include "include/dos_inc.h"
 #include "sdlmain.h"
-#include "keyboard.h"
+#include "include/keyboard.h"
 #include "render.h"
 #include "jfont.h"
-#include "bios.h"
+#include "include/bios.h"
 #include "../ints/int10.h"
 
 #ifdef __WIN32__

@@ -2,9 +2,9 @@
 #include <assert.h>
 #include <math.h>
 
-#include "control.h"
-#include "dosbox.h"
-#include "logging.h"
+#include "include/control.h"
+#include "include/dosbox.h"
+#include "include/logging.h"
 #include "menudef.h"
 #include "render.h"
 #include <output/output_direct3d.h>

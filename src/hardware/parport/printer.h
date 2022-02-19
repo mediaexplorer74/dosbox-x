@@ -28,7 +28,7 @@
 #include <png.h>
 #endif
 
-#include "SDL.h"
+#include "vs/sdl/include/SDL.h"
 
 #include <ft2build.h>
 #include FT_FREETYPE_H

@@ -18,16 +18,16 @@
 
 #include <assert.h>
 #include <math.h>
-#include "dosbox.h"
-#include "inout.h"
-#include "logging.h"
-#include "pic.h"
-#include "cpu.h"
-#include "mem.h"
-#include "mixer.h"
-#include "timer.h"
-#include "setup.h"
-#include "control.h"
+#include "include/dosbox.h"
+#include "include/inout.h"
+#include "include/logging.h"
+#include "include/pic.h"
+#include "include/cpu.h"
+#include "include/mem.h"
+#include "include/mixer.h"
+#include "include/timer.h"
+#include "include/setup.h"
+#include "include/control.h"
 
 // This is only set in PC-98 mode and only if emulating PC-9801.
 // There is at least one game (PC-98 port of Thexder) that depends on PC-9801 PIT 1

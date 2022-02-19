@@ -1,4 +1,4 @@
-#include "dosbox.h"
+#include "include/dosbox.h"
 
 #ifndef DOSBOX_OUTPUT_OPENGL_H
 #define DOSBOX_OUTPUT_OPENGL_H

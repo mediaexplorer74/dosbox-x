@@ -24,7 +24,7 @@
 #include <math.h>
 #include <map>
 
-#include "dosbox.h"
+#include "include/dosbox.h"
 #include "cross.h"
 
 

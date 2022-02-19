@@ -17,14 +17,14 @@
  */
 
 
-#include "dosbox.h"
+#include "include/dosbox.h"
 
 #if C_IPX
 
-#include "dosbox.h"
+#include "include/dosbox.h"
 #include "ipxserver.h"
-#include "logging.h"
-#include "timer.h"
+#include "include/logging.h"
+#include "include/timer.h"
 #include <stdlib.h>
 #include <string.h>
 #include "ipx.h"

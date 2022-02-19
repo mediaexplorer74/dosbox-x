@@ -16,25 +16,25 @@
  *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  */
 
-#include "dosbox.h"
-#include "logging.h"
-#include "setup.h"
-#include "video.h"
-#include "pic.h"
+#include "include/dosbox.h"
+#include "include/logging.h"
+#include "include/setup.h"
+#include "include/video.h"
+#include "include/pic.h"
 #include "vga.h"
-#include "inout.h"
+#include "include/inout.h"
 #include "programs.h"
 #include "support.h"
-#include "setup.h"
-#include "timer.h"
-#include "mem.h"
+#include "include/setup.h"
+#include "include/timer.h"
+#include "include/mem.h"
 #include "util_units.h"
-#include "control.h"
+#include "include/control.h"
 #include "pc98_cg.h"
 #include "pc98_dac.h"
 #include "pc98_gdc.h"
 #include "pc98_gdc_const.h"
-#include "mixer.h"
+#include "include/mixer.h"
 
 #include <string.h>
 #include <stdlib.h>

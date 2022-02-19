@@ -17,16 +17,16 @@
  */
 
 
-#include "dosbox.h"
-#include "inout.h"
-#include "logging.h"
-#include "mem.h"
-#include "paging.h"
+#include "include/dosbox.h"
+#include "include/inout.h"
+#include "include/logging.h"
+#include "include/mem.h"
+#include "include/paging.h"
 #include "glide.h"
-#include "setup.h"
+#include "include/setup.h"
 #include "vga.h"
-#include "dos_inc.h"		/* for Drives[] */
-#include "control.h"
+#include "include/dos_inc.h"		/* for Drives[] */
+#include "include/control.h"
 #include "sdlmain.h"
 #include "../dos/drives.h"
 
@@ -34,7 +34,7 @@
 #include <sstream>
 using namespace std;
 
-#include "SDL.h"
+#include "vs/sdl/include/SDL.h"
 #include "SDL_syswm.h"
 
 #if defined (WIN32)

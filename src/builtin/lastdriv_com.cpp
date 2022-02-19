@@ -1,5 +1,5 @@
 
-#include "include/dos_inc.h"//"dos_inc.h"
+#include "include/dos_inc.h"//"include/dos_inc.h"
 
 static const unsigned char bin_lastdriv_com[] = {
 	0xE9,0x74,0x02,0x00,0x00,0x00,0x00,0x51,0x00,0x00,0x00,

@@ -19,13 +19,13 @@
 
 #include <string.h>
 
-#include "control.h"
-#include "dosbox.h"
-#include "callback.h"
-#include "regs.h"
-#include "mem.h"
-#include "bios.h"
-#include "dos_inc.h"
+#include "include/control.h"
+#include "include/dosbox.h"
+#include "include/callback.h"
+#include "include/regs.h"
+#include "include/mem.h"
+#include "include/bios.h"
+#include "include/dos_inc.h"
 #include "support.h"
 #include "parport.h"
 #include "drives.h" //Wildcmp

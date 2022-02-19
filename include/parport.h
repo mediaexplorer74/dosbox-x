@@ -22,7 +22,7 @@
 // set to 1 for debug messages and debugging log:
 #define PARALLEL_DEBUG 0
 
-#include "inout.h"
+#include "include/inout.h"
 
 #include "programs.h"
 

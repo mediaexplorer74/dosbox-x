@@ -106,25 +106,25 @@ int Reflect_Menu(void);
 # endif
 #endif
 
-#include "control.h"
-#include "dosbox.h"
+#include "include/control.h"
+#include "include/dosbox.h"
 #include "menudef.h"
-#include "pic.h"
-#include "timer.h"
-#include "setup.h"
-#include "bios.h"
-#include "callback.h"
+#include "include/pic.h"
+#include "include/timer.h"
+#include "include/setup.h"
+#include "include/bios.h"
+#include "include/callback.h"
 #include "support.h"
 #include "debug.h"
 #include "ide.h"
 #include "bitop.h"
 #include "ptrop.h"
-#include "mapper.h"
+#include "include/mapper.h"
 #include "sdlmain.h"
 #include "zipfile.h"
 #include "glidedef.h"
 #include "bios_disk.h"
-#include "inout.h"
+#include "include/inout.h"
 #include "jfont.h"
 #include "render.h"
 #include "../dos/cdrom.h"
@@ -186,8 +186,8 @@ typedef enum PROCESS_DPI_AWARENESS {
 #include "../src/libs/gui_tk/gui_tk.h"
 
 #ifdef __WIN32__
-# include "callback.h"
-# include "dos_inc.h"
+# include "include/callback.h"
+# include "include/dos_inc.h"
 # include <malloc.h>
 # include "Commdlg.h"
 # include "windows.h"
@@ -201,10 +201,10 @@ typedef enum PROCESS_DPI_AWARENESS {
 
 #include <sstream>
 
-#include "mapper.h"
+#include "include/mapper.h"
 #include "vga.h"
-#include "keyboard.h"
-#include "cpu.h"
+#include "include/keyboard.h"
+#include "include/cpu.h"
 #include "fpu.h"
 #include "cross.h"
 #include "keymap.h"

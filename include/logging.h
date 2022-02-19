@@ -20,7 +20,7 @@
 #define DOSBOX_LOGGING_H
 
 #include "vs/config.h"
-#include "setup.h"
+#include "include/setup.h"
 
 enum LOG_TYPES {
 	LOG_ALL,

@@ -18,13 +18,13 @@
 
 
 #include <string.h>
-#include "dosbox.h"
-#include "callback.h"
-#include "logging.h"
-#include "mem.h"
-#include "regs.h"
+#include "include/dosbox.h"
+#include "include/callback.h"
+#include "include/logging.h"
+#include "include/mem.h"
+#include "include/regs.h"
 #include "bios_disk.h"
-#include "dos_inc.h"
+#include "include/dos_inc.h"
 #include "drives.h"
 
 bool DOS_IOCTL_AX440D_CH08(uint8_t drive,bool query) {

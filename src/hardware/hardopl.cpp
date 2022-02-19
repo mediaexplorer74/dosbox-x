@@ -1,9 +1,9 @@
 #include "config.h"
 //#include "../libs/porttalk/porttalk.h"
-#include "inout.h"
-#include "logging.h"
-#include "pic.h"
-#include "hardware.h"
+#include "include/inout.h"
+#include "include/logging.h"
+#include "include/pic.h"
+#include "include/hardware.h"
 #if defined (WIN32)
 #include "windows.h"
 #endif

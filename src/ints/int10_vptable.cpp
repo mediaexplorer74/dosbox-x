@@ -17,10 +17,10 @@
  */
 
 
-#include "dosbox.h"
-#include "mem.h"
-#include "bios.h"
-#include "inout.h"
+#include "include/dosbox.h"
+#include "include/mem.h"
+#include "include/bios.h"
+#include "include/inout.h"
 #include "int10.h"
 
 bool rom_bios_vptable_enable = true;

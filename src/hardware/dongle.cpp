@@ -1,10 +1,10 @@
 #include <string.h>
-#include "dosbox.h"
-#include "inout.h"
-#include "logging.h"
-#include "pic.h"
-#include "setup.h"
-#include "control.h"
+#include "include/dosbox.h"
+#include "include/inout.h"
+#include "include/logging.h"
+#include "include/pic.h"
+#include "include/setup.h"
+#include "include/control.h"
 
 /*
 

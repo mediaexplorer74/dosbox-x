@@ -16,19 +16,19 @@
  *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
  */
 
-#include "dosbox.h"
-#include "logging.h"
-#include "regs.h"
-#include "paging.h"
-#include "mem.h"
-#include "inout.h"
-#include "callback.h"
+#include "include/dosbox.h"
+#include "include/logging.h"
+#include "include/regs.h"
+#include "include/paging.h"
+#include "include/mem.h"
+#include "include/inout.h"
+#include "include/callback.h"
 #include "int10.h"
-#include "SDL.h"
+#include "vs/sdl/include/SDL.h"
 #include "render.h"
 #include "support.h"
-#include "control.h"
-#include "dos_inc.h"
+#include "include/control.h"
+#include "include/dos_inc.h"
 #define INCJFONT 1
 #include "jfont.h"
 #if defined(LINUX)

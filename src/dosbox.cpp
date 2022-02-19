@@ -304,7 +304,7 @@ unsigned long long update_clockdom_from_now(ClockDomain &dst) {
     return dst.counter;
 }
 
-#include "paging.h"
+#include "include/paging.h"
 
 extern bool rom_bios_vptable_enable;
 extern bool rom_bios_8x8_cga_font;

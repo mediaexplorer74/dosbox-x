@@ -36,7 +36,7 @@
 #ifndef SDL_test_images_h_
 #define SDL_test_images_h_
 
-#include "SDL.h"
+#include "vs/sdl/include/SDL.h"
 
 #include "begin_code.h"
 /* Set up for C function definitions, even when using C++ */

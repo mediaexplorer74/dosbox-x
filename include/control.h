@@ -26,7 +26,7 @@
 #endif
 
 #include "programs.h"
-#include "setup.h"
+#include "include/setup.h"
 
 class Config{
 public:

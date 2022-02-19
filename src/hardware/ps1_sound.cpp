@@ -18,17 +18,17 @@
 
 #include <math.h>
 #include <string.h>
-#include "dosbox.h"
-#include "inout.h"
-#include "logging.h"
-#include "mixer.h"
-#include "mem.h"
-#include "setup.h"
-#include "pic.h"
+#include "include/dosbox.h"
+#include "include/inout.h"
+#include "include/logging.h"
+#include "include/mixer.h"
+#include "include/mem.h"
+#include "include/setup.h"
+#include "include/pic.h"
 #include "dma.h"
 #include "mame/emu.h"
 #include "mame/sn76496.h"
-#include "control.h"
+#include "include/control.h"
 
 // FIXME: MAME updates broke this code!
 
@@ -134,7 +134,7 @@ static void PS1DAC_Reset(bool bTotal)
 }
 
 
-#include "regs.h"
+#include "include/regs.h"
 static void PS1SOUNDWrite(Bitu port,Bitu data,Bitu iolen) {
     (void)iolen;//UNUSED
 	if( port != 0x0205 ) {
@@ -339,7 +339,7 @@ static void PS1SN76496Update(Bitu length)
 	ps1.chanSN->AddSamples_m16(length,(int16_t *)MixTemp);
 }
 
-#include "regs.h"
+#include "include/regs.h"
 //static void PS1SOUND_Write(Bitu port,Bitu data,Bitu iolen) {
 //	LOG_MSG("Write PS1 dac %X val %X (%04X:%08X)",port,data,SegValue(cs),reg_eip);
 //}

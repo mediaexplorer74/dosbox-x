@@ -20,16 +20,16 @@
 	Based of sn76496.c of the M.A.M.E. project
 */
 
-#include "dosbox.h"
-#include "inout.h"
-#include "logging.h"
-#include "mixer.h"
-#include "mem.h"
-#include "setup.h"
-#include "pic.h"
+#include "include/dosbox.h"
+#include "include/inout.h"
+#include "include/logging.h"
+#include "include/mixer.h"
+#include "include/mem.h"
+#include "include/setup.h"
+#include "include/pic.h"
 #include "dma.h"
-#include "control.h"
-#include "hardware.h"
+#include "include/control.h"
+#include "include/hardware.h"
 #include <cstring>
 #include <math.h>
 #include "mame/emu.h"

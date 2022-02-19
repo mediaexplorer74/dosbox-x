@@ -23,19 +23,19 @@
 #include <math.h>
 #include <sys/stat.h>
 
-#include "logging.h"
-#include "setup.h"
-#include "mapper.h"
+#include "include/logging.h"
+#include "include/setup.h"
+#include "include/mapper.h"
 #include "printer_if.h"
 #include "support.h"
 #include "cross.h"
 #include "printer_charmaps.h"
-#include "control.h"
-#include "pic.h" // for timeout
+#include "include/control.h"
+#include "include/pic.h" // for timeout
 #include "jfont.h"
-#include "timer.h"
+#include "include/timer.h"
 #include "render.h"
-#include "dos_inc.h"
+#include "include/dos_inc.h"
 #include "../../ints/int10.h"
 #include "sdlmain.h"
 

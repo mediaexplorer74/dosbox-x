@@ -20,7 +20,7 @@
 #ifndef INCLUDEGUARD_SERIALDUMMY_H
 #define INCLUDEGUARD_SERIALDUMMY_H
 
-#include "serialport.h"
+#include "include/serialport.h"
 
 //#define CHECKIT_TESTPLUG
 

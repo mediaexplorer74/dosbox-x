@@ -20,7 +20,7 @@
 #ifndef DOSBOX_FILELPT_H
 #define DOSBOX_FILELPT_H
 
-#include "dosbox.h"
+#include "include/dosbox.h"
 #include "parport.h"
 
 typedef enum { FILE_DEV, FILE_CAPTURE, FILE_APPEND } DFTYPE;

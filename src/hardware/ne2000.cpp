@@ -1,18 +1,18 @@
 #include "config.h"
 
-#include "dosbox.h"
+#include "include/dosbox.h"
 #include <string.h>
 #include <stdio.h>
-#include "logging.h"
+#include "include/logging.h"
 #include "support.h"
-#include "inout.h"
-#include "setup.h"
-#include "callback.h"
-#include "timer.h"
-#include "pic.h"
-#include "cpu.h"
-#include "setup.h"
-#include "control.h"
+#include "include/inout.h"
+#include "include/setup.h"
+#include "include/callback.h"
+#include "include/timer.h"
+#include "include/pic.h"
+#include "include/cpu.h"
+#include "include/setup.h"
+#include "include/control.h"
 
 /* Couldn't find a real spec for the NE2000 out there, hence this is adapted heavily from Bochs */
 

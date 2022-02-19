@@ -17,15 +17,15 @@
  */
 
 
-#include "dosbox.h"
+#include "include/dosbox.h"
 #if C_FPU
 
 #include <math.h>
 #include <float.h>
-#include "paging.h"
+#include "include/paging.h"
 #include "cross.h"
-#include "mem.h"
-#include "cpu.h"
+#include "include/mem.h"
+#include "include/cpu.h"
 #include "fpu.h"
 #include "../cpu/lazyflags.h"
 

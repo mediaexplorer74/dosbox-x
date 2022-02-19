@@ -1,5 +1,5 @@
 
-#include "../include/dos_inc.h"//"dos_inc.h"
+#include "include/dos_inc.h"//"include/dos_inc.h"
 
 static const unsigned char bin_sort_exe[] = {
 	0x4D,0x5A,0xD9,0x00,0x11,0x00,0x01,0x00,0x02,0x00,0x3F,

@@ -20,14 +20,14 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
-#include "dosbox.h"
-#include "dos_inc.h"
+#include "include/dosbox.h"
+#include "include/dos_inc.h"
 #include "drives.h"
-#include "logging.h"
+#include "include/logging.h"
 #include "support.h"
-#include "control.h"
+#include "include/control.h"
 #include "cross.h"
-#include "regs.h"
+#include "include/regs.h"
 
 extern bool gbk, isDBCSCP(), isKanji1(uint8_t chr), shiftjis_lead_byte(int c);
 

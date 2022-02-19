@@ -21,7 +21,7 @@
 //Maybe just do the cache checking back into the simple scalers so they can 
 //just handle it all in one go, but this seems to work well enough for now
 
-#include "dosbox.h"
+#include "include/dosbox.h"
 #include "render.h"
 #include <string.h>
 

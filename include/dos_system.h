@@ -23,7 +23,7 @@
 #include "cross.h"
 #include "string.h"
 #include "support.h"
-#include "mem.h"
+#include "include/mem.h"
 
 #define DOS_NAMELENGTH 12u
 #define DOS_NAMELENGTH_ASCII (DOS_NAMELENGTH+1)

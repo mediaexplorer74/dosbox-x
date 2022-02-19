@@ -1024,6 +1024,6 @@ template <typename T>
 // Include any custom printer added by the local installation.
 // We must include this header at the end to make sure it can use the
 // declarations from this file.
-#include "gtest/internal/custom/gtest-printers.h"
+#include "include/gtest/internal/custom/gtest-printers.h"
 
 #endif  // GOOGLETEST_INCLUDE_GTEST_GTEST_PRINTERS_H_

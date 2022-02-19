@@ -16,10 +16,10 @@
  *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  */
 
-#include "dosbox.h"
-#include "control.h"
-#include "logging.h"
-#include "menu.h"
+#include "include/dosbox.h"
+#include "include/control.h"
+#include "include/logging.h"
+#include "include/menu.h"
 
 bool informd3d = false;
 

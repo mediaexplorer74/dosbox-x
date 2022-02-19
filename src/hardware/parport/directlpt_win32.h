@@ -21,7 +21,7 @@
 #define DOSBOX_DIRECTLPT_WIN32_H
 
 #include "config.h"
-#include "setup.h"
+#include "include/setup.h"
 
 #if C_DIRECTLPT
 #ifdef WIN32

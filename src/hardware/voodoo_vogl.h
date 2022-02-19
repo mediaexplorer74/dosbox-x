@@ -20,7 +20,7 @@
 #ifndef DOSBOX_VOODOO_VOGL_H
 #define DOSBOX_VOODOO_VOGL_H
 
-#include "SDL.h"
+#include "vs/sdl/include/SDL.h"
 #include "SDL_opengl.h"
 
 

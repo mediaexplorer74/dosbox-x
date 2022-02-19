@@ -20,7 +20,7 @@
 #ifndef DOSBOX_CALLBACK_H
 #define DOSBOX_CALLBACK_H
 
-#include "mem.h"
+#include "include/mem.h"
 
 typedef Bitu (*CallBack_Handler)(void);
 extern CallBack_Handler CallBack_Handlers[];

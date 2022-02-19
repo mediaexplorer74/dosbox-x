@@ -1,6 +1,6 @@
 
-#include "dos_inc.h"
-#include "setup.h"
+#include "include/dos_inc.h"
+#include "include/setup.h"
 #include "8255.h"
 
 Intel8255::Intel8255() {

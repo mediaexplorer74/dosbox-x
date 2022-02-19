@@ -1,5 +1,5 @@
 
-#include "../include/dos_inc.h"//"dos_inc.h"
+#include "include/dos_inc.h"//"include/dos_inc.h"
 
 static const unsigned char bin_chkdsk_exe[] = {
   0x4d, 0x5a, 0x32, 0x01, 0x52, 0x00, 0x01, 0x00, 0x02, 0x00, 0x36, 0x11,

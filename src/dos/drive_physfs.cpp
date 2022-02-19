@@ -19,10 +19,10 @@
  *  With major works from joncampbell123 and Wengier
  */
 
-#include "dosbox.h"
-#include "dos_inc.h"
+#include "include/dosbox.h"
+#include "include/dos_inc.h"
 #include "drives.h"
-#include "logging.h"
+#include "include/logging.h"
 #if !defined(WIN32)
 #include <sys/statvfs.h>
 #endif

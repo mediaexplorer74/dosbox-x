@@ -20,24 +20,24 @@
 #include <string.h>
 #include <ctype.h>
 
-#include "control.h"
-#include "dosbox.h"
+#include "include/control.h"
+#include "include/dosbox.h"
 
-#include "logging.h"
+#include "include/logging.h"
 #include "support.h"
-#include "inout.h"
-#include "pic.h"
-#include "setup.h"
-#include "timer.h"
-#include "bios.h"					// SetLPTPort(..)
-#include "hardware.h"				// OpenCaptureFile
+#include "include/inout.h"
+#include "include/pic.h"
+#include "include/setup.h"
+#include "include/timer.h"
+#include "include/bios.h"					// SetLPTPort(..)
+#include "include/hardware.h"				// OpenCaptureFile
 
 #include "parport.h"
 #include "directlpt_win32.h"
 #include "directlpt_linux.h"
 #include "printer_redir.h"
 #include "filelpt.h"
-#include "dos_inc.h"
+#include "include/dos_inc.h"
 
 uint16_t parallel_baseaddr[9] = {0x378,0x278,0x3bc,0,0,0,0,0,0};
 
@@ -274,7 +274,7 @@ uint8_t CParallel::getPrinterStatus()
 	return statusreg&~0x7;
 }
 
-#include "callback.h"
+#include "include/callback.h"
 
 void RunIdleTime(Bitu milliseconds)
 {

@@ -19,8 +19,8 @@
 #ifndef DOSBOX_FPU_H
 #define DOSBOX_FPU_H
 
-#include "cpu.h"
-#include "logging.h"
+#include "include/cpu.h"
+#include "include/logging.h"
 #include "mmx.h"
 
 #include <stddef.h>

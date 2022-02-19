@@ -17,9 +17,9 @@
  */
 
 
-#include "dosbox.h"
-#include "inout.h"
-#include "logging.h"
+#include "include/dosbox.h"
+#include "include/inout.h"
+#include "include/logging.h"
 #include "vga.h"
 
 #define seq(blah) vga.seq.blah

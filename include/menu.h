@@ -19,7 +19,7 @@
 #include <string>
 void SetVal(const std::string& secname, const std::string& preval, const std::string& val);
 
-#include <SDL_video.h>
+#include "vs/sdl/include/SDL_video.h"//<SDL_video.h>
 
 #ifdef __WIN32__
 #include "programs.h"

@@ -20,7 +20,7 @@
 #define DOSBOX_TIMER_H
 
 /* underlying clock rate in HZ */
-#include <SDL.h>
+#include "vs/sdl/include/SDL.h"//"vs/sdl/include/SDL.h"
 
 #define PIT_TICK_RATE_IBM 1193182
 

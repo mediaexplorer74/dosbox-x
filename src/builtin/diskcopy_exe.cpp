@@ -1,5 +1,5 @@
 
-#include "../include/dos_inc.h"//"dos_inc.h"
+#include "include/dos_inc.h"//"include/dos_inc.h"
 
 static const unsigned char bin_diskcopy_exe[] = {
 	0x4D,0x5A,0xB0,0x01,0x53,0x00,0x05,0x00,0x20,0x00,0xC8,

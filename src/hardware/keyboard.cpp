@@ -18,19 +18,19 @@
 
 #include <assert.h>
 
-#include "dosbox.h"
-#include "keyboard.h"
-#include "logging.h"
+#include "include/dosbox.h"
+#include "include/keyboard.h"
+#include "include/logging.h"
 #include "support.h"
-#include "setup.h"
-#include "inout.h"
+#include "include/setup.h"
+#include "include/inout.h"
 #include "mouse.h"
-#include "menu.h"
-#include "pic.h"
-#include "mem.h"
-#include "cpu.h"
-#include "mixer.h"
-#include "timer.h"
+#include "include/menu.h"
+#include "include/pic.h"
+#include "include/mem.h"
+#include "include/cpu.h"
+#include "include/mixer.h"
+#include "include/timer.h"
 #include <math.h>
 #include "8255.h"
 #include "jfont.h"
@@ -517,7 +517,7 @@ void KEYBOARD_AUX_Write(Bitu val) {
     }
 }
 
-#include "control.h"
+#include "include/control.h"
 
 bool allow_keyb_reset = true;
 

@@ -20,7 +20,7 @@
 #include <cctype>
 #include <cstring>
 #include "cdrom.h"
-#include "dosbox.h"
+#include "include/dosbox.h"
 #include "dos_system.h"
 #include "support.h"
 #include "drives.h"

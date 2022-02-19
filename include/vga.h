@@ -20,7 +20,7 @@
 #ifndef DOSBOX_VGA_H
 #define DOSBOX_VGA_H
 
-#include "pic.h"
+#include "include/pic.h"
 
 #include <math.h> /* for fabs */
 

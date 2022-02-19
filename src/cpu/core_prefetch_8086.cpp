@@ -44,7 +44,7 @@ using namespace std;
 extern bool ignore_opcode_63;
 
 #if C_DEBUG
-#include "debug.h"
+#include "include/debug.h"
 #endif
 
 static uint16_t last_ea86_offset;
@@ -79,7 +79,7 @@ static void SaveMw(Bitu off,Bitu val) {
 
 #else 
 
-#include "paging.h"
+#include "include/paging.h"
 
 #define LoadMb(off) mem_readb_inline(off)
 

@@ -17,10 +17,10 @@
  */
 
 
-#include "dosbox.h"
+#include "include/dosbox.h"
 #include "cross.h"
 #include "support.h"
-#include "dos_inc.h"
+#include "include/dos_inc.h"
 #include <string>
 #include <limits.h>
 #include <stdlib.h>

@@ -1,9 +1,9 @@
 #include <SDL_thread.h>
-#include <SDL_timer.h>
+#include "vs/sdl/include/SDL_timer.h"
 
-#include "logging.h"
-#include "mixer.h"
-#include "control.h"
+#include "include/logging.h"
+#include "include/mixer.h"
+#include "include/control.h"
 #include "cross.h"
 
 #define MT32EMU_API_TYPE 3

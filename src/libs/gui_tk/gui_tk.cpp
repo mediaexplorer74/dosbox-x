@@ -30,11 +30,11 @@
  */
 
 #include "config.h"
-#include "dosbox.h"
-#include "setup.h"
+#include "include/dosbox.h"
+#include "include/setup.h"
 #include "jfont.h"
 
-#include <SDL.h>
+#include "vs/sdl/include/SDL.h"
 #include "gui_tk.h"
 
 #include <math.h> /* floor */

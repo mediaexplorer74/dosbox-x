@@ -19,17 +19,17 @@
 
 #include <stdint.h>
 #include <assert.h>
-#include "dosbox.h"
-#include "dos_inc.h"
-#include "logging.h"
-#include "mem.h"
-#include "menu.h"
-#include "inout.h"
-#include "setup.h"
-#include "paging.h"
+#include "include/dosbox.h"
+#include "include/dos_inc.h"
+#include "include/logging.h"
+#include "include/mem.h"
+#include "include/menu.h"
+#include "include/inout.h"
+#include "include/setup.h"
+#include "include/paging.h"
 #include "programs.h"
 #include "zipfile.h"
-#include "regs.h"
+#include "include/regs.h"
 #ifndef WIN32
 # include <stdlib.h>
 # include <unistd.h>
@@ -1196,7 +1196,7 @@ uint32_t mem_readd(const PhysPt address) {
     return mem_readd_inline(address);
 }
 
-#include "cpu.h"
+#include "include/cpu.h"
 
 extern bool warn_on_mem_write;
 extern CPUBlock cpu;
@@ -1220,7 +1220,7 @@ void phys_writes(PhysPt addr, const char* string, Bitu length) {
     for(Bitu i = 0; i < length; i++) host_writeb(MemBase+addr+i,(uint8_t)string[i]);
 }
 
-#include "control.h"
+#include "include/control.h"
 
 unsigned char CMOS_GetShutdownByte();
 void CPU_Snap_Back_To_Real_Mode();

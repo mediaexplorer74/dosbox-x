@@ -20,9 +20,9 @@
 #include <string.h>
 
 #include "include/callback.h" // "callback"
-#include "include/logging.h"//"logging.h"
-#include "include/bios.h" // "bios.h"
-#include "include/cpu.h" // "cpu.h"
+#include "include/logging.h"//"include/logging.h"
+#include "include/bios.h" // "include/bios.h"
+#include "include/cpu.h" // "include/cpu.h"
 
 #if C_EMSCRIPTEN
 # include <emscripten.h>

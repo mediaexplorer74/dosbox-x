@@ -26,7 +26,7 @@
 
 /* Initialization code for SDL */
 
-#include "SDL.h"
+#include "vs/sdl/include/SDL.h"
 #include "SDL_bits.h"
 #include "SDL_revision.h"
 #include "SDL_assert_c.h"

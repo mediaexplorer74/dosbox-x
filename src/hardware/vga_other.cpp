@@ -19,15 +19,15 @@
 
 #include <string.h>
 #include <math.h>
-#include "dosbox.h"
-#include "inout.h"
-#include "logging.h"
+#include "include/dosbox.h"
+#include "include/inout.h"
+#include "include/logging.h"
 #include "vga.h"
-#include "mem.h"
-#include "pic.h"
+#include "include/mem.h"
+#include "include/pic.h"
 #include "render.h"
-#include "mapper.h"
-#include "control.h"
+#include "include/mapper.h"
+#include "include/control.h"
 
 #define crtc(blah) vga.crtc.blah
 

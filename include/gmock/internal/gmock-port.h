@@ -53,8 +53,8 @@
 // here, as Google Mock depends on Google Test.  Only add a utility
 // here if it's truly specific to Google Mock.
 
-#include "gtest/internal/gtest-port.h"
-#include "gmock/internal/custom/gmock-port.h"
+#include "include/gtest/internal/gtest-port.h"
+#include "include/gmock/internal/custom/gmock-port.h"
 
 // For MS Visual C++, check the compiler version. At least VS 2015 is
 // required to compile Google Mock.

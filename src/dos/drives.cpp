@@ -17,14 +17,14 @@
  */
 
 
-#include "dosbox.h"
+#include "include/dosbox.h"
 #include "dos_system.h"
 #include "bios_disk.h"
 #include "drives.h"
-#include "setup.h"
-#include "mapper.h"
+#include "include/setup.h"
+#include "include/mapper.h"
 #include "support.h"
-#include "control.h"
+#include "include/control.h"
 #include "ide.h"
 
 bool wild_match(const char *haystack, char *needle) {

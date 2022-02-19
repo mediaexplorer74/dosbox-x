@@ -65,8 +65,8 @@
 
 #include <type_traits>
 
-#include "gmock/gmock-spec-builders.h"
-#include "gmock/internal/gmock-port.h"
+#include "include/gmock/gmock-spec-builders.h"
+#include "include/gmock/internal/gmock-port.h"
 
 namespace testing {
 template <class MockClass>

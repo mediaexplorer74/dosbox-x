@@ -1,5 +1,5 @@
 
-#include "../include/dos_inc.h"//"dos_inc.h"
+#include "include/dos_inc.h"//"include/dos_inc.h"
 
 static const unsigned char bin_replace_exe[] = {
 	0x4D,0x5A,0x00,0x00,0x04,0x00,0x00,0x00,0x20,0x00,0x27,

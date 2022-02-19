@@ -19,7 +19,7 @@
 #ifndef DOSBOX_ETHERNET_H
 #define DOSBOX_ETHERNET_H
 
-#include "control.h"
+#include "include/control.h"
 
 /** A virtual Ethernet connection
  * While emulated Ethernet adapters provide the ability for the guest OS to

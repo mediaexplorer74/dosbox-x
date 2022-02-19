@@ -20,15 +20,15 @@
 #include <string.h>
 #include <stddef.h>
 
-#include "dosbox.h"
-#include "logging.h"
-#include "callback.h"
-#include "regs.h"
-#include "mem.h"
-#include "inout.h"
+#include "include/dosbox.h"
+#include "include/logging.h"
+#include "include/callback.h"
+#include "include/regs.h"
+#include "include/mem.h"
+#include "include/inout.h"
 #include "int10.h"
 #include "render.h"
-#include "dos_inc.h"
+#include "include/dos_inc.h"
 
 int hack_lfb_yadjust = 0;
 

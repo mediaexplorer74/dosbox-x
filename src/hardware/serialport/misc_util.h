@@ -21,7 +21,7 @@
 #define SDLNETWRAPPER_H
 
 #ifndef DOSBOX_DOSBOX_H
-#include "dosbox.h"
+#include "include/dosbox.h"
 #endif
 
 #if C_MODEM
@@ -64,9 +64,9 @@
 #include <ctime>
 #endif
 
-#include <SDL_net.h>
+#include "vs/sdlnet/SDL_net.h"
 
-#include "enet.h"
+#include "include/enet.h"
 
 uint32_t Netwrapper_GetCapabilities();
 

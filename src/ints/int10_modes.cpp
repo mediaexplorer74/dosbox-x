@@ -20,20 +20,20 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "dosbox.h"
-#include "logging.h"
-#include "mem.h"
-#include "inout.h"
+#include "include/dosbox.h"
+#include "include/logging.h"
+#include "include/mem.h"
+#include "include/inout.h"
 #include "int10.h"
 #include "vga.h"
-#include "bios.h"
+#include "include/bios.h"
 #include "programs.h"
 #include "render.h"
-#include "menu.h"
-#include "regs.h"
+#include "include/menu.h"
+#include "include/regs.h"
 #include "jfont.h"
-#include "callback.h"
-#include "control.h"
+#include "include/callback.h"
+#include "include/control.h"
 #include "sdlmain.h"
 
 #define SEQ_REGS 0x05

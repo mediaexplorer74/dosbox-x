@@ -29,9 +29,9 @@
 #define ENET_IMPLEMENTATION
 #include "enet.h"
 
-#include "logging.h"
+#include "include/logging.h"
 #include "misc_util.h"
-#include "timer.h"
+#include "include/timer.h"
 #include <cassert>
 #include <limits.h>
 

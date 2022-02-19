@@ -16,7 +16,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 */
 
-#include "dosbox.h"
+#include "include/dosbox.h"
 
 #if (HAVE_D3D9_H) && (C_D3DSHADERS) && defined(WIN32)
 

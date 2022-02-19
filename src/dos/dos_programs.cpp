@@ -22,7 +22,7 @@
  *  SERIAL command Copyright sduensin and Wengier
  */
 
-#include "dosbox.h"
+#include "include/dosbox.h"
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
@@ -37,25 +37,25 @@
 #include "support.h"
 #include "drives.h"
 #include "cross.h"
-#include "regs.h"
+#include "include/regs.h"
 #include "ide.h"
-#include "cpu.h"
-#include "callback.h"
+#include "include/cpu.h"
+#include "include/callback.h"
 #include "cdrom.h"
 #include "builtin.h"
 #include "bios_disk.h"
 #include "dos_system.h"
-#include "dos_inc.h"
-#include "bios.h"
-#include "inout.h"
+#include "include/dos_inc.h"
+#include "include/bios.h"
+#include "include/inout.h"
 #include "dma.h"
 #include "bios_disk.h"
 #include "qcow2_disk.h"
-#include "shell.h"
-#include "setup.h"
-#include "control.h"
+#include "include/shell.h"
+#include "include/setup.h"
+#include "include/control.h"
 #include <time.h>
-#include "menu.h"
+#include "include/menu.h"
 #include "render.h"
 #include "mouse.h"
 #include "../ints/int10.h"
@@ -1584,8 +1584,8 @@ unsigned char PC98_ITF_ROM[0x8000];
 bool PC98_ITF_ROM_init = false;
 unsigned char PC98_BANK_Select = 0x12;
 
-#include "mem.h"
-#include "paging.h"
+#include "include/mem.h"
+#include "include/paging.h"
 
 class PC98ITFPageHandler : public PageHandler {
 public:

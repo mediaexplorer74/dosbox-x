@@ -5,7 +5,7 @@
 #include <assert.h>
 #include <math.h>
 
-#include "dosbox.h"
+#include "include/dosbox.h"
 #include "sdlmain.h"
 
 // common headers and static routines reused in different outputs go there

@@ -18,17 +18,17 @@
 
 #include <assert.h>
 
-#include "dosbox.h"
-#include "control.h"
-#include "logging.h"
-#include "mem.h"
-#include "menu.h"
-#include "callback.h"
-#include "regs.h"
-#include "inout.h"
+#include "include/dosbox.h"
+#include "include/control.h"
+#include "include/logging.h"
+#include "include/mem.h"
+#include "include/menu.h"
+#include "include/callback.h"
+#include "include/regs.h"
+#include "include/inout.h"
 #include "int10.h"
 #include "mouse.h"
-#include "setup.h"
+#include "include/setup.h"
 #include "render.h"
 #include "jfont.h"
 

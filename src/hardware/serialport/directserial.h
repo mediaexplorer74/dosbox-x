@@ -21,12 +21,12 @@
 #ifndef DOSBOX_DIRECTSERIAL_WIN32_H
 #define DOSBOX_DIRECTSERIAL_WIN32_H
 
-#include "dosbox.h"
+#include "include/dosbox.h"
 
 #if C_DIRECTSERIAL
 
 #define DIRECTSERIAL_AVAILIBLE
-#include "serialport.h"
+#include "include/serialport.h"
 
 #include "libserial.h"
 

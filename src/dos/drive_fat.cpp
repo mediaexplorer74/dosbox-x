@@ -25,17 +25,17 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
-#include "dosbox.h"
-#include "dos_inc.h"
+#include "include/dosbox.h"
+#include "include/dos_inc.h"
 #include "drives.h"
 #include "support.h"
 #include "cross.h"
-#include "bios.h"
+#include "include/bios.h"
 #include "bios_disk.h"
 #include "qcow2_disk.h"
 #include "bitop.h"
-#include "callback.h"
-#include "regs.h"
+#include "include/callback.h"
+#include "include/regs.h"
 
 #include <algorithm>
 

@@ -17,7 +17,7 @@
  */
 
 
-#include "dosbox.h"
+#include "include/dosbox.h"
 
 #if C_MODEM
 
@@ -28,11 +28,11 @@
 #include <sstream>
 
 #include "support.h"
-#include "serialport.h"
+#include "include/serialport.h"
 #include "softmodem.h"
 #include "misc_util.h"
 
-//#include "mixer.h"
+//#include "include/mixer.h"
 
 class PhonebookEntry {
 public:

@@ -38,7 +38,7 @@
 #ifndef GOOGLETEST_INCLUDE_GTEST_GTEST_DEATH_TEST_H_
 #define GOOGLETEST_INCLUDE_GTEST_GTEST_DEATH_TEST_H_
 
-#include "gtest/internal/gtest-death-test-internal.h"
+#include "include/gtest/internal/gtest-death-test-internal.h"
 
 namespace testing {
 

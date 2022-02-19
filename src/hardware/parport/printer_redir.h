@@ -3,7 +3,7 @@
 #ifndef DOSBOX_PRREDIR_H
 #define DOSBOX_PRREDIR_H
 
-#include "dosbox.h"
+#include "include/dosbox.h"
 #include "parport.h"
 #include "printer_if.h"
 

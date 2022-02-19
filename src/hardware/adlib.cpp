@@ -23,13 +23,13 @@
 #include <sys/types.h>
 #include "adlib.h"
 
-#include "logging.h"
-#include "setup.h"
-#include "mapper.h"
-#include "mem.h"
+#include "include/logging.h"
+#include "include/setup.h"
+#include "include/mapper.h"
+#include "include/mem.h"
 #include "dbopl.h"
 #include "nukedopl.h"
-#include "cpu.h"
+#include "include/cpu.h"
 
 #include "mame/emu.h"
 #include "mame/fmopl.h"

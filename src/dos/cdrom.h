@@ -32,8 +32,8 @@
 #include <thread>
 #endif
 
-#include "mem.h"
-#include "mixer.h"
+#include "include/mem.h"
+#include "include/mixer.h"
 #include "../libs/decoders/SDL_sound.h"
 #include "../libs/libchdr/chd.h"
 

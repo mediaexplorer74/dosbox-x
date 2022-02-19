@@ -22,14 +22,14 @@
 #include <assert.h>
 #include <math.h>
 
-#include "dosbox.h"
-#include "logging.h"
+#include "include/dosbox.h"
+#include "include/logging.h"
 #include "sdlmain.h"
 #include "render.h"
 #include "jfont.h"
-#include "inout.h"
-#include "bios.h"
-#include "control.h"
+#include "include/inout.h"
+#include "include/bios.h"
+#include "include/control.h"
 #include "menudef.h"
 #include "../ints/int10.h"
 

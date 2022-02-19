@@ -22,7 +22,7 @@
 #ifndef SDL_audiodev_c_h_
 #define SDL_audiodev_c_h_
 
-#include "SDL.h"
+#include "vs/sdl/include/SDL.h"
 #include "../SDL_internal.h"
 #include "SDL_sysaudio.h"
 

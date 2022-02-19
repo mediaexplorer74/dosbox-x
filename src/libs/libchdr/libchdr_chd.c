@@ -50,7 +50,7 @@
 
 #include "lzma/LzmaEnc.h"
 #include "lzma/LzmaDec.h"
-#include "zlib.h"
+#include "vs/zlib/zlib.h"
 
 #undef TRUE
 #undef FALSE

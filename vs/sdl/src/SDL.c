@@ -23,7 +23,7 @@
 
 /* Initialization code for SDL */
 
-#include "SDL.h"
+#include "SDL.h"//"vs/sdl/include/SDL.h"
 #include "SDL_fatal.h"
 #if !SDL_VIDEO_DISABLED
 #include "video/SDL_leaks.h"

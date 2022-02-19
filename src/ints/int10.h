@@ -17,7 +17,7 @@
  */
 
 
-#include "vga.h"
+#include "include/vga.h"
 
 extern uint32_t S3_LFB_BASE;
 

@@ -19,7 +19,7 @@
 #ifndef DOSBOX_MEM_H
 #define DOSBOX_MEM_H
 
-#include "dosbox.h"
+#include "include/dosbox.h"
 
 #include "byteorder.h"
 

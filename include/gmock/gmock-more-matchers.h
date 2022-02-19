@@ -40,7 +40,7 @@
 #ifndef GOOGLEMOCK_INCLUDE_GMOCK_GMOCK_MORE_MATCHERS_H_
 #define GOOGLEMOCK_INCLUDE_GMOCK_GMOCK_MORE_MATCHERS_H_
 
-#include "gmock/gmock-matchers.h"
+#include "include/gmock/gmock-matchers.h"
 
 namespace testing {
 

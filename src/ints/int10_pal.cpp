@@ -16,9 +16,9 @@
  *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  */
 
-#include "dosbox.h"
-#include "mem.h"
-#include "inout.h"
+#include "include/dosbox.h"
+#include "include/mem.h"
+#include "include/inout.h"
 #include "int10.h"
 #include "render.h"
 #include <map>

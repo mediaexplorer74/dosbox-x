@@ -33,7 +33,7 @@
 #error Do not include this header from your applications.
 #endif
 
-#include <SDL.h>
+#include "vs/sdl/include/SDL.h" //<SDL.h>
 
 /* SDL 1.2.4 defines this, but better safe than sorry. */
 #if (!defined(__inline__))

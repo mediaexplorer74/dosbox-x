@@ -22,7 +22,7 @@
 
 /* Allow access to a raw mixing buffer */
 
-#include "SDL.h"
+#include "vs/sdl/include/SDL.h"
 #include "SDL_audio.h"
 #include "SDL_audio_c.h"
 #include "SDL_sysaudio.h"

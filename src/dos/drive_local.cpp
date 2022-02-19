@@ -39,16 +39,16 @@
 #endif
 #include <sys/stat.h>
 
-#include "dosbox.h"
-#include "dos_inc.h"
+#include "include/dosbox.h"
+#include "include/dos_inc.h"
 #include "drives.h"
-#include "logging.h"
+#include "include/logging.h"
 #include "support.h"
 #include "cross.h"
-#include "inout.h"
-#include "callback.h"
-#include "regs.h"
-#include "timer.h"
+#include "include/inout.h"
+#include "include/callback.h"
+#include "include/regs.h"
+#include "include/timer.h"
 #include "render.h"
 #include "jfont.h"
 

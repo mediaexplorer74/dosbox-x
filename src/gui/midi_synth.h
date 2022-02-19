@@ -23,11 +23,11 @@
 #endif
 #include <math.h>
 #include <string.h>
-#include "control.h"
+#include "include/control.h"
 
 /* Protect against multiple inclusions */
 #ifndef MIXER_BUFSIZE
-#include "mixer.h"
+#include "include/mixer.h"
 #endif
 
 static MixerChannel *synthchan = NULL;

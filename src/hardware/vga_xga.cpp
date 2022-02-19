@@ -18,14 +18,14 @@
 
 
 #include <string.h>
-#include "dosbox.h"
-#include "inout.h"
-#include "logging.h"
+#include "include/dosbox.h"
+#include "include/inout.h"
+#include "include/logging.h"
 #include "vga.h"
 #include <math.h>
 #include <stdio.h>
-#include "callback.h"
-#include "cpu.h"		// for 0x3da delay
+#include "include/callback.h"
+#include "include/cpu.h"		// for 0x3da delay
 
 #ifdef _MSC_VER
 # define MIN(a,b) ((a) < (b) ? (a) : (b))
