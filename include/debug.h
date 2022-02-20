@@ -16,8 +16,6 @@
  *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  */
 
-#include <cstdint>
-#include <vs/config.h>
 void DEBUG_SetupConsole(void);
 void DEBUG_DrawScreen(void);
 bool DEBUG_Breakpoint(void);

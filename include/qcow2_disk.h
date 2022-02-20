@@ -23,7 +23,7 @@
 #include <stdint.h>
 #include <stdio.h>
 
-#include "include/bios_disk.h"
+#include "bios_disk.h"
 
 class QCow2Image{
 

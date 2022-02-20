@@ -36,20 +36,16 @@
 #define FREEA(p) free(p)
 #endif
 
-#include "../vs/freetype/devel/ft2build.h"// !
-#include "../vs/freetype/devel/ftoption.h"// !
-#include "../vs/freetype/include/ft2build.h"//<ft2build.h>
-#include "../vs/freetype/include/freetype/config/ftheader.h"//<ft2build.h>
-#include "../vs/freetype/include/freetype/freetype.h" //#include FT_FREETYPE_H
-#include "../vs/freetype/include/freetype/ftbitmap.h" // !
-#include "../vs/freetype/include/freetype/ftoutln.h"//#include FT_OUTLINE_H
-#include "../vs/freetype/include/freetype/ftstroke.h"//#include FT_STROKER_H
-#include "../vs/freetype/include/freetype/ftglyph.h"//#include FT_GLYPH_H
-#include "../vs/freetype/include/freetype/fttrigon.h"//#include FT_TRUETYPE_IDS_H
+#include <ft2build.h>
+#include FT_FREETYPE_H
+#include FT_OUTLINE_H
+#include FT_STROKER_H
+#include FT_GLYPH_H
+#include FT_TRUETYPE_IDS_H
 
-#include "vs/sdl/include/SDL.h"
-#include "vs/sdl/include/SDL_endian.h"
-#include "include/SDL_ttf.h"
+#include "SDL.h"
+#include "SDL_endian.h"
+#include "SDL_ttf.h"
 
 /* FIXME: Right now we assume the gray-scale renderer Freetype is using
    supports 256 shades of gray, but we should instead key off of num_grays

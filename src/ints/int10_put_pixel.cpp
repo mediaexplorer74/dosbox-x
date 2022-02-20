@@ -17,10 +17,10 @@
  */
 
 
-#include "include/dosbox.h"
-#include "include/logging.h"
-#include "include/mem.h"
-#include "include/inout.h"
+#include "dosbox.h"
+#include "logging.h"
+#include "mem.h"
+#include "inout.h"
 #include "int10.h"
 
 static uint8_t cga_masks[4]={0x3f,0xcf,0xf3,0xfc};

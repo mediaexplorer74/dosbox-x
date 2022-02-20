@@ -39,9 +39,9 @@
 #include <type_traits>  // IWYU pragma: keep
 #include <utility>      // IWYU pragma: keep
 
-#include "include/gmock/gmock-spec-builders.h"
-#include "include/gmock/internal/gmock-internal-utils.h"
-#include "include/gmock/internal/gmock-pp.h"
+#include "gmock/gmock-spec-builders.h"
+#include "gmock/internal/gmock-internal-utils.h"
+#include "gmock/internal/gmock-pp.h"
 
 namespace testing {
 namespace internal {

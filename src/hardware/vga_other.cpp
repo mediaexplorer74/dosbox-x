@@ -19,15 +19,15 @@
 
 #include <string.h>
 #include <math.h>
-#include "include/dosbox.h"
-#include "include/inout.h"
-#include "include/logging.h"
-#include "include/vga.h"
-#include "include/mem.h"
-#include "include/pic.h"
-#include "include/render.h"
-#include "include/mapper.h"
-#include "include/control.h"
+#include "dosbox.h"
+#include "inout.h"
+#include "logging.h"
+#include "vga.h"
+#include "mem.h"
+#include "pic.h"
+#include "render.h"
+#include "mapper.h"
+#include "control.h"
 
 #define crtc(blah) vga.crtc.blah
 
@@ -587,8 +587,14 @@ static Bitu read_cga(Bitu port,Bitu /*iolen*/) {
     return ~0UL;
 }
 
+bool J3_IsCga4Dcga();
+
 static void write_cga(Bitu port,Bitu val,Bitu /*iolen*/) {
     Bitu changed;
+
+	if(J3_IsCga4Dcga()) {
+		return;
+	}
 
 	switch (port) {
 	case 0x3d8:

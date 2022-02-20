@@ -21,8 +21,8 @@
 //Maybe just do the cache checking back into the simple scalers so they can 
 //just handle it all in one go, but this seems to work well enough for now
 
-#include "include/dosbox.h"
-#include "include/render.h"
+#include "dosbox.h"
+#include "render.h"
 #include <string.h>
 
 uint8_t Scaler_Aspect[SCALER_MAXHEIGHT];

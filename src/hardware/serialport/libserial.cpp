@@ -19,7 +19,7 @@
 
 #include "libserial.h"
 
-#include "vs/config.h"
+#include "config.h"
 
 #ifdef WIN32
 

@@ -16,11 +16,11 @@
  *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  */
 
-#include "include/dosbox.h"
-#include "include/inout.h"
-#include "include/logging.h"
-#include "include/render.h"
-#include "include/vga.h"
+#include "dosbox.h"
+#include "inout.h"
+#include "logging.h"
+#include "render.h"
+#include "vga.h"
 
 extern bool vga_enable_3C6_ramdac;
 extern bool vga_8bit_dac;

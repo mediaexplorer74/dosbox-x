@@ -16,8 +16,8 @@
  *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  */
 
-#include "include/mem.h"
-#include "include/fpu.h"
+#include "mem.h"
+#include "fpu.h"
 
 #if C_FPU
 

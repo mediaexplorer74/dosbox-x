@@ -17,19 +17,19 @@
  */
 
 
-#include "include/dosbox.h"
-#include "include/callback.h"
-#include "include/logging.h"
-#include "include/mem.h"
-#include "include/bios.h"
-#include "include/keyboard.h"
-#include "include/regs.h"
-#include "include/inout.h"
-#include "include/dos_inc.h"
-#include "vs/sdl/include/SDL.h"
+#include "dosbox.h"
+#include "callback.h"
+#include "logging.h"
+#include "mem.h"
+#include "bios.h"
+#include "keyboard.h"
+#include "regs.h"
+#include "inout.h"
+#include "dos_inc.h"
+#include "SDL.h"
 #include "int10.h"
-#include "include/jfont.h"
-#include "include/render.h"
+#include "jfont.h"
+#include "render.h"
 
 #if defined(_MSC_VER)
 # pragma warning(disable:4244) /* const fmath::local::uint64_t to double possible loss of data */
@@ -1416,7 +1416,7 @@ Bitu INT16_Handler(void) {
             if(reg_ax == size / 2) {
                 reg_ax = 0xffff;
             }
-            reg_bx = J3_GetMachineCode() == 0 ? 0x6a74 : J3_GetMachineCode();
+            reg_bx = J3_GetMachineCode();
         }
         break;
     default:

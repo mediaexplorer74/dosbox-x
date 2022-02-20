@@ -1,1 +1,5 @@
-In progress (200 errors)
+Phase 1 : Win32 RnD / building +-
+Phase 2 : WinRT/UWP porting -
+Phase 3 : Fix BOCHs Emu (after getting the Knowledges) -
+
+Work in progress

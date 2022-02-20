@@ -30,7 +30,7 @@ POSSIBILITY OF SUCH DAMAGE.
 #endif
 
 #include "main.h"
-#include "include/control.h"
+#include "control.h"
 #include "errors.h"
 
 /* Check encoder control struct */

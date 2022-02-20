@@ -19,7 +19,7 @@
 #ifndef DOSBOX_REGS_H
 #define DOSBOX_REGS_H
 
-#include "include/mem.h"
+#include "mem.h"
 
 #define FLAG_CF		0x00000001U
 #define FLAG_PF		0x00000004U

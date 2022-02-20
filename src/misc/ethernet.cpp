@@ -18,13 +18,13 @@
 
 #include <assert.h>
 
-#include "include/ethernet.h"
+#include "ethernet.h"
 #include "ethernet_pcap.h"
 #include "ethernet_slirp.h"
-#include "include/logging.h"
+#include "logging.h"
 #include <cstring>
-#include "include/dosbox.h"
-#include "include/control.h"
+#include "dosbox.h"
+#include "control.h"
 
 EthernetConnection* OpenEthernetConnection(std::string backendstr)
 {

@@ -20,8 +20,8 @@
 #ifndef DOSBOX_DIRECTLPT_WIN32_H
 #define DOSBOX_DIRECTLPT_WIN32_H
 
-#include "vs/config.h"
-#include "include/setup.h"
+#include "config.h"
+#include "setup.h"
 
 #if C_DIRECTLPT
 #ifdef WIN32
@@ -29,7 +29,7 @@
 
 
 #define DIRECTLPT_AVAILIBLE
-#include "include/parport.h"
+#include "parport.h"
 //#include <windows.h>
 
 

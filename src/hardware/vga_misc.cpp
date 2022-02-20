@@ -17,11 +17,11 @@
  */
 
 
-#include "include/dosbox.h"
-#include "include/inout.h"
-#include "include/pic.h"
-#include "include/vga.h"
-#include "include/control.h"
+#include "dosbox.h"
+#include "inout.h"
+#include "pic.h"
+#include "vga.h"
+#include "control.h"
 #include <math.h>
 
 void vsync_poll_debug_notify();

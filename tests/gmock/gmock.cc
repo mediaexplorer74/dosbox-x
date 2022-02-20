@@ -28,8 +28,8 @@
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
-#include "include/gmock/gmock.h"
-#include "include/gmock/internal/gmock-port.h"
+#include "gmock/gmock.h"
+#include "gmock/internal/gmock-port.h"
 
 namespace testing {
 

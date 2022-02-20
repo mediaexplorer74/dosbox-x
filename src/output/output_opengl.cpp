@@ -11,16 +11,16 @@ extern "C" {
 #include "ppscale.h"
 #include "ppscale.c"
 }
-#include "include/control.h"
-#include "include/dosbox.h"
-#include "include/logging.h"
-#include "include/menudef.h"
-#include "src/output/output_opengl.h"//<output/output_opengl.h>
+#include "control.h"
+#include "dosbox.h"
+#include "logging.h"
+#include "menudef.h"
+#include <output/output_opengl.h>
 
 #include <algorithm>
 
-#include "include/sdlmain.h"
-#include "include/render.h"
+#include "sdlmain.h"
+#include "render.h"
 
 using namespace std;
 

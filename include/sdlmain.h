@@ -1,12 +1,12 @@
 
-#include "include/menu.h"
-#include "include/mouse.h"
-#include "include/video.h"
+#include "menu.h"
+#include "mouse.h"
+#include "video.h"
 
-#include "vs/sdl/include/SDL.h"
+#include "SDL.h"
 
 #ifdef __WIN32__
-#include "vs/sdl/include/SDL_syswm.h"
+#include "SDL_syswm.h"
 #endif
 
 #ifndef DOSBOX_SDLMAIN_H
@@ -192,14 +192,14 @@ extern "C" unsigned int SDL1_hax_inhibit_WM_PAINT;
 extern Bitu frames;
 extern SDL_Block sdl;
 
-#include "src/output/output_surface.h"//<output/output_surface.h>
-#include "src/output/output_direct3d.h"//<output/output_direct3d.h>
-#include "src/output/output_opengl.h"//<output/output_opengl.h>
-#include "src/output/output_tools.h"//<output/output_tools.h>
-#include "src/output/output_tools_xbrz.h"//<output/output_tools_xbrz.h>
-#include "src/output/output_ttf.h"//<output/output_ttf.h>
+#include <output/output_surface.h>
+#include <output/output_direct3d.h>
+#include <output/output_opengl.h>
+#include <output/output_tools.h>
+#include <output/output_tools_xbrz.h>
+#include <output/output_ttf.h>
 
-#include "include/zipfile.h"
+#include "zipfile.h"
 
 extern Bitu userResizeWindowWidth;
 extern Bitu userResizeWindowHeight;

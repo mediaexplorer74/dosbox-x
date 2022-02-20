@@ -504,7 +504,7 @@ static CacheBlock * cache_blocks=NULL;
 
 static bool cache_initialized = false;
 
-#include "src/cpu/dynamic_alloc_common.h"
+#include "cpu/dynamic_alloc_common.h"
 
 static void cache_ensure_allocation(void) {
 	if (cache_code_start_ptr==NULL) {

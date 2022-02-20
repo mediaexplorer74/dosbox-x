@@ -18,24 +18,24 @@
 
 #include <set>
 
-#include "include/dosbox.h"
-#include "include/bios.h"
-#include "include/bios_disk.h"
-#include "include/setup.h"
-#include "include/support.h"
+#include "dosbox.h"
+#include "bios.h"
+#include "bios_disk.h"
+#include "setup.h"
+#include "support.h"
 #include "../ints/int10.h"
 #include "../output/output_opengl.h"
-#include "include/regs.h"
-#include "include/callback.h"
-#include "include/mapper.h"
+#include "regs.h"
+#include "callback.h"
+#include "mapper.h"
 #include "drives.h"
-#include "include/dos_inc.h"
-#include "include/control.h"
-#include "include/render.h"
-#include "include/jfont.h"
+#include "dos_inc.h"
+#include "control.h"
+#include "render.h"
+#include "jfont.h"
 #include "dos_codepages.h"
 #include "dos_keyboard_layout_data.h"
-#include "include/sdlmain.h"
+#include "sdlmain.h"
 
 #if defined (WIN32)
 #include <windows.h>

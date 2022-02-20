@@ -18,9 +18,9 @@
 
 #include <cassert>
 
-#include "include/dosbox.h"
-#include "include/mem.h"
-#include "include/inout.h"
+#include "dosbox.h"
+#include "mem.h"
+#include "inout.h"
 #include "int10.h"
 
 Bitu INT10_VideoState_GetSize(Bitu state) {

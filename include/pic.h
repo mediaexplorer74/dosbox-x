@@ -19,7 +19,7 @@
 #ifndef DOSBOX_PIC_H
 #define DOSBOX_PIC_H
 
-#include "include/dosbox.h"
+#include "dosbox.h"
 
 /* CPU Cycle Timing */
 extern cpu_cycles_count_t CPU_Cycles;

@@ -19,13 +19,13 @@
 /* Microsoft Serial Mouse compatible emulation.
  * Written by Jonathan Campbell */
 
-#include "include/dosbox.h"
+#include "dosbox.h"
 
-#include "include/mouse.h"
-#include "include/setup.h"
+#include "mouse.h"
+#include "setup.h"
 #include "serialdummy.h"
 #include "serialmouse.h"
-#include "include/serialport.h"
+#include "serialport.h"
 
 static CSerialMouse *serial_mice[4] = {NULL};
 

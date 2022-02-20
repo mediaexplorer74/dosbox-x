@@ -20,13 +20,13 @@
 #include <stdlib.h>
 #include <math.h>
 
-#include "include/dosbox.h"
-#include "include/cross.h"
-#include "include/logging.h"
-#include "include/vga.h"
-#include "include/pic.h"
-#include "include/paging.h"
-#include "include/render.h"
+#include "dosbox.h"
+#include "cross.h"
+#include "logging.h"
+#include "vga.h"
+#include "pic.h"
+#include "paging.h"
+#include "render.h"
 
 #include "voodoo_interface.h"
 #include "voodoo_emu.h"

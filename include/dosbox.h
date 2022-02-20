@@ -20,7 +20,7 @@
 #ifndef DOSBOX_DOSBOX_H
 #define DOSBOX_DOSBOX_H
 
-#include "../vs/config.h" // "config.h"
+#include "config.h"
 
 #if defined(C_ICONV)
 /* good */

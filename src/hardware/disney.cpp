@@ -19,15 +19,15 @@
 
 #include <string.h>
 #include <algorithm>
-#include "include/dosbox.h"
-#include "include/inout.h"
-#include "include/logging.h"
-#include "include/mixer.h"
-#include "include/pic.h"
-#include "include/setup.h"
-#include "include/bios.h"
-#include "include/mem.h"
-#include "include/control.h"
+#include "dosbox.h"
+#include "inout.h"
+#include "logging.h"
+#include "mixer.h"
+#include "pic.h"
+#include "setup.h"
+#include "bios.h"
+#include "mem.h"
+#include "control.h"
 
 using namespace std;
 

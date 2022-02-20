@@ -18,7 +18,7 @@
 #ifndef MT32EMU_MT32EMU_H
 #define MT32EMU_MT32EMU_H
 
-#include "vs/config.h"
+#include "config.h"
 
 /* API Configuration */
 

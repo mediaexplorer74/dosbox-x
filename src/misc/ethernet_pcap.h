@@ -19,18 +19,18 @@
 #ifndef DOSBOX_ETHERNET_PCAP_H
 #define DOSBOX_ETHERNET_PCAP_H
 
-#include "vs/config.h"
+#include "config.h"
 
 #if C_PCAP
 
-#include "include/ethernet.h"
+#include "ethernet.h"
 
 #ifdef WIN32
 #define HAVE_REMOTE
 #endif
 
-#include "../include/support.h" /* Prevents snprintf conflict with pcap on Windows */
-#include "../vs/pcap/pcap/pcap.h"
+#include "support.h" /* Prevents snprintf conflict with pcap on Windows */
+#include "pcap.h"
 
 /** A PCAP-based Ethernet connection
  * This backend uses a physical Ethernet device. All types of traffic

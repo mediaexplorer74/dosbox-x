@@ -29,11 +29,10 @@
 #endif
 
 
-#include "../vs/freetype/devel/ft2build.h" //<ft2build.h>
-#include "../vs/freetype/devel/ftoption.h" //#include FT_CONFIG_CONFIG_H
-#include "../vs/freetype/include/freetype/config/ftconfig.h" //#include FT_TYPES_H
-#include "../vs/freetype/include/freetype/fttypes.h" //#include FT_TYPES_H
-#include "../vs/freetype/include/freetype/fterrors.h" //#include FT_ERRORS_H
+#include <ft2build.h>
+#include FT_CONFIG_CONFIG_H
+#include FT_TYPES_H
+#include FT_ERRORS_H
 
 
 FT_BEGIN_HEADER

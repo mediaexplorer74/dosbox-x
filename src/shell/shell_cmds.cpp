@@ -22,35 +22,35 @@
  */
 
 
-#include "include/dosbox.h"
-#include "include/logging.h"
-#include "include/shell.h"
-#include "include/callback.h"
-#include "include/dos_inc.h"
-#include "include/regs.h"
-#include "include/pic.h"
-#include "include/keyboard.h"
-#include "include/timer.h"
+#include "dosbox.h"
+#include "logging.h"
+#include "shell.h"
+#include "callback.h"
+#include "dos_inc.h"
+#include "regs.h"
+#include "pic.h"
+#include "keyboard.h"
+#include "timer.h"
 #include "../ints/int10.h"
 #include <time.h>
 #include <assert.h>
-#include "include/bios.h"
+#include "bios.h"
 #include "../dos/drives.h"
-#include "include/support.h"
-#include "include/control.h"
-#include "include/paging.h"
-#include "include/menu.h"
-#include "include/jfont.h"
-#include "include/render.h"
+#include "support.h"
+#include "control.h"
+#include "paging.h"
+#include "menu.h"
+#include "jfont.h"
+#include "render.h"
 #include <algorithm>
 #include <cstring>
 #include <cctype>
 #include <cstdlib>
 #include <vector>
 #include <string>
-#include "include/sdlmain.h"
-#include "include/menudef.h"
-#include "include/build_timestamp.h"
+#include "sdlmain.h"
+#include "menudef.h"
+#include "build_timestamp.h"
 
 #if defined(_MSC_VER)
 # pragma warning(disable:4244) /* const fmath::local::uint64_t to double possible loss of data */

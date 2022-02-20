@@ -25,13 +25,13 @@
  
 //#define SPKR_DEBUGGING
 #include <math.h>
-#include "include/dosbox.h"
-#include "include/logging.h"
-#include "include/mixer.h"
-#include "include/timer.h"
-#include "include/setup.h"
-#include "include/pic.h"
-#include "include/control.h"
+#include "dosbox.h"
+#include "logging.h"
+#include "mixer.h"
+#include "timer.h"
+#include "setup.h"
+#include "pic.h"
+#include "control.h"
 
 #ifdef SPKR_DEBUGGING
 FILE* PCSpeakerLog = NULL;

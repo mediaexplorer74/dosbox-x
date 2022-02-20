@@ -33,7 +33,7 @@
 #endif
 #endif
 
-#include "include/mem.h"
+#include "mem.h"
 
 // In Use Flag codes
 #define USEFLAG_AVAILABLE  0x00
@@ -65,7 +65,7 @@
 #endif
 
 // For Uint8 type
-#include "vs/sdlnet/SDL_net.h"
+#include "SDL_net.h"
 
 struct PackedIP {
 	Uint32 host;

@@ -37,8 +37,8 @@
 // #include <string.h>
 // #include <ctype.h>
 
-#include "vs/sdl/include/SDL.h"//<SDL.h>
-#include "vs/sdl/include/SDL_thread.h"//<SDL_thread.h>
+#include <SDL.h>
+#include <SDL_thread.h>
 #include "SDL_sound.h"
 
 #define __SDL_SOUND_INTERNAL__

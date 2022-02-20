@@ -20,18 +20,18 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stddef.h>
-#include "include/dosbox.h"
-#include "include/callback.h"
-#include "include/logging.h"
-#include "include/mem.h"
-#include "include/regs.h"
-#include "include/dos_inc.h"
-#include "include/setup.h"
-#include "include/inout.h"
+#include "dosbox.h"
+#include "callback.h"
+#include "logging.h"
+#include "mem.h"
+#include "regs.h"
+#include "dos_inc.h"
+#include "setup.h"
+#include "inout.h"
 #include "xms.h"
-#include "include/bios.h"
-#include "include/cpu.h"
-#include "include/control.h"
+#include "bios.h"
+#include "cpu.h"
+#include "control.h"
 
 #include <algorithm>
 

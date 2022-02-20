@@ -20,8 +20,8 @@
 #ifndef DOSBOX_SERIALPORT_H
 #define DOSBOX_SERIALPORT_H
 
-#include "include/inout.h"
-#include "include/programs.h"
+#include "inout.h"
+#include "programs.h"
 
 // set this to 1 for serial debugging in release mode
 #define SERIAL_DBG_FORCED 1
@@ -31,7 +31,7 @@
 #endif
 
 #if SERIAL_DEBUG
-#include "include/hardware.h"
+#include "hardware.h"
 #endif
 
 // Serial port interface 

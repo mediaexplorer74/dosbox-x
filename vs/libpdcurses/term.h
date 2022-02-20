@@ -8,7 +8,7 @@
 #ifndef __PDCURSES_TERM_H__
 #define __PDCURSES_TERM_H__ 1
 
-#include "curses.h"//<curses.h>
+#include <curses.h>
 
 #if defined(__cplusplus) || defined(__cplusplus__) || defined(__CPLUSPLUS)
 extern "C"

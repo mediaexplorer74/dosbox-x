@@ -21,9 +21,9 @@
 
 #include <stdint.h>
 
-#include "vs/config.h"
+#include "config.h"
 
-#include "include/informational.h"
+#include "informational.h"
 
 #if defined(_MSC_VER)
 # pragma pack(push,1)

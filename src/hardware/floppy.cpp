@@ -15,20 +15,20 @@
 
 #include <math.h>
 #include <assert.h>
-#include "include/dosbox.h"
-#include "include/inout.h"
-#include "include/pic.h"
-#include "include/mem.h"
-#include "include/cpu.h"
-#include "include/dma.h"
-#include "include/ide.h"
-#include "include/mixer.h"
-#include "include/timer.h"
-#include "include/setup.h"
-#include "include/control.h"
-#include "include/callback.h"
-#include "include/bios_disk.h"
-#include "include/bios.h"
+#include "dosbox.h"
+#include "inout.h"
+#include "pic.h"
+#include "mem.h"
+#include "cpu.h"
+#include "dma.h"
+#include "ide.h"
+#include "mixer.h"
+#include "timer.h"
+#include "setup.h"
+#include "control.h"
+#include "callback.h"
+#include "bios_disk.h"
+#include "bios.h"
 
 #ifdef _MSC_VER
 # define MIN(a,b) ((a) < (b) ? (a) : (b))

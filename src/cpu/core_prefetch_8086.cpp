@@ -19,11 +19,11 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "include/cpu.h"
+#include "cpu.h"
 #include "lazyflags.h"
-#include "include/callback.h"
-#include "include/pic.h"
-#include "include/fpu.h"
+#include "callback.h"
+#include "pic.h"
+#include "fpu.h"
 
 using namespace std;
 
@@ -44,7 +44,7 @@ using namespace std;
 extern bool ignore_opcode_63;
 
 #if C_DEBUG
-#include "include/debug.h"
+#include "debug.h"
 #endif
 
 static uint16_t last_ea86_offset;
@@ -79,7 +79,7 @@ static void SaveMw(Bitu off,Bitu val) {
 
 #else 
 
-#include "include/paging.h"
+#include "paging.h"
 
 #define LoadMb(off) mem_readb_inline(off)
 

@@ -2,12 +2,12 @@
 #include <assert.h>
 #include <math.h>
 
-#include "include/dosbox.h"
-#include "include/logging.h"
-#include "include/menudef.h"
-#include "include/sdlmain.h"
-#include "include/render.h"
-#include "include/vga.h"
+#include "dosbox.h"
+#include "logging.h"
+#include "menudef.h"
+#include "sdlmain.h"
+#include "render.h"
+#include "vga.h"
 
 using namespace std;
 

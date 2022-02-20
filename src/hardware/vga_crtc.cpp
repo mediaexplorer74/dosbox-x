@@ -18,14 +18,14 @@
 
 
 #include <stdlib.h>
-#include "include/dosbox.h"
-#include "include/inout.h"
-#include "include/logging.h"
-#include "include/vga.h"
-#include "include/debug.h"
-#include "include/cpu.h"
-#include "include/video.h"
-#include "include/pic.h"
+#include "dosbox.h"
+#include "inout.h"
+#include "logging.h"
+#include "vga.h"
+#include "debug.h"
+#include "cpu.h"
+#include "video.h"
+#include "pic.h"
 
 #define crtc(blah) vga.crtc.blah
 

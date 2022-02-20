@@ -23,7 +23,7 @@
 
 #include <string.h>
 
-#include "../sdl/include/SDL_endian.h"//"SDL_endian.h"
+#include "SDL_endian.h"
 
 #include "SDLnetsys.h"
 #include "SDL_net.h"

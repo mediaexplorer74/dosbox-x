@@ -21,18 +21,18 @@
 #include <sstream>
 #include <stddef.h>
 
-#include "include/cpu.h"
-#include "include/debug.h"
-#include "include/mapper.h"
-#include "include/paging.h"
-#include "include/callback.h"
-#include "lazyflags.h" 
-#include "include/control.h"
-#include "include/logging.h"
-#include "include/pic.h"
+#include "cpu.h"
+#include "debug.h"
+#include "mapper.h"
+#include "paging.h"
+#include "callback.h"
+#include "lazyflags.h"
+#include "control.h"
+#include "logging.h"
+#include "pic.h"
 
 // TODO: #ifdef FPU...
-#include "include/fpu.h"
+#include "fpu.h"
 
 /* dynamic core, policy, method, and flags.
  * We're going to make dynamic core more flexible, AND make sure

@@ -18,23 +18,23 @@
 
 #include <assert.h>
 
-#include "include/dosbox.h"
-#include "include/keyboard.h"
-#include "include/logging.h"
-#include "include/support.h"
-#include "include/setup.h"
-#include "include/inout.h"
-#include "include/mouse.h"
-#include "include/menu.h"
-#include "include/pic.h"
-#include "include/mem.h"
-#include "include/cpu.h"
-#include "include/mixer.h"
-#include "include/timer.h"
+#include "dosbox.h"
+#include "keyboard.h"
+#include "logging.h"
+#include "support.h"
+#include "setup.h"
+#include "inout.h"
+#include "mouse.h"
+#include "menu.h"
+#include "pic.h"
+#include "mem.h"
+#include "cpu.h"
+#include "mixer.h"
+#include "timer.h"
 #include <math.h>
-#include "include/8255.h"
-#include "include/jfont.h"
-#include "include/keymap.h"
+#include "8255.h"
+#include "jfont.h"
+#include "keymap.h"
 
 #if defined(_MSC_VER)
 # pragma warning(disable:4244) /* const fmath::local::uint64_t to double possible loss of data */
@@ -517,7 +517,7 @@ void KEYBOARD_AUX_Write(Bitu val) {
     }
 }
 
-#include "include/control.h"
+#include "control.h"
 
 bool allow_keyb_reset = true;
 

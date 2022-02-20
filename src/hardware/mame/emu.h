@@ -2,11 +2,11 @@
 #define DOSBOX_EMU_H
 
 
-#include "include/dosbox.h"
-#include "include/logging.h"
+#include "dosbox.h"
+#include "logging.h"
 
 #if defined(_MSC_VER) && (_MSC_VER  <= 1500) 
-#include "vs/sdl/include/SDL.h"
+#include <SDL.h>
 #else
 #include <stdint.h>
 #endif

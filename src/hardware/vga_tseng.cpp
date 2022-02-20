@@ -18,13 +18,13 @@
 
 
 
-#include "include/dosbox.h"
-#include "include/logging.h"
-#include "include/setup.h"
-#include "include/vga.h"
-#include "include/inout.h"
-#include "include/mem.h"
-#include "include/regs.h"
+#include "dosbox.h"
+#include "logging.h"
+#include "setup.h"
+#include "vga.h"
+#include "inout.h"
+#include "mem.h"
+#include "regs.h"
 #include <cstdlib>
 
 extern bool vga_enable_3C6_ramdac;

@@ -17,10 +17,10 @@
  */
 
 
-#include "include/dosbox.h"
-#include "include/inout.h"
-#include "include/logging.h"
-#include "include/vga.h"
+#include "dosbox.h"
+#include "inout.h"
+#include "logging.h"
+#include "vga.h"
 
 #define gfx(blah) vga.gfx.blah
 static bool index9warned=false;

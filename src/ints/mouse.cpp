@@ -23,23 +23,23 @@
 #include <string.h>
 #include <math.h>
 
-#include "include/dosbox.h"
-#include "include/callback.h"
-#include "include/logging.h"
-#include "include/mem.h"
-#include "include/regs.h"
-#include "include/cpu.h"
-#include "include/mouse.h"
-#include "include/pic.h"
-#include "include/inout.h"
+#include "dosbox.h"
+#include "callback.h"
+#include "logging.h"
+#include "mem.h"
+#include "regs.h"
+#include "cpu.h"
+#include "mouse.h"
+#include "pic.h"
+#include "inout.h"
 #include "int10.h"
-#include "include/bios.h"
-#include "include/jfont.h"
-#include "include/dos_inc.h"
-#include "include/support.h"
-#include "include/setup.h"
-#include "include/control.h"
-#include "vs/sdl/include/SDL.h"
+#include "bios.h"
+#include "jfont.h"
+#include "dos_inc.h"
+#include "support.h"
+#include "setup.h"
+#include "control.h"
+#include "SDL.h"
 
 #if defined(_MSC_VER)
 # pragma warning(disable:4244) /* const fmath::local::uint64_t to double possible loss of data */
@@ -602,7 +602,7 @@ static inline bool GFX_IsFullscreen(void) {
     return false;
 }
 #endif
-#include "include/render.h"
+#include "render.h"
 
 void KEYBOARD_AUX_LowerIRQ() {
     if (MOUSE_IRQ != 0)

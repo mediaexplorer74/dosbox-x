@@ -10,7 +10,7 @@ At stage 2 I'll plan to do some UWP porting. Ideally to downgrade min os build t
 At stage 3..... Maybenever :)   (c) Eleven Ships - Maybenever  
 
 ## Screenshots
-![Snapshot 1](snapshots/snapshot.png)
+![Snapshot 1](Images/shot1.png)
 
 ## About the original
 

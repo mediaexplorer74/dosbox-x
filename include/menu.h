@@ -19,10 +19,10 @@
 #include <string>
 void SetVal(const std::string& secname, const std::string& preval, const std::string& val);
 
-#include "vs/sdl/include/SDL_video.h"//<SDL_video.h>
+#include <SDL_video.h>
 
 #ifdef __WIN32__
-#include "include/programs.h"
+#include "programs.h"
 
 void ToggleMenu(bool pressed);
 void mem_conf(std::string memtype, int option);

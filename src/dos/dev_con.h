@@ -18,14 +18,14 @@
 
 #include <assert.h>
 
-#include "include/dos_inc.h"
-#include "include/logging.h"
+#include "dos_inc.h"
+#include "logging.h"
 #include "../ints/int10.h"
 #include <string.h>
-#include "include/inout.h"
-#include "include/jfont.h"
-#include "include/shiftjis.h"
-#include "include/callback.h"
+#include "inout.h"
+#include "jfont.h"
+#include "shiftjis.h"
+#include "callback.h"
 
 #define NUMBER_ANSI_DATA 10
 

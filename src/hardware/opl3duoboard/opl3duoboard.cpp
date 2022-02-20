@@ -1,5 +1,5 @@
 #include "../serialport/libserial.h"
-#include "include/setup.h"
+#include "setup.h"
 #include "opl3duoboard.h"
 #include <thread>
 

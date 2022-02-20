@@ -1,5 +1,5 @@
 
-#include "include/logging.h"
+#include "logging.h"
 
 /* Define temporary pagesize so the MPROTECT case and the regular case share as much code as possible */
 #if (C_HAVE_MPROTECT)
@@ -8,7 +8,7 @@
 #define PAGESIZE_TEMP 4096
 #endif
 
-#include "vs/unistd.h"//<unistd.h>
+#include <unistd.h>
 
 #if (C_HAVE_MPROTECT) && (C_HAVE_MACH_VM_REMAP)
 #include <mach/mach.h>

@@ -17,12 +17,12 @@
  */
 
 
-#include "include/dosbox.h"
-#include "include/logging.h"
-#include "include/pic.h"
-#include "include/setup.h"
+#include "dosbox.h"
+#include "logging.h"
+#include "pic.h"
+#include "setup.h"
 #include "serialdummy.h"
-#include "include/serialport.h"
+#include "serialport.h"
 #include "serialfile.h"
 #if defined(WIN32)
 #include "Shellapi.h"

@@ -27,11 +27,11 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "include/gtest/internal/gtest-filepath.h"
+#include "gtest/internal/gtest-filepath.h"
 
 #include <stdlib.h>
-#include "include/gtest/internal/gtest-port.h"
-#include "include/gtest/gtest-message.h"
+#include "gtest/internal/gtest-port.h"
+#include "gtest/gtest-message.h"
 
 #if GTEST_OS_WINDOWS_MOBILE
 # include <windows.h>
@@ -43,7 +43,7 @@
 # include <climits>  // Some Linux distributions define PATH_MAX here.
 #endif  // GTEST_OS_WINDOWS_MOBILE
 
-#include "include/gtest/internal/gtest-string.h"
+#include "gtest/internal/gtest-string.h"
 
 #if GTEST_OS_WINDOWS
 # define GTEST_PATH_MAX_ _MAX_PATH

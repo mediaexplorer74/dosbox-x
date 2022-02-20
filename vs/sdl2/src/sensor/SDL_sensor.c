@@ -22,7 +22,7 @@
 
 /* This is the sensor API for Simple DirectMedia Layer */
 
-#include "vs/sdl/include/SDL.h"
+#include "SDL.h"
 #include "SDL_atomic.h"
 #include "SDL_events.h"
 #include "SDL_syssensor.h"

@@ -5,15 +5,15 @@
 #include <string>
 #include <cstring>
 #include <fstream>
-#include "vs/sdl/include/SDL.h"
-#include "include/menu.h"
-#include "include/shell.h"
-#include "include/cross.h"
-#include "include/render.h"
-#include "include/mapper.h"
-#include "include/control.h"
-#include "include/logging.h"
-#include "include/build_timestamp.h"
+#include "SDL.h"
+#include "menu.h"
+#include "shell.h"
+#include "cross.h"
+#include "render.h"
+#include "mapper.h"
+#include "control.h"
+#include "logging.h"
+#include "build_timestamp.h"
 #ifdef WIN32
 #include "direct.h"
 #endif
@@ -26,9 +26,9 @@
 #endif
 
 #define MAXU32 0xffffffff
-#include "include/zip.h"
-#include "include/unzip.h"
-#include "include/ioapi.h"
+#include "zip.h"
+#include "unzip.h"
+#include "ioapi.h"
 #include "vs/zlib/contrib/minizip/zip.c"
 #include "vs/zlib/contrib/minizip/unzip.c"
 #include "vs/zlib/contrib/minizip/ioapi.c"

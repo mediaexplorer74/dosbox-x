@@ -27,7 +27,7 @@
  *    - dr_libs: https://github.com/mackron/dr_libs (source)
  *    - dr_mp3:  http://mackron.github.io/dr_mp3.html (website)
  */
-#include "include/support.h"//<support.h>
+#include <support.h>
 
 //#include "mp3_seek_table.h"
 #define DR_MP3_IMPLEMENTATION

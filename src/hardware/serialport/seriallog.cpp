@@ -17,11 +17,11 @@
  */
 
 
-#include "include/dosbox.h"
-#include "include/logging.h"
-#include "include/setup.h"
+#include "dosbox.h"
+#include "logging.h"
+#include "setup.h"
 #include "serialdummy.h"
-#include "include/serialport.h"
+#include "serialport.h"
 #include "seriallog.h"
 
 CSerialLog::CSerialLog(Bitu id,	CommandLine* cmd):CSerial(id, cmd) {

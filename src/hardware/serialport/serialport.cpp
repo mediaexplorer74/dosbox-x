@@ -19,19 +19,19 @@
 
 #include <string.h>
 #include <ctype.h>
-#include "vs/sdl/include/SDL_timer.h"//<SDL_timer.h>
+#include <SDL_timer.h>
 
-#include "include/dosbox.h"
+#include "dosbox.h"
 
-#include "include/inout.h"
-#include "include/logging.h"
-#include "include/pic.h"
-#include "include/setup.h"
-#include "include/bios.h"					// SetComPorts(..)
-#include "include/callback.h"				// CALLBACK_Idle
-#include "include/control.h"
+#include "inout.h"
+#include "logging.h"
+#include "pic.h"
+#include "setup.h"
+#include "bios.h"					// SetComPorts(..)
+#include "callback.h"				// CALLBACK_Idle
+#include "control.h"
 
-#include "include/serialport.h"
+#include "serialport.h"
 #include "serialmouse.h"
 #include "directserial.h"
 #include "serialdummy.h"
@@ -40,7 +40,7 @@
 #include "seriallog.h"
 #include "serialfile.h"
 
-#include "include/cpu.h"
+#include "cpu.h"
 
 #define LOG_SER(x) log_ser 
 

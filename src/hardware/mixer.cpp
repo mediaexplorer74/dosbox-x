@@ -45,21 +45,21 @@
 # define M_PI (3.141592654)
 #endif
 
-#include "vs/sdl/include/SDL.h"
-#include "include/mem.h"
-#include "include/pic.h"
-#include "include/dosbox.h"
-#include "include/logging.h"
-#include "include/mixer.h"
-#include "include/timer.h"
-#include "include/setup.h"
-#include "include/cross.h"
-#include "include/support.h"
-#include "include/control.h"
-#include "include/mapper.h"
-#include "include/hardware.h"
-#include "include/programs.h"
-#include "include/midi.h"
+#include "SDL.h"
+#include "mem.h"
+#include "pic.h"
+#include "dosbox.h"
+#include "logging.h"
+#include "mixer.h"
+#include "timer.h"
+#include "setup.h"
+#include "cross.h"
+#include "support.h"
+#include "control.h"
+#include "mapper.h"
+#include "hardware.h"
+#include "programs.h"
+#include "midi.h"
 
 #define MIXER_SSIZE 4
 #define MIXER_VOLSHIFT 13

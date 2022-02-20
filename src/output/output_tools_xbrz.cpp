@@ -2,11 +2,11 @@
 #include <assert.h>
 #include <math.h>
 
-#include "include/control.h"
-#include "include/dosbox.h"
-#include "include/logging.h"
-#include "include/render.h"
-#include "include/sdlmain.h"
+#include "control.h"
+#include "dosbox.h"
+#include "logging.h"
+#include "render.h"
+#include "sdlmain.h"
 
 using namespace std;
 

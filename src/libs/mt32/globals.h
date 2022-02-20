@@ -18,7 +18,7 @@
 #ifndef MT32EMU_GLOBALS_H
 #define MT32EMU_GLOBALS_H
 
-#include "vs/config.h"
+#include "config.h"
 
 /* Support for compiling shared library.
  * MT32EMU_SHARED and mt32emu_EXPORTS are defined when building a shared library.

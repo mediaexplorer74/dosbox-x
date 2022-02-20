@@ -16,7 +16,7 @@
  *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  */
 
-#include "include/cpu.h"
+#include "cpu.h"
 
 
 uint8_t * lookupRMregb[]=

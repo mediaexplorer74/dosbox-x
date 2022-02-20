@@ -20,7 +20,7 @@
 */
 #include "../SDL_internal.h"
 
-#include "vs/sdl/include/SDL.h"
+#include "SDL.h"
 #include "SDL_assert.h"
 #include "SDL_video.h"
 #include "SDL_sysvideo.h"

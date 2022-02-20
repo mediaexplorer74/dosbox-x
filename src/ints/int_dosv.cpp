@@ -16,21 +16,21 @@
  *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
  */
 
-#include "include/dosbox.h"
-#include "include/logging.h"
-#include "include/regs.h"
-#include "include/paging.h"
-#include "include/mem.h"
-#include "include/inout.h"
-#include "include/callback.h"
+#include "dosbox.h"
+#include "logging.h"
+#include "regs.h"
+#include "paging.h"
+#include "mem.h"
+#include "inout.h"
+#include "callback.h"
 #include "int10.h"
-#include "vs/sdl/include/SDL.h"
-#include "include/render.h"
-#include "include/support.h"
-#include "include/control.h"
-#include "include/dos_inc.h"
+#include "SDL.h"
+#include "render.h"
+#include "support.h"
+#include "control.h"
+#include "dos_inc.h"
 #define INCJFONT 1
-#include "include/jfont.h"
+#include "jfont.h"
 #if defined(LINUX)
 #include <limits.h>
 #if C_X11
@@ -2199,7 +2199,9 @@ uint16_t J3_GetMachineCode() {
 }
 
 void J3_SetType(std::string type) {
-	j3_machine_code = ConvHexWord((char *)type.c_str());
+	if(type != "default") {
+		j3_machine_code = ConvHexWord((char *)type.c_str());
+	}
 	if(j3_machine_code == 0) j3_machine_code = 0x6a74;
 	enum J3_COLOR j3_color = colorNormal;
 	for(Bitu count = 0 ; j3_machine_list[count].name != NULL ; count++) {
@@ -2251,4 +2253,9 @@ void J3_SetBiosArea(uint16_t mode)
 	} else {
 		real_writeb(BIOSMEM_J3_SEG, BIOSMEM_J3_MODE, 0x00);
 	}
+}
+
+bool J3_IsCga4Dcga()
+{
+	return IS_J3100 && (TrueVideoMode == 0x04 || TrueVideoMode == 0x05);
 }

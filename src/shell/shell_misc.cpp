@@ -23,16 +23,16 @@
 #include <iterator>  //std::front_inserter
 #include <regex>
 
-#include "include/logging.h"
-#include "include/shell.h"
-#include "include/timer.h"
-#include "include/bios.h"
-#include "include/control.h"
-#include "include/regs.h"
-#include "include/callback.h"
-#include "include/support.h"
-#include "include/inout.h"
-#include "include/render.h"
+#include "logging.h"
+#include "shell.h"
+#include "timer.h"
+#include "bios.h"
+#include "control.h"
+#include "regs.h"
+#include "callback.h"
+#include "support.h"
+#include "inout.h"
+#include "render.h"
 #include "../ints/int10.h"
 #include "../dos/drives.h"
 

@@ -15,12 +15,12 @@
  */
 
 
-#include "include/dosbox.h"
+#include "dosbox.h"
 
 #if C_PRINTER
 
-#include "include/parport.h"
-//#include "include/callback.h"
+#include "parport.h"
+//#include "callback.h"
 #include "printer_redir.h"
 
 // Purpose of this is to pass LPT register access to the virtual printer 

@@ -19,17 +19,17 @@
 
 /* Character displaying moving functions */
 
-#include "include/dosbox.h"
-#include "include/bios.h"
-#include "include/logging.h"
-#include "include/mem.h"
-#include "include/inout.h"
+#include "dosbox.h"
+#include "bios.h"
+#include "logging.h"
+#include "mem.h"
+#include "inout.h"
 #include "int10.h"
-#include "include/shiftjis.h"
-#include "include/callback.h"
-#include "include/dos_inc.h"
-#include "include/jfont.h"
-#include "include/regs.h"
+#include "shiftjis.h"
+#include "callback.h"
+#include "dos_inc.h"
+#include "jfont.h"
+#include "regs.h"
 #include <string.h>
 
 uint8_t prevchr = 0;

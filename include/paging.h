@@ -20,7 +20,7 @@
 #ifndef DOSBOX_PAGING_H
 #define DOSBOX_PAGING_H
 
-#include "include/mem.h"
+#include "mem.h"
 
 // disable this to reduce the size of the TLB
 // NOTE: does not work with the dynamic core (dynrec is fine)

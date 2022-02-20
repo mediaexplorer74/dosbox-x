@@ -17,7 +17,7 @@
  */
 
 #include "adlib.h"
-#include "include/dosbox.h"
+#include "dosbox.h"
 
 //Use 8 handlers based on a small logatirmic wavetabe and an exponential table for volume
 #define WAVE_HANDLER	10

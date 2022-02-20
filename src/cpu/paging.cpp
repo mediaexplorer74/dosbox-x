@@ -21,10 +21,10 @@
 #include <assert.h>
 #include <string.h>
 
-#include "include/paging.h"
+#include "paging.h"
 #include "lazyflags.h"
-#include "include/cpu.h"
-#include "include/logging.h"
+#include "cpu.h"
+#include "logging.h"
 
 extern bool dos_kernel_disabled;
 PagingBlock paging;

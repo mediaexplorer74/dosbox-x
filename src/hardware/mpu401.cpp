@@ -18,15 +18,15 @@
 
 #include <assert.h>
 #include <string.h>
-#include "include/dosbox.h"
-#include "include/inout.h"
-#include "include/logging.h"
-#include "include/pic.h"
-#include "include/setup.h"
-#include "include/cpu.h"
-#include "include/support.h"
-#include "include/control.h"
-#include "include/setup.h"
+#include "dosbox.h"
+#include "inout.h"
+#include "logging.h"
+#include "pic.h"
+#include "setup.h"
+#include "cpu.h"
+#include "support.h"
+#include "control.h"
+#include "setup.h"
 
 extern bool enable_slave_pic;
 

@@ -25,8 +25,8 @@
 //#pragma warning ( disable : 4290 )
 #endif
 
-#include "include/programs.h"
-#include "include/setup.h"
+#include "programs.h"
+#include "setup.h"
 
 class Config{
 public:

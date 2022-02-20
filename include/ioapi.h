@@ -42,7 +42,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "vs/zlib/zlib.h"
+#include "zlib.h"
 
 #if defined(__APPLE__) || defined(USE_FILE32API)
  #define fopen64 fopen

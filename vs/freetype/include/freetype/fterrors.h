@@ -114,7 +114,7 @@
 
 
   /* include module base error codes */
-//#include FT_MODULE_ERRORS_H
+#include FT_MODULE_ERRORS_H
 
 
   /*******************************************************************/

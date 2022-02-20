@@ -36,7 +36,7 @@
 #include <mmsystem.h>
 
 #include "cdrom.h"
-#include "include/logging.h"
+#include "logging.h"
 
 // for a more sophisticated implementation of the mci cdda functionality
 // see the SDL sources, which the mci_ functions are based on

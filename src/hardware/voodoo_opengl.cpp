@@ -25,14 +25,14 @@
 #include <math.h>
 #include <map>
 
-#include "include/dosbox.h"
-#include "include/control.h"
-#include "include/logging.h"
-#include "include/video.h"
+#include "dosbox.h"
+#include "control.h"
+#include "logging.h"
+#include "video.h"
 
 #include "voodoo_emu.h"
 #include "voodoo_opengl.h"
-#include "include/sdlmain.h"
+#include "sdlmain.h"
 
 #if C_OPENGL
 

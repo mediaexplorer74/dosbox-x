@@ -65,8 +65,8 @@
 #ifndef _INCLUDE_SDL_SOUND_H_
 #define _INCLUDE_SDL_SOUND_H_
 
-#include "vs/sdl/include/SDL.h"//<SDL.h>
-#include "vs/sdl/include/SDL_endian.h"//<SDL_endian.h>
+#include <SDL.h>
+#include <SDL_endian.h>
 
 #ifdef __cplusplus
 extern "C" {

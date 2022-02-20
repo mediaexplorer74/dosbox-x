@@ -1,5 +1,5 @@
-#include "vs/config.h"
-#include "include/logging.h"
+#include "config.h"
+#include "logging.h"
 
 #if defined(_MSC_VER)
 # pragma warning(disable:4244) /* const fmath::local::uint64_t to double possible loss of data */

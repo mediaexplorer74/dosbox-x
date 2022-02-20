@@ -17,7 +17,7 @@
  */
 
 
-#include "include/dosbox.h"
+#include "dosbox.h"
 #if C_FPU
 
 static void FPU_FLD_16(PhysPt addr) {

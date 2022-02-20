@@ -18,10 +18,10 @@
 
 
 #include "drives.h"
-#include "include/dos_inc.h"
-#include "include/logging.h"
-#include "include/support.h"
-#include "include/cross.h"
+#include "dos_inc.h"
+#include "logging.h"
+#include "support.h"
+#include "cross.h"
 
 // STL stuff
 #include <vector>

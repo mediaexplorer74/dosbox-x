@@ -17,12 +17,12 @@
  */
 
 
-#include "include/dosbox.h"
-#include "include/logging.h"
-#include "include/setup.h"
-#include "include/vga.h"
-#include "include/inout.h"
-#include "include/mem.h"
+#include "dosbox.h"
+#include "logging.h"
+#include "setup.h"
+#include "vga.h"
+#include "inout.h"
+#include "mem.h"
 
 extern unsigned int vbe_window_granularity;
 extern unsigned int vbe_window_size;

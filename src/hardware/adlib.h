@@ -20,12 +20,12 @@
 #ifndef DOSBOX_ADLIB_H
 #define DOSBOX_ADLIB_H
 
-#include "include/dosbox.h"
-#include "include/mixer.h"
-#include "include/inout.h"
-#include "include/setup.h"
-#include "include/pic.h"
-#include "include/hardware.h"
+#include "dosbox.h"
+#include "mixer.h"
+#include "inout.h"
+#include "setup.h"
+#include "pic.h"
+#include "hardware.h"
 
 
 namespace Adlib {

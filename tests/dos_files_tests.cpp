@@ -18,16 +18,16 @@
  *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  */
 
-#include "include/dos_inc.h"
+#include "dos_inc.h"
 
 #include <iterator>
 #include <string>
 
-#include "include/gtest/gtest.h"//<gtest/gtest.h>
+#include <gtest/gtest.h>
 
 #include "control.h"
-#include "include/dos_system.h"
-#include "include/shell.h"
+#include "dos_system.h"
+#include "shell.h"
 #include "../src/dos/drives.h"
 
 #include "dosbox_test_fixture.h"

@@ -38,7 +38,7 @@
 #ifndef DOSBOX_VOODOO_TYPES_H
 #define DOSBOX_VOODOO_TYPES_H
 
-#include "include/cross.h"
+#include "cross.h"
 
 /***************************************************************************
     TYPE DEFINITIONS

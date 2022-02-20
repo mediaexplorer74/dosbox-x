@@ -38,7 +38,7 @@
 #include <shellapi.h>
 
 /* This is included after SDL_windowsvideo.h, which includes windows.h */
-#include "vs/sdl/include/SDL_syswm.h"
+#include "SDL_syswm.h"
 
 /* Windows CE compatibility */
 #ifndef SWP_NOCOPYBITS

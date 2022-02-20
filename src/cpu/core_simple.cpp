@@ -19,11 +19,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "include/cpu.h"
+#include "cpu.h"
 #include "lazyflags.h"
-#include "include/callback.h"
-#include "include/pic.h"
-#include "include/fpu.h"
+#include "callback.h"
+#include "pic.h"
+#include "fpu.h"
 
 #define PRE_EXCEPTION { }
 
@@ -32,10 +32,10 @@
 extern bool ignore_opcode_63;
 
 #if C_DEBUG
-#include "include/debug.h"
+#include "debug.h"
 #endif
 
-#include "include/paging.h"
+#include "paging.h"
 #define SegBase(c)  SegPhys(c)
 #define LoadMb(off) mem_readb(off)
 #define LoadMw(off) mem_readw(off)

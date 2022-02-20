@@ -16,11 +16,11 @@
  *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  */
 
-#include "include/cpu.h"
+#include "cpu.h"
 #include "lazyflags.h"
-#include "include/callback.h"
-#include "include/pic.h"
-#include "include/fpu.h"
+#include "callback.h"
+#include "pic.h"
+#include "fpu.h"
 
 /* Do not emulate segment limit exceptions on 8086. This turns the if() statements into if (0)
  * and the C++ compiler optimizer should then completely omit the code for the 8086 cputype. */
@@ -38,7 +38,7 @@ extern bool ignore_opcode_63;
 
 #if C_DEBUG
 extern bool mustCompleteInstruction;
-# include "include/debug.h"
+# include "debug.h"
 #else
 # define mustCompleteInstruction (0)
 #endif
@@ -75,7 +75,7 @@ static void SaveMw(Bitu off,Bitu val) {
 
 #else 
 
-#include "include/paging.h"
+#include "paging.h"
 
 #define LoadMb(off) mem_readb_inline(off)
 

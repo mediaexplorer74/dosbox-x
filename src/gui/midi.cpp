@@ -22,19 +22,19 @@
 #include <string>
 #include <algorithm>
 
-#include "vs/sdl/include/SDL.h"
+#include "SDL.h"
 
-#include "include/dosbox.h"
-#include "include/midi.h"
-#include "include/control.h"
-#include "include/cross.h"
-#include "include/support.h"
-#include "include/setup.h"
-#include "include/mapper.h"
-#include "include/pic.h"
-#include "include/hardware.h"
-#include "include/logging.h"
-#include "include/timer.h"
+#include "dosbox.h"
+#include "midi.h"
+#include "control.h"
+#include "cross.h"
+#include "support.h"
+#include "setup.h"
+#include "mapper.h"
+#include "pic.h"
+#include "hardware.h"
+#include "logging.h"
+#include "timer.h"
 
 #define RAWBUF	1024
 

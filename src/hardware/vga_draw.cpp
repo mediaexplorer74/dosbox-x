@@ -20,30 +20,30 @@
 #include <string.h>
 #include <math.h>
 #include <stdio.h>
-#include "include/dosbox.h"
+#include "dosbox.h"
 #if defined (WIN32)
 #include <d3d9.h>
 #endif
-#include "include/logging.h"
+#include "logging.h"
 #include "time.h"
-#include "include/timer.h"
-#include "include/setup.h"
-#include "include/support.h"
-#include "include/video.h"
-#include "include/render.h"
+#include "timer.h"
+#include "setup.h"
+#include "support.h"
+#include "video.h"
+#include "render.h"
 #include "../gui/render_scalers.h"
-#include "include/vga.h"
-#include "include/pic.h"
-#include "include/jfont.h"
-#include "include/menu.h"
-#include "include/timer.h"
-#include "vs/config.h"
-#include "include/control.h"
-#include "include/shiftjis.h"
+#include "vga.h"
+#include "pic.h"
+#include "jfont.h"
+#include "menu.h"
+#include "timer.h"
+#include "config.h"
+#include "control.h"
+#include "shiftjis.h"
 #include "../ints/int10.h"
-#include "include/pc98_cg.h"
-#include "include/pc98_gdc.h"
-#include "include/pc98_gdc_const.h"
+#include "pc98_cg.h"
+#include "pc98_gdc.h"
+#include "pc98_gdc_const.h"
 
 bool mcga_double_scan = false;
 
@@ -426,18 +426,51 @@ static uint8_t * VGA_Draw_1BPP_Line_as_MCGA(Bitu vidstart, Bitu line) {
     return TempLine;
 }
 
+bool J3_IsCga4Dcga();
+
+static uint8_t LastLine[2][80];
+static uint8_t DcgaColor[2][2][4] = {
+	{
+		{ 0, 1, 1, 1 },{ 0, 0, 0, 1 }
+	}, {
+		{ 0, 0, 0, 1 },{ 0, 0, 1, 1 }
+	}
+};
+
 static uint8_t * VGA_Draw_1BPP_Line_as_VGA(Bitu vidstart, Bitu line) {
     const uint32_t *base = (uint32_t*)vga.draw.linear_base + ((line & vga.tandy.line_mask) << vga.tandy.line_shift);
     uint32_t * draw=(uint32_t *)TempLine;
     VGA_Latch pixels;
 
-    for (Bitu x=0;x<vga.draw.blocks;x++) {
-        pixels.d = base[vidstart & vga.tandy.addr_mask];
-        vidstart += (Bitu)1u << (Bitu)vga.config.addr_shift;
+	if(J3_IsCga4Dcga()) {
+		uint8_t val, b;
+		for (Bitu x = 0 ; x < vga.draw.blocks ; x++, vidstart++) {
+			val = base[(vidstart & (8 * 1024 -1))];
+			if(line == 0) {
+				LastLine[0][x] = val;
+			} else if(line == 1) {
+				LastLine[1][x] = val;
+				val = LastLine[0][x];
+			} else if(line == 2) {
+				val = LastLine[1][x];
+			} else {
+				val = LastLine[1][x];
+			}
+			for(int8_t n = 6 ; n >= 0 ; n -= 2) {
+				b = (val >> n) & 0x03;
+				*draw++ = vga.dac.xlat32[DcgaColor[0][line & 1][b]];
+				*draw++ = vga.dac.xlat32[DcgaColor[1][line & 1][b]];
+			}
+		}
+	} else {
+	    for (Bitu x=0;x<vga.draw.blocks;x++) {
+	        pixels.d = base[vidstart & vga.tandy.addr_mask];
+	        vidstart += (Bitu)1u << (Bitu)vga.config.addr_shift;
 
-        Bitu val=pixels.b[0];
-        for (Bitu i=0;i < 8;i++,val <<= 1)
-            *draw++ = vga.dac.xlat32[(val>>7)&1];
+	        Bitu val=pixels.b[0];
+	        for (Bitu i=0;i < 8;i++,val <<= 1)
+	            *draw++ = vga.dac.xlat32[(val>>7)&1];
+	    }
     }
     return TempLine;
 }

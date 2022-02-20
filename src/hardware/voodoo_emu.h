@@ -22,7 +22,7 @@
 
 #include <stdlib.h>
 
-#include "include/dosbox.h"
+#include "dosbox.h"
 
 #include "voodoo_types.h"
 #include "voodoo_data.h"

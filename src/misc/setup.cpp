@@ -17,12 +17,12 @@
  */
 
 
-#include "include/dosbox.h"
-#include "include/cross.h"
-#include "include/logging.h"
-#include "include/setup.h"
-#include "include/control.h"
-#include "include/support.h"
+#include "dosbox.h"
+#include "cross.h"
+#include "logging.h"
+#include "setup.h"
+#include "control.h"
+#include "support.h"
 
 #include <assert.h>
 #include <fstream>

@@ -2,14 +2,14 @@
 #include <assert.h>
 #include <math.h>
 
-#include "include/control.h"
-#include "include/dosbox.h"
-#include "include/logging.h"
-#include "include/menudef.h"
-#include "include/render.h"
-#include "src/output/output_direct3d.h"//<output/output_direct3d.h>
+#include "control.h"
+#include "dosbox.h"
+#include "logging.h"
+#include "menudef.h"
+#include "render.h"
+#include <output/output_direct3d.h>
 
-#include "include/sdlmain.h"
+#include "sdlmain.h"
 
 using namespace std;
 

@@ -19,14 +19,14 @@
 
 #include <string.h>
 #include <ctype.h>
-#include "include/regs.h"
-#include "include/callback.h"
-#include "include/dos_system.h"
-#include "include/dos_inc.h"
-#include "include/setup.h"
-#include "include/support.h"
-#include "include/bios_disk.h"
-#include "include/cpu.h"
+#include "regs.h"
+#include "callback.h"
+#include "dos_system.h"
+#include "dos_inc.h"
+#include "setup.h"
+#include "support.h"
+#include "bios_disk.h"
+#include "cpu.h"
 
 #include "cdrom.h"
 

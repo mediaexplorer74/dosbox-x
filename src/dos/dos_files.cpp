@@ -25,20 +25,20 @@
 # include <malloc.h>
 #endif
 
-#include "include/dosbox.h"
-#include "include/bios.h"
-#include "include/logging.h"
-#include "include/mem.h"
-#include "include/regs.h"
-#include "include/dos_inc.h"
+#include "dosbox.h"
+#include "bios.h"
+#include "logging.h"
+#include "mem.h"
+#include "regs.h"
+#include "dos_inc.h"
 #include "drives.h"
-#include "include/cross.h"
-#include "include/control.h"
-#include "include/support.h"
-#include "include/menu.h"
+#include "cross.h"
+#include "control.h"
+#include "support.h"
+#include "menu.h"
 #include "cdrom.h"
-#include "include/ide.h"
-#include "include/bios_disk.h"
+#include "ide.h"
+#include "bios_disk.h"
 
 #define DOS_FILESTART 4
 

@@ -19,15 +19,15 @@
 #if C_FLUIDSYNTH
 #include <fluidsynth.h>
 #else
-#include "include/fluidsynth.h"
+#include "fluidsynth.h"
 #endif
 #include <math.h>
 #include <string.h>
-#include "include/control.h"
+#include "control.h"
 
 /* Protect against multiple inclusions */
 #ifndef MIXER_BUFSIZE
-#include "include/mixer.h"
+#include "mixer.h"
 #endif
 
 static MixerChannel *synthchan = NULL;

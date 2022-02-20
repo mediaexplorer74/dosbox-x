@@ -16,17 +16,17 @@
  *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  */
 
-#include "include/dosbox.h"
+#include "dosbox.h"
 
-#include "include/pic.h"
-#include "include/regs.h"
-#include "include/cpu.h"
+#include "pic.h"
+#include "regs.h"
+#include "cpu.h"
 #include "lazyflags.h"
-#include "include/paging.h"
-#include "include/fpu.h"
-#include "include/debug.h"
-#include "include/inout.h"
-#include "include/callback.h"
+#include "paging.h"
+#include "fpu.h"
+#include "debug.h"
+#include "inout.h"
+#include "callback.h"
 
 extern bool ignore_opcode_63;
 

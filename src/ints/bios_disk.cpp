@@ -18,16 +18,16 @@
 
 #include <assert.h>
 
-#include "include/dosbox.h"
-#include "include/callback.h"
-#include "include/bios.h"
-#include "include/bios_disk.h"
-#include "include/regs.h"
-#include "include/mem.h"
-#include "include/dos_inc.h" /* for Drives[] */
+#include "dosbox.h"
+#include "callback.h"
+#include "bios.h"
+#include "bios_disk.h"
+#include "regs.h"
+#include "mem.h"
+#include "dos_inc.h" /* for Drives[] */
 #include "../dos/drives.h"
-#include "include/mapper.h"
-#include "include/ide.h"
+#include "mapper.h"
+#include "ide.h"
 
 #if defined(_MSC_VER)
 # pragma warning(disable:4244) /* const fmath::local::uint64_t to double possible loss of data */

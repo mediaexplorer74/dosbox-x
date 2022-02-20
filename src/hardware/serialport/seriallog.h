@@ -22,7 +22,7 @@
 
 #include <string>
 
-#include "include/serialport.h"
+#include "serialport.h"
 
 //#define CHECKIT_TESTPLUG
 

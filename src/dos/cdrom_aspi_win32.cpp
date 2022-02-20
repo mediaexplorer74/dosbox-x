@@ -21,17 +21,17 @@
 
 #include <ctype.h>
 
-#include "include/dosbox.h"
+#include "dosbox.h"
 #include "cdrom.h"
-#include "include/support.h"
-#include "include/logging.h"
+#include "support.h"
+#include "logging.h"
 
 //Are actually system includes but leave for now
 #include "wnaspi32.h"
 
 #if defined (_MSC_VER)
-#include "include/ntddcdrm.h"//<ntddcdrm.h>			// Ioctl stuff
-#include "include/ntddscsi.h"//<ntddscsi.h>
+#include <ntddcdrm.h>			// Ioctl stuff
+#include <ntddscsi.h>
 #include <winioctl.h>			// Ioctl stuff
 #elif (defined __MINGW64_VERSION_MAJOR)
 #include <winioctl.h>			// Ioctl stuff

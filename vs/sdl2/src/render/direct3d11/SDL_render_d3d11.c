@@ -26,7 +26,7 @@
 #include "../../core/windows/SDL_windows.h"
 #include "SDL_hints.h"
 #include "SDL_loadso.h"
-#include "vs/sdl/include/SDL_syswm.h"
+#include "SDL_syswm.h"
 #include "../SDL_sysrender.h"
 #include "../SDL_d3dmath.h"
 

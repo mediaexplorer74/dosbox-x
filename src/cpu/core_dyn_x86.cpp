@@ -19,7 +19,7 @@
 #include <stdarg.h>
 #include <string.h>
 
-#include "vs/config.h"//"config.h"
+#include "config.h"
 
 #if (C_DYNAMIC_X86)
 #if defined (WIN32)
@@ -35,11 +35,11 @@
 #endif
 #endif /* C_HAVE_MPROTECT */
 
-#include "include/callback.h"
-#include "include/cpu.h"
-#include "include/debug.h"
-#include "include/paging.h"
-#include "include/fpu.h"
+#include "callback.h"
+#include "cpu.h"
+#include "debug.h"
+#include "paging.h"
+#include "fpu.h"
 
 #define CACHE_MAXSIZE	(4096*8)
 #define CACHE_TOTAL		(1024*1024*8)

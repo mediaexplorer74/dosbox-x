@@ -1,5 +1,5 @@
 
-#include "include/dos_inc.h"
+#include "dos_inc.h"
 #include "../src/builtin/zip.h"
 #include "../src/builtin/eval.h"
 #include "../src/builtin/cdplay.h"

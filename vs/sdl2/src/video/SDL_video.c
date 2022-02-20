@@ -22,7 +22,7 @@
 
 /* The high-level video driver subsystem */
 
-#include "vs/sdl/include/SDL.h"
+#include "SDL.h"
 #include "SDL_video.h"
 #include "SDL_sysvideo.h"
 #include "SDL_blit.h"
@@ -31,7 +31,7 @@
 #include "../events/SDL_events_c.h"
 #include "../timer/SDL_timer_c.h"
 
-#include "vs/sdl/include/SDL_syswm.h"
+#include "SDL_syswm.h"
 
 #if SDL_VIDEO_OPENGL
 #include "SDL_opengl.h"

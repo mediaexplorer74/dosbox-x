@@ -19,21 +19,21 @@
 #include <assert.h>
 #include <string.h>
 #include <stdlib.h>
-#include "include/dosbox.h"
-#include "include/callback.h"
-#include "include/logging.h"
-#include "include/mem.h"
-#include "include/paging.h"
-#include "include/bios.h"
-#include "include/keyboard.h"
-#include "include/regs.h"
-#include "include/inout.h"
-#include "include/dos_inc.h"
-#include "include/setup.h"
-#include "include/support.h"
-#include "include/cpu.h"
-#include "include/dma.h"
-#include "include/control.h"
+#include "dosbox.h"
+#include "callback.h"
+#include "logging.h"
+#include "mem.h"
+#include "paging.h"
+#include "bios.h"
+#include "keyboard.h"
+#include "regs.h"
+#include "inout.h"
+#include "dos_inc.h"
+#include "setup.h"
+#include "support.h"
+#include "cpu.h"
+#include "dma.h"
+#include "control.h"
 
 /* TODO: Make EMS page frame address (and size) user configurable.
  *       With auto setting to fit in automatically with BIOS and UMBs.

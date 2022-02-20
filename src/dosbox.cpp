@@ -50,34 +50,34 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctime>
-#include "vs/unistd.h"
-#include "include/dosbox.h"
-#include "include/debug.h"
-#include "include/cpu.h"
-#include "include/logging.h"
-#include "include/menudef.h"
-#include "include/video.h"
-#include "include/pic.h"
-#include "include/cpu.h"
-#include "include/ide.h"
-#include "include/callback.h"
-#include "include/inout.h"
-#include "include/mixer.h"
-#include "include/timer.h"
-#include "include/dos_inc.h"
-#include "include/setup.h"
-#include "include/control.h"
-#include "include/cross.h"
-#include "include/programs.h"
-#include "include/support.h"
-#include "include/mapper.h"
+#include <unistd.h>
+#include "dosbox.h"
+#include "debug.h"
+#include "cpu.h"
+#include "logging.h"
+#include "menudef.h"
+#include "video.h"
+#include "pic.h"
+#include "cpu.h"
+#include "ide.h"
+#include "callback.h"
+#include "inout.h"
+#include "mixer.h"
+#include "timer.h"
+#include "dos_inc.h"
+#include "setup.h"
+#include "control.h"
+#include "cross.h"
+#include "programs.h"
+#include "support.h"
+#include "mapper.h"
 #include "ints/int10.h"
-#include "include/menu.h"
-#include "include/jfont.h"
-#include "include/render.h"
-#include "include/pci_bus.h"
-#include "include/parport.h"
-#include "include/clockdomain.h"
+#include "menu.h"
+#include "jfont.h"
+#include "render.h"
+#include "pci_bus.h"
+#include "parport.h"
+#include "clockdomain.h"
 
 #if C_EMSCRIPTEN
 # include <emscripten.h>
@@ -304,7 +304,7 @@ unsigned long long update_clockdom_from_now(ClockDomain &dst) {
     return dst.counter;
 }
 
-#include "include/paging.h"
+#include "paging.h"
 
 extern bool rom_bios_vptable_enable;
 extern bool rom_bios_8x8_cga_font;
@@ -1064,7 +1064,7 @@ void DOSBOX_RealInit() {
         if(j3100mode != "off" && j3100mode != "0") {
             dos.set_j3100_enabled = true;
             if (j3100mode != "manual") j3100_start = true;
-            if (j3100type != "default") J3_SetType(j3100type);
+            J3_SetType(j3100type);
         }
     }
     if (!strcasecmp(dosvstr, "ko")) dos.set_kdosv_enabled = true;

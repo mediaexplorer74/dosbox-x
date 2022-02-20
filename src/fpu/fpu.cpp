@@ -17,16 +17,16 @@
  */
 
 
-#include "include/dosbox.h"
+#include "dosbox.h"
 #if C_FPU
 
 #include <math.h>
 #include <float.h>
-#include "include/paging.h"
-#include "include/cross.h"
-#include "include/mem.h"
-#include "include/cpu.h"
-#include "include/fpu.h"
+#include "paging.h"
+#include "cross.h"
+#include "mem.h"
+#include "cpu.h"
+#include "fpu.h"
 #include "../cpu/lazyflags.h"
 
 FPU_rec fpu;

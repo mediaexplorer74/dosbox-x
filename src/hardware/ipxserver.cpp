@@ -17,17 +17,17 @@
  */
 
 
-#include "include/dosbox.h"
+#include "dosbox.h"
 
 #if C_IPX
 
-#include "include/dosbox.h"
-#include "include/ipxserver.h"
-#include "include/logging.h"
-#include "include/timer.h"
+#include "dosbox.h"
+#include "ipxserver.h"
+#include "logging.h"
+#include "timer.h"
 #include <stdlib.h>
 #include <string.h>
-#include "include/ipx.h"
+#include "ipx.h"
 
 IPaddress ipxServerIp;  // IPAddress for server's listening port
 UDPsocket ipxServerSocket;  // Listening server socket

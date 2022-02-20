@@ -17,7 +17,7 @@
  */
 
 #include <math.h> /* for isinf, etc */
-#include "src/cpu/lazyflags.h"
+#include "cpu/lazyflags.h"
 static void FPU_FINIT(void) {
 	unsigned int i;
 

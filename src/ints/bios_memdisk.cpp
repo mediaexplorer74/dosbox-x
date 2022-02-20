@@ -17,15 +17,15 @@
  *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 */
 
-#include "include/dosbox.h"
-#include "include/callback.h"
-#include "include/bios.h"
-#include "include/bios_disk.h"
-#include "include/regs.h"
-#include "include/mem.h"
-#include "include/dos_inc.h" /* for Drives[] */
+#include "dosbox.h"
+#include "callback.h"
+#include "bios.h"
+#include "bios_disk.h"
+#include "regs.h"
+#include "mem.h"
+#include "dos_inc.h" /* for Drives[] */
 #include "../dos/drives.h"
-#include "include/mapper.h"
+#include "mapper.h"
 
 /* imageDiskMemory simulates a hard drive image or floppy drive image in RAM
 *

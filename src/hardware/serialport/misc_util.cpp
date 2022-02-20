@@ -19,7 +19,7 @@
 /* With major work from sduensin, GranMinigun, kcgen, and Wengier */
 
 
-#include "vs/config.h"
+#include "config.h"
 
 #if C_MODEM
 
@@ -27,11 +27,11 @@
 // C++ SDLnet wrapper
 
 #define ENET_IMPLEMENTATION
-#include "include/enet.h"
+#include "enet.h"
 
-#include "include/logging.h"
+#include "logging.h"
 #include "misc_util.h"
-#include "include/timer.h"
+#include "timer.h"
 #include <cassert>
 #include <limits.h>
 

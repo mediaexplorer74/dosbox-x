@@ -22,9 +22,9 @@
 // set to 1 for debug messages and debugging log:
 #define PARALLEL_DEBUG 0
 
-#include "include/inout.h"
+#include "inout.h"
 
-#include "include/programs.h"
+#include "programs.h"
 
 class device_LPT : public DOS_Device {
 public:

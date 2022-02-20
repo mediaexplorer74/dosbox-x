@@ -20,24 +20,24 @@
 #pragma warning(disable:4065) /* Please do not warn on default case without other case statements */
 #endif
 
-#include "vs/sdl/include/SDL.h"
+#include "SDL.h"
 
-#include "include/dosbox.h"
-#include "include/menu.h"
+#include "dosbox.h"
+#include "menu.h"
 #include "../libs/gui_tk/gui_tk.h"
 
-#include "include/build_timestamp.h"
-#include "include/keyboard.h"
-#include "include/video.h"
-#include "include/render.h"
-#include "include/mapper.h"
-#include "include/setup.h"
-#include "include/control.h"
-#include "include/shell.h"
-#include "include/cpu.h"
-#include "include/pic.h"
-#include "include/midi.h"
-#include "include/bios_disk.h"
+#include "build_timestamp.h"
+#include "keyboard.h"
+#include "video.h"
+#include "render.h"
+#include "mapper.h"
+#include "setup.h"
+#include "control.h"
+#include "shell.h"
+#include "cpu.h"
+#include "pic.h"
+#include "midi.h"
+#include "bios_disk.h"
 #include "../dos/drives.h"
 
 #if defined(WIN32)
@@ -53,8 +53,8 @@
 #include <assert.h>
 #include <sys/stat.h>
 
-#include "vs/sdl/include/SDL_syswm.h"
-#include "include/sdlmain.h"
+#include "SDL_syswm.h"
+#include "sdlmain.h"
 
 #if !defined(HX_DOS)
 #include "../libs/tinyfiledialogs/tinyfiledialogs.h"

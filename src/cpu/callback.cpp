@@ -19,10 +19,10 @@
 #include <assert.h>
 #include <string.h>
 
-#include "include/callback.h" // "callback"
-#include "include/logging.h"//"include/logging.h"
-#include "include/bios.h" // "include/bios.h"
-#include "include/cpu.h" // "include/cpu.h"
+#include "callback.h"
+#include "logging.h"
+#include "bios.h"
+#include "cpu.h"
 
 #if C_EMSCRIPTEN
 # include <emscripten.h>

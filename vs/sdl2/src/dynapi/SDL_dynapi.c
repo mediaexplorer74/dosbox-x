@@ -31,10 +31,10 @@
 #include <dos.h>
 #endif
 
-#include "vs/sdl/include/SDL.h"
+#include "SDL.h"
 
 /* These headers have system specific definitions, so aren't included above */
-#include "vs/sdl/include/SDL_syswm.h"
+#include "SDL_syswm.h"
 #include "SDL_vulkan.h"
 
 /* This is the version of the dynamic API. This doesn't match the SDL version

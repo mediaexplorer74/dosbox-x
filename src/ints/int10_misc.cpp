@@ -17,10 +17,10 @@
  */
 
 
-#include "include/dosbox.h"
-#include "include/logging.h"
-#include "include/mem.h"
-#include "include/inout.h"
+#include "dosbox.h"
+#include "logging.h"
+#include "mem.h"
+#include "inout.h"
 #include "int10.h"
 
 

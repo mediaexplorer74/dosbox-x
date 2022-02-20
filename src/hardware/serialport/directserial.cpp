@@ -17,15 +17,15 @@
  */
 
 
-#include "include/dosbox.h"
+#include "dosbox.h"
 
 #if C_DIRECTSERIAL
 
-#include "include/logging.h"
-#include "include/serialport.h"
+#include "logging.h"
+#include "serialport.h"
 #include "directserial.h"
 #include "misc_util.h"
-#include "include/pic.h"
+#include "pic.h"
 
 #include "libserial.h"
 

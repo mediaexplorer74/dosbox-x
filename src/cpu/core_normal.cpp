@@ -16,13 +16,13 @@
  *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  */
 
-#include "include/cpu.h"
+#include "cpu.h"
 #include "lazyflags.h"
-#include "include/callback.h"
-#include "include/pic.h"
-#include "include/fpu.h"
-#include "include/paging.h"
-#include "include/mmx.h"
+#include "callback.h"
+#include "pic.h"
+#include "fpu.h"
+#include "paging.h"
+#include "mmx.h"
 
 bool CPU_RDMSR();
 bool CPU_WRMSR();
@@ -38,7 +38,7 @@ bool CPU_SYSEXIT();
 extern bool ignore_opcode_63;
 
 #if C_DEBUG
-#include "include/debug.h"
+#include "debug.h"
 #endif
 
 #if (!C_CORE_INLINE)
@@ -51,7 +51,7 @@ extern bool ignore_opcode_63;
 #define SaveMd(off,val)	mem_writed(off,val)
 #define SaveMq(off,val) {mem_writed(off,val&0xffffffff);mem_writed(off+4,(val>>32)&0xffffffff);}
 #else 
-#include "include/paging.h"
+#include "paging.h"
 #define LoadMb(off) mem_readb_inline(off)
 #define LoadMw(off) mem_readw_inline(off)
 #define LoadMd(off) mem_readd_inline(off)

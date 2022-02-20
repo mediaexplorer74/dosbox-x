@@ -3,8 +3,8 @@
 #ifndef DOSBOX_PRREDIR_H
 #define DOSBOX_PRREDIR_H
 
-#include "include/dosbox.h"
-#include "include/parport.h"
+#include "dosbox.h"
+#include "parport.h"
 #include "printer_if.h"
 
 class CPrinterRedir : public CParallel {

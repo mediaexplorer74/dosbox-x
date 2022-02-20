@@ -28,29 +28,29 @@
 #include <assert.h>
 #include <limits.h>
 
-#include "vs/sdl/include/SDL.h"
+#include "SDL.h"
 
-#include "include/dosbox.h"
-#include "include/logging.h"
-#include "include/menudef.h"
-#include "include/video.h"
-#include "include/keyboard.h"
-#include "include/mouse.h"
-#include "include/pic.h"
-#include "include/control.h"
-#include "include/joystick.h"
-#include "include/util_math.h"
-#include "include/keymap.h"
-#include "include/support.h"
-#include "include/mapper.h"
-#include "include/render.h"
-#include "include/setup.h"
-#include "include/menu.h"
+#include "dosbox.h"
+#include "logging.h"
+#include "menudef.h"
+#include "video.h"
+#include "keyboard.h"
+#include "mouse.h"
+#include "pic.h"
+#include "control.h"
+#include "joystick.h"
+#include "util_math.h"
+#include "keymap.h"
+#include "support.h"
+#include "mapper.h"
+#include "render.h"
+#include "setup.h"
+#include "menu.h"
 
-#include "vs/sdl/include/SDL_syswm.h"
-#include "include/sdlmain.h"
-#include "include/shell.h"
-#include "include/jfont.h"
+#include "SDL_syswm.h"
+#include "sdlmain.h"
+#include "shell.h"
+#include "jfont.h"
 
 #if C_EMSCRIPTEN
 # include <emscripten.h>
@@ -1311,7 +1311,8 @@ Bitu GetKeyCode(SDL_keysym keysym) {
         if ((keysym.sym == SDLK_BACKSLASH) && (keysym.scancode == 0x61)) return (Bitu)SDLK_JP_RO;
         if ((keysym.sym == SDLK_UNKNOWN) && (keysym.scancode == 0x31)) return (Bitu)SDLK_WORLD_12;
 #endif
-		return (Bitu)(keysym.sym ? keysym.sym : sdlkey_map[(keysym.scancode)]);
+        if (keysym.sym) return (Bitu) (keysym.sym < SDLK_LAST ? keysym.sym : SDLK_UNKNOWN);
+        else return (Bitu)(keysym.scancode < MAX_SCANCODES ? sdlkey_map[(keysym.scancode)] : SDLK_UNKNOWN);
     }
 }
 
@@ -1467,7 +1468,11 @@ public:
 
 		//key = (event->key.keysym.sym ? GetKeyCode(event->key.keysym) : sdlkey_map[(Bitu)(event->key.keysym.scancode)]);
 		key = GetKeyCode(event->key.keysym);
-		assert(key < keys);
+		//assert(key < keys);
+        if(key >= keys) {
+            key = SDLK_UNKNOWN; // a test to avoid assertion failure (key < keys)
+            // LOG_MSG("assertion failed: key: %x [keysym.sym:%x keysym.scancode: %x]", key, event->key.keysym.sym, event->key.keysym.scancode);
+        }
 #endif
 //      LOG_MSG("key type %i is %x [%x %x]",event->type,key,event->key.keysym.sym,event->key.keysym.scancode);
 
@@ -5298,7 +5303,7 @@ void ReloadMapper(Section_prop *section, bool init) {
 
 //Somehow including them at the top conflicts with something in setup.h
 #ifdef C_X11_XKB
-#include "vs/sdl/include/SDL_syswm.h"
+#include "SDL_syswm.h"
 #include <X11/XKBlib.h>
 #endif
 

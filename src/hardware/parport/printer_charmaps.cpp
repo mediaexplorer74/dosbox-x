@@ -1,4 +1,4 @@
-#include "include/support.h"
+#include "support.h"
 #include "printer_charmaps.h"
 
 // Various ASCII codepage to unicode maps

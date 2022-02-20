@@ -1,6 +1,6 @@
 /* Public Domain Curses */
 
-#include "../curspriv.h"  //<curspriv.h>
+#include <curspriv.h>
 
 /*man-start**************************************************************
 
@@ -126,7 +126,7 @@ panel
 
 **man-end****************************************************************/
 
-#include  "../panel.h"//<panel.h>
+#include <panel.h>
 #include <stdlib.h>
 
 PANEL *_bottom_panel = (PANEL *)0;

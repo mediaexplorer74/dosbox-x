@@ -21,7 +21,7 @@
 #ifndef __HQ2X_DIRECT3D_H_
 #define __HQ2X_DIRECT3D_H_
 
-#include "vs/config.h"
+#include "config.h"
 #include <math.h>
 #include <stdint.h>
 

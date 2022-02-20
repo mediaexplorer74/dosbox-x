@@ -19,22 +19,22 @@
 #include <assert.h>
 
 #include "../dos/drives.h"
-#include "include/control.h"
-#include "include/cpu.h"
-#include "include/render.h"
-#include "include/menu.h"
-#include "include/menudef.h"
-#include "vs/sdl/include/SDL.h"
-#include "../vs/sdl/include/SDL_syswm.h"//"SDL_syswm.h"
-#include "include/bios_disk.h"
-#include "include/ide.h" // for ide support
-#include "include/mapper.h"
-#include "include/keyboard.h"
-#include "include/timer.h"
-#include "include/inout.h"
-#include "include/shell.h"
-#include "include/jfont.h"
-#include "include/sdlmain.h"
+#include "control.h"
+#include "cpu.h"
+#include "render.h"
+#include "menu.h"
+#include "menudef.h"
+#include "SDL.h"
+#include "SDL_syswm.h"
+#include "bios_disk.h"
+#include "ide.h" // for ide support
+#include "mapper.h"
+#include "keyboard.h"
+#include "timer.h"
+#include "inout.h"
+#include "shell.h"
+#include "jfont.h"
+#include "sdlmain.h"
 #include "../ints/int10.h"
 
 #if DOSBOXMENU_TYPE == DOSBOXMENU_SDLDRAW

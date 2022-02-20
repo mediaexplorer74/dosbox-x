@@ -137,7 +137,7 @@
 #endif /* defined _MSC_VER */
 
 #define FLUIDINC
-#include "../config.h" // "config.h"
+#include "config.h"
 #if defined(_WIN32) && !defined(C_HX_DOS) && !(defined(__MINGW32__) && !defined(__MINGW64_VERSION_MAJOR))
 /* All char* strings are in UTF-8 format. Added to support Unicode files on Windows */
 

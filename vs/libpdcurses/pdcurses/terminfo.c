@@ -1,6 +1,6 @@
 /* Public Domain Curses */
 
-#include "../curspriv.h"  //<curspriv.h>
+#include <curspriv.h>
 
 /*man-start**************************************************************
 
@@ -48,7 +48,7 @@ terminfo
 
 **man-end****************************************************************/
 
-#include "../term.h"//<term.h>
+#include <term.h>
 
 TERMINAL *cur_term = NULL;
 

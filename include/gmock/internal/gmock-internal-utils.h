@@ -43,8 +43,8 @@
 #include <ostream>  // NOLINT
 #include <string>
 #include <type_traits>
-#include "include/gmock/internal/gmock-port.h"
-#include "include/gtest/gtest.h"
+#include "gmock/internal/gmock-port.h"
+#include "gtest/gtest.h"
 
 namespace testing {
 

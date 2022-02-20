@@ -23,7 +23,7 @@
 #include <string.h>
 #include <stdio.h>
 
-#include "include/informational.h"
+#include "informational.h"
 
 typedef uint32_t riff_fourcc_t;
 #define riff_fourcc_const(a,b,c,d)	( (((uint32_t)(a)) << 0U) | (((uint32_t)(b)) << 8U) | (((uint32_t)(c)) << 16U) | (((uint32_t)(d)) << 24U) )

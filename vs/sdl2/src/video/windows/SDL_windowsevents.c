@@ -25,7 +25,7 @@
 #include "SDL_windowsvideo.h"
 #include "SDL_windowsshape.h"
 #include "SDL_system.h"
-#include "vs/sdl/include/SDL_syswm.h"
+#include "SDL_syswm.h"
 #include "SDL_timer.h"
 #include "SDL_vkeys.h"
 #include "SDL_hints.h"

@@ -18,14 +18,14 @@
 
 
 #include <string.h>
-#include "include/dosbox.h"
-#include "include/inout.h"
-#include "include/logging.h"
-#include "include/setup.h"
-#include "include/joystick.h"
-#include "include/pic.h"
-#include "include/support.h"
-#include "include/control.h"
+#include "dosbox.h"
+#include "inout.h"
+#include "logging.h"
+#include "setup.h"
+#include "joystick.h"
+#include "pic.h"
+#include "support.h"
+#include "control.h"
 
 #define RANGE 64
 #define TIMEOUT 10

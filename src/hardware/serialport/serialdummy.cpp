@@ -17,11 +17,11 @@
  */
 
 
-#include "include/dosbox.h"
+#include "dosbox.h"
 
-#include "include/setup.h"
+#include "setup.h"
 #include "serialdummy.h"
-#include "include/serialport.h"
+#include "serialport.h"
 
 CSerialDummy::CSerialDummy(Bitu id,	CommandLine* cmd):CSerial(id, cmd) {
 	CSerial::Init_Registers();

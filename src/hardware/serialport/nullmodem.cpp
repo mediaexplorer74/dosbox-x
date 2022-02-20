@@ -17,14 +17,14 @@
  */
 
 
-#include "include/dosbox.h"
+#include "dosbox.h"
 
 
 #if C_MODEM
 
-#include "include/control.h"
-#include "include/logging.h"
-#include "include/serialport.h"
+#include "control.h"
+#include "logging.h"
+#include "serialport.h"
 #include "nullmodem.h"
 
 extern int socknum;

@@ -20,18 +20,18 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "include/dosbox.h"
-#include "vs/config.h"
-#include "include/logging.h"
-#include "include/setup.h"
-#include "include/cross.h"
-#include "include/control.h"
+#include "dosbox.h"
+#include "config.h"
+#include "logging.h"
+#include "setup.h"
+#include "cross.h"
+#include "control.h"
 
-#include "include/paging.h"
-#include "include/mem.h"
+#include "paging.h"
+#include "mem.h"
 
-#include "include/voodoo.h"
-#include "include/pci_bus.h"
+#include "voodoo.h"
+#include "pci_bus.h"
 #include "voodoo_interface.h"
 
 class VOODOO;

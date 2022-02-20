@@ -18,7 +18,7 @@
 
 #include <assert.h>
 
-#include "include/logging.h"
+#include "logging.h"
 
 class CodePageHandlerDynRec;	// forward
 
@@ -606,7 +606,7 @@ static void dyn_run_code(void);
 
 static bool cache_initialized = false;
 
-#include "src/cpu/dynamic_alloc_common.h"//"cpu/dynamic_alloc_common.h"
+#include "cpu/dynamic_alloc_common.h"
 
 static void cache_ensure_allocation(void) {
 	if (cache_code_start_ptr==NULL) {

@@ -1,10 +1,10 @@
-#include "include/dosbox.h"
+#include "dosbox.h"
 
 #ifndef DOSBOX_OUTPUT_OPENGL_H
 #define DOSBOX_OUTPUT_OPENGL_H
 
 #if C_OPENGL
-#include "vs/sdl/include/SDL_opengl.h"//"SDL_opengl.h"
+#include "SDL_opengl.h"
 
 #ifndef APIENTRY
 #define APIENTRY

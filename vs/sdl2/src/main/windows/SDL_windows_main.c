@@ -11,7 +11,7 @@
 #include "../../core/windows/SDL_windows.h"
 
 /* Include the SDL main definition header */
-#include "vs/sdl/include/SDL.h"
+#include "SDL.h"
 #include "SDL_main.h"
 
 #ifdef main

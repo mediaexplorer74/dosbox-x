@@ -16,7 +16,7 @@
  *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  */
 
-#include "vs/config.h"//"config.h"
+#include "config.h"
 
 #if (C_DYNREC)
 #include <string.h>
@@ -35,15 +35,15 @@
 #endif
 #endif /* C_HAVE_MPROTECT */
 
-#include "include/callback.h"
-#include "include/regs.h"
-#include "include/mem.h"
-#include "include/cpu.h"
-#include "include/debug.h"
-#include "include/paging.h"
-#include "include/inout.h"
+#include "callback.h"
+#include "regs.h"
+#include "mem.h"
+#include "cpu.h"
+#include "debug.h"
+#include "paging.h"
+#include "inout.h"
 #include "lazyflags.h"
-#include "include/pic.h"
+#include "pic.h"
 
 #define CACHE_MAXSIZE	(4096*2)
 #define CACHE_TOTAL		(1024*1024*8)

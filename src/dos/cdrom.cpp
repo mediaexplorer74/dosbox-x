@@ -23,10 +23,10 @@
 
 #include <sys/types.h>
 #include <sys/stat.h>
-#include "vs/unistd.h"//<unistd.h>
+#include <unistd.h>
 
-#include "include/logging.h"
-#include "include/support.h"
+#include "logging.h"
+#include "support.h"
 #include "cdrom.h"
 
 #if defined(C_SDL2)

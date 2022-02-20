@@ -1,14 +1,14 @@
-#include "vs/sdl/include/SDL_thread.h"//<SDL_thread.h>
-#include "vs/sdl/include/SDL_timer.h"
+#include <SDL_thread.h>
+#include <SDL_timer.h>
 
-#include "include/logging.h"
-#include "include/mixer.h"
-#include "include/control.h"
-#include "include/cross.h"
+#include "logging.h"
+#include "mixer.h"
+#include "control.h"
+#include "cross.h"
 
 #define MT32EMU_API_TYPE 3
 #define MT32EMU_EXPORTS_TYPE 1
-#include "../libs/mt32/mt32emu.h"//<mt32emu.h>
+#include <mt32emu.h>
 
 std::string mt32info = "";
 static const Bitu MILLIS_PER_SECOND = 1000;

@@ -17,14 +17,14 @@
  */
 
 
-#include "include/dosbox.h"
+#include "dosbox.h"
 
-#include "include/parport.h"
+#include "parport.h"
 #include "filelpt.h"
-#include "include/callback.h"
-#include "include/logging.h"
-#include "include/pic.h"
-#include "include/hardware.h" //OpenCaptureFile
+#include "callback.h"
+#include "logging.h"
+#include "pic.h"
+#include "hardware.h" //OpenCaptureFile
 #include <stdio.h>
 
 #include "printer_charmaps.h"

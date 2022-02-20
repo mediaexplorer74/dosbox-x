@@ -25,9 +25,9 @@
 #include <math.h>
 #include <map>
 
-#include "include/dosbox.h"
-#include "include/dos_inc.h"
-#include "include/logging.h"
+#include "dosbox.h"
+#include "dos_inc.h"
+#include "logging.h"
 
 #if C_OPENGL
 

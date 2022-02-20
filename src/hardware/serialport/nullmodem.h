@@ -21,12 +21,12 @@
 #ifndef DOSBOX_NULLMODEM_WIN32_H
 #define DOSBOX_NULLMODEM_WIN32_H
 
-#include "include/dosbox.h"
+#include "dosbox.h"
 
 #if C_MODEM
 
 #include "misc_util.h"
-#include "include/serialport.h"
+#include "serialport.h"
 
 #define SERIAL_SERVER_POLLING_EVENT	SERIAL_BASE_EVENT_COUNT+1
 #define SERIAL_TX_REDUCTION		SERIAL_BASE_EVENT_COUNT+2

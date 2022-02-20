@@ -26,30 +26,30 @@
 #include <ctype.h>
 #include <sys/stat.h>
 
-#include "include/control.h"
-#include "include/dosbox.h"
-#include "include/dos_inc.h"
-#include "include/bios_disk.h"
-#include "include/bios.h"
-#include "include/logging.h"
-#include "include/mem.h"
-#include "include/paging.h"
-#include "include/callback.h"
-#include "include/regs.h"
-#include "include/timer.h"
-#include "include/menu.h"
-#include "include/mapper.h"
+#include "control.h"
+#include "dosbox.h"
+#include "dos_inc.h"
+#include "bios_disk.h"
+#include "bios.h"
+#include "logging.h"
+#include "mem.h"
+#include "paging.h"
+#include "callback.h"
+#include "regs.h"
+#include "timer.h"
+#include "menu.h"
+#include "mapper.h"
 #include "drives.h"
-#include "include/setup.h"
-#include "include/support.h"
-#include "include/parport.h"
-#include "include/serialport.h"
+#include "setup.h"
+#include "support.h"
+#include "parport.h"
+#include "serialport.h"
 #include "dos_network.h"
-#include "include/render.h"
-#include "include/jfont.h"
+#include "render.h"
+#include "jfont.h"
 #include "../ints/int10.h"
-#include "include/pic.h"
-#include "include/sdlmain.h"
+#include "pic.h"
+#include "sdlmain.h"
 #if defined(WIN32)
 #include "../dos/cdrom.h"
 #include <shellapi.h>
@@ -459,7 +459,7 @@ void DOS_AddDays(uint8_t days) {
 #define DOS_OVERHEAD 1
 
 #ifndef DOSBOX_CPU_H
-#include "include/cpu.h"
+#include "cpu.h"
 #endif
 
 // TODO: Make this configurable.

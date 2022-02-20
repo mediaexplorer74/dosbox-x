@@ -6972,7 +6972,7 @@ HRESULT WINAPI D3DXCreateEffect(LPDIRECT3DDEVICE9 device,
 
 #else
 
-#include "vs/D3dx9shader.h"//<D3dx9shader.h>
+#include <D3dx9shader.h>
 
 typedef HRESULT (WINAPI * pD3DXCreateEffect)(LPDIRECT3DDEVICE9 device,
                                 LPCVOID srcdata,

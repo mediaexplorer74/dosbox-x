@@ -19,9 +19,9 @@
 /* Shut up! */
 #define _CRT_NONSTDC_NO_DEPRECATE
 
-#include "include/rawint.h"
+#include "rawint.h"
 #include "riff.h"
-#include "vs/unistd.h"//<unistd.h>
+#include <unistd.h>
 #include <stdlib.h>
 #include <assert.h>
 #ifdef _MSC_VER

@@ -22,7 +22,7 @@
  *  SERIAL command Copyright sduensin and Wengier
  */
 
-#include "include/dosbox.h"
+#include "dosbox.h"
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
@@ -32,32 +32,32 @@
 #include <vector>
 #include <sys/stat.h>
 
-#include "include/menudef.h"
-#include "include/programs.h"
-#include "include/support.h"
+#include "menudef.h"
+#include "programs.h"
+#include "support.h"
 #include "drives.h"
-#include "include/cross.h"
-#include "include/regs.h"
-#include "include/ide.h"
-#include "include/cpu.h"
-#include "include/callback.h"
+#include "cross.h"
+#include "regs.h"
+#include "ide.h"
+#include "cpu.h"
+#include "callback.h"
 #include "cdrom.h"
-#include "include/builtin.h"
-#include "include/bios_disk.h"
-#include "include/dos_system.h"
-#include "include/dos_inc.h"
-#include "include/bios.h"
-#include "include/inout.h"
-#include "include/dma.h"
-#include "include/bios_disk.h"
-#include "include/qcow2_disk.h"
-#include "include/shell.h"
-#include "include/setup.h"
-#include "include/control.h"
+#include "builtin.h"
+#include "bios_disk.h"
+#include "dos_system.h"
+#include "dos_inc.h"
+#include "bios.h"
+#include "inout.h"
+#include "dma.h"
+#include "bios_disk.h"
+#include "qcow2_disk.h"
+#include "shell.h"
+#include "setup.h"
+#include "control.h"
 #include <time.h>
-#include "include/menu.h"
-#include "include/render.h"
-#include "include/mouse.h"
+#include "menu.h"
+#include "render.h"
+#include "mouse.h"
 #include "../ints/int10.h"
 #include "../output/output_opengl.h"
 #if !defined(HX_DOS)
@@ -86,7 +86,7 @@ host_cnv_char_t *CodePageGuestToHost(const char *s);
 #include <libgen.h>
 #endif
 #ifdef C_ICONV
-#include "include/iconvpp.hpp" // "experiments/iconv/iconvpp.hpp"
+#include "iconvpp.hpp"
 typedef uint16_t test_char_t;
 typedef std::basic_string<test_char_t> test_string;
 typedef std::basic_string<char> test_char;
@@ -1584,8 +1584,8 @@ unsigned char PC98_ITF_ROM[0x8000];
 bool PC98_ITF_ROM_init = false;
 unsigned char PC98_BANK_Select = 0x12;
 
-#include "include/mem.h"
-#include "include/paging.h"
+#include "mem.h"
+#include "paging.h"
 
 class PC98ITFPageHandler : public PageHandler {
 public:

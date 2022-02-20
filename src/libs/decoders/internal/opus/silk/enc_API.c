@@ -30,7 +30,7 @@ POSSIBILITY OF SUCH DAMAGE.
 #endif
 #include "define.h"
 #include "API.h"
-#include "include/control.h"
+#include "control.h"
 #include "typedef.h"
 #include "../celt/stack_alloc.h"
 #include "structs.h"

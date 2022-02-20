@@ -16,10 +16,10 @@
  *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  */
 
-#include "include/cpu.h"
-#include "include/fpu.h"
-#include "include/mem.h"
-#include "include/regs.h"
+#include "cpu.h"
+#include "fpu.h"
+#include "mem.h"
+#include "regs.h"
 
 // #define WEAK_EXCEPTIONS
 

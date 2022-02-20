@@ -16,17 +16,17 @@
  *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  */
 
-#include "vs/config.h"
+#include "config.h"
 
 #if C_SLIRP
 
 #include "ethernet_slirp.h"
-#include "include/logging.h"
+#include "logging.h"
 #include <time.h>
 #include <algorithm>
 #include <cassert>
 #include <map>
-#include "include/dosbox.h"
+#include "dosbox.h"
 
 extern std::string niclist;
 

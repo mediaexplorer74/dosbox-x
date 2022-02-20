@@ -20,10 +20,10 @@
 #ifndef DOSBOX_SERIALMODEM_H
 #define DOSBOX_SERIALMODEM_H
 
-#include "include/dosbox.h"
-#include "include/logging.h"
+#include "dosbox.h"
+#include "logging.h"
 #if C_MODEM
-#include "include/serialport.h"
+#include "serialport.h"
 
 #include "misc_util.h"
 

@@ -16,7 +16,7 @@
  *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  */
 
-#include "include/inout.h"
+#include "inout.h"
 #include <stddef.h>
 
 #define X86_DYNFPU_DH_ENABLED
@@ -431,7 +431,7 @@ static void dyn_check_bool_exception_al(void) {
 	used_save_info++;
 }
 
-#include "include/pic.h"
+#include "pic.h"
 
 static void dyn_check_irqrequest(void) {
 	gen_load_host(&PIC_IRQCheck,DREG(TMPB),4);

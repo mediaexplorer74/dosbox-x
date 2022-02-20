@@ -28,14 +28,14 @@
 #include <cctype>
 #include <string>
   
-#include "include/dosbox.h"
-#include "include/debug.h"
-#include "include/logging.h"
-#include "include/dos_inc.h"
-#include "include/support.h"
-#include "include/video.h"
-#include "include/menu.h"
-#include "vs/sdl/include/SDL.h"
+#include "dosbox.h"
+#include "debug.h"
+#include "logging.h"
+#include "dos_inc.h"
+#include "support.h"
+#include "video.h"
+#include "menu.h"
+#include "SDL.h"
 
 extern bool gbk, isDBCSCP(), isKanji1(uint8_t chr), shiftjis_lead_byte(int c);
 
@@ -462,7 +462,7 @@ int utf16le_decode(const char **ptr,const char *fence) {
 }
 
 #if C_DEBUG
-#include "vs/libpdcurses/curses.h"//<curses.h>
+#include <curses.h>
 #endif
 #if defined(WIN32)
 void DOSBox_ConsolePauseWait();

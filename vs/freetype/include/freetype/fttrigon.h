@@ -19,16 +19,7 @@
 #ifndef FTTRIGON_H_
 #define FTTRIGON_H_
 
-//#include FT_FREETYPE_H
-//#include "../vs/freetype/devel/ft2build.h" //<ft2build.h>
-//#include "../vs/freetype/devel/ftoption.h" //#include FT_CONFIG_CONFIG_H
-#include "../vs/freetype/include/ft2build.h"
-#include "../vs/freetype/include/freetype/freetype.h" //!
-#include "../vs/freetype/include/freetype/fttrigon.h" //!
-#include "../vs/freetype/include/freetype/config/ftconfig.h" //#include FT_TYPES_H
-#include "../vs/freetype/include/freetype/fttypes.h" //#include FT_TYPES_H
-#include "../vs/freetype/include/freetype/fterrors.h" //#include FT_ERRORS_H
-#include "../vs/freetype/include/freetype/config/ftoption.h" //#include FT_ERRORS_H
+#include FT_FREETYPE_H
 
 #ifdef FREETYPE_H
 #error "freetype.h of FreeType 1 has been loaded!"

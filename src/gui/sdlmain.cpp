@@ -89,14 +89,14 @@ int Reflect_Menu(void);
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
-#include "vs/unistd.h"//<unistd.h>
+#include <unistd.h>
 #include <assert.h>
 #include <stdarg.h>
 #include <sys/types.h>
 #include <algorithm> // std::transform
 #include <fcntl.h>
 #include <sys/stat.h>
-#include "include/gtest/gtest.h"//<gtest/gtest.h>
+#include <gtest/gtest.h>
 #ifdef WIN32
 # include <signal.h>
 # include <process.h>
@@ -106,27 +106,27 @@ int Reflect_Menu(void);
 # endif
 #endif
 
-#include "include/control.h"
-#include "include/dosbox.h"
-#include "include/menudef.h"
-#include "include/pic.h"
-#include "include/timer.h"
-#include "include/setup.h"
-#include "include/bios.h"
-#include "include/callback.h"
-#include "include/support.h"
-#include "include/debug.h"
-#include "include/ide.h"
-#include "include/bitop.h"
-#include "include/ptrop.h"
-#include "include/mapper.h"
-#include "include/sdlmain.h"
-#include "include/zipfile.h"
-#include "include/glidedef.h"
-#include "include/bios_disk.h"
-#include "include/inout.h"
-#include "include/jfont.h"
-#include "include/render.h"
+#include "control.h"
+#include "dosbox.h"
+#include "menudef.h"
+#include "pic.h"
+#include "timer.h"
+#include "setup.h"
+#include "bios.h"
+#include "callback.h"
+#include "support.h"
+#include "debug.h"
+#include "ide.h"
+#include "bitop.h"
+#include "ptrop.h"
+#include "mapper.h"
+#include "sdlmain.h"
+#include "zipfile.h"
+#include "glidedef.h"
+#include "bios_disk.h"
+#include "inout.h"
+#include "jfont.h"
+#include "render.h"
 #include "../dos/cdrom.h"
 #include "../dos/drives.h"
 #include "../ints/int10.h"
@@ -149,7 +149,7 @@ int Reflect_Menu(void);
 #endif
 
 #if defined(WIN32)
-#include "include/resource.h"
+#include "resource.h"
 #if !defined(HX_DOS)
 BOOL CALLBACK EnumDispProc(HMONITOR hMon, HDC dcMon, RECT* pRcMon, LPARAM lParam) {
 	xyp* xy = reinterpret_cast<xyp*>(lParam);
@@ -186,8 +186,8 @@ typedef enum PROCESS_DPI_AWARENESS {
 #include "../src/libs/gui_tk/gui_tk.h"
 
 #ifdef __WIN32__
-# include "include/callback.h"
-# include "include/dos_inc.h"
+# include "callback.h"
+# include "dos_inc.h"
 # include <malloc.h>
 # include "Commdlg.h"
 # include "windows.h"
@@ -201,20 +201,20 @@ typedef enum PROCESS_DPI_AWARENESS {
 
 #include <sstream>
 
-#include "include/mapper.h"
-#include "include/vga.h"
-#include "include/keyboard.h"
-#include "include/cpu.h"
-#include "include/fpu.h"
-#include "include/cross.h"
-#include "include/keymap.h"
+#include "mapper.h"
+#include "vga.h"
+#include "keyboard.h"
+#include "cpu.h"
+#include "fpu.h"
+#include "cross.h"
+#include "keymap.h"
 
 #if defined(MACOSX) && !defined(C_SDL2) && defined(SDL_DOSBOX_X_SPECIAL)
 extern "C" void sdl1_hax_macosx_highdpi_set_enable(const bool enable);
 #endif
 
 #if !defined(C_SDL2) && !defined(RISCOS)
-#include "vs/sdl/include/SDL_version.h"
+# include "SDL_version.h"
 # ifndef SDL_DOSBOX_X_SPECIAL
 #  warning It is STRONGLY RECOMMENDED to compile the DOSBox-X code using the SDL 1.x library provided in this source repository.
 #if !defined(__FreeBSD__)
@@ -223,8 +223,8 @@ extern "C" void sdl1_hax_macosx_highdpi_set_enable(const bool enable);
 # endif
 #endif
 
-#include "include/sdlmain.h"
-#include "include/build_timestamp.h"
+#include "sdlmain.h"
+#include "build_timestamp.h"
 
 #if C_OPENGL
 namespace gl2 {

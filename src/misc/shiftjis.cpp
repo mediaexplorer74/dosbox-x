@@ -1,5 +1,5 @@
 
-#include "include/shiftjis.h"
+#include "shiftjis.h"
 
 ShiftJISDecoder::ShiftJISDecoder() {
     reset();

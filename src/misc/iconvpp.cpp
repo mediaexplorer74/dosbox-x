@@ -1,6 +1,6 @@
 
-#include "include/dosbox.h"
-#include "include/iconvpp.hpp"//"iconvpp.hpp"
+#include "dosbox.h"
+#include "iconvpp.hpp"
 
 const char *_Iconv_CommonBase::errstring(int x) {
     if (x >= 0)

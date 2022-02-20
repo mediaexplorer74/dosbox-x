@@ -22,8 +22,8 @@
 
 #include <vector>
 #include <sys/types.h>
-#include "include/dos_system.h"
-#include "include/shell.h" /* for DOS_Shell */
+#include "dos_system.h"
+#include "shell.h" /* for DOS_Shell */
 
 bool DOS_CommonFAT32FAT16DiskSpaceConv(
 		uint16_t * bytes,uint8_t * sectors,uint16_t * clusters,uint16_t * free,

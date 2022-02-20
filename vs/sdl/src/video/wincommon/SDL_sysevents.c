@@ -41,7 +41,7 @@
 
 #include "SDL_events.h"
 #include "SDL_video.h"
-#include "../include/SDL_syswm.h"//"SDL_syswm.h"
+#include "SDL_syswm.h"
 #include "../SDL_sysvideo.h"
 #include "../../events/SDL_sysevents.h"
 #include "../../events/SDL_events_c.h"
@@ -54,7 +54,7 @@
 #include "wmmsg.h"
 #endif
 
-#include "../../video/windib/SDL_gapidibvideo.h"//"../windib/SDL_gapidibvideo.h"
+#include "../windib/SDL_gapidibvideo.h"
 
 #ifdef SDL_VIDEO_DRIVER_GAPI
 #include "../gapi/SDL_gapivideo.h"

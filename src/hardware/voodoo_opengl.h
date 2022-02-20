@@ -24,8 +24,8 @@
 #include <math.h>
 #include <map>
 
-#include "include/dosbox.h"
-#include "include/cross.h"
+#include "dosbox.h"
+#include "cross.h"
 
 
 #if C_OPENGL
